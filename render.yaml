@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: dashboard
+    runtime: python
+    buildCommand: pip install -r dashboard/requirements.txt
+    startCommand: python dashboard/app.py
+    rootDir: .

@@ -1,0 +1,701 @@
+{
+    "methodology": {
+        "model": "Linear Regression (y = mx + b)",
+        "training_window": "1995 to 2019",
+        "forecast_to": 2035,
+        "limitation": "Assumes current growth rates continue. Geopolitical shocks not modeled."
+    },
+    "p1_ai_race": {
+        "description": "When will China overtake the US in G06N AI patents?",
+        "us_slope": 670.15,
+        "cn_slope": 84.03,
+        "us_r_squared": 0.4798,
+        "cn_r_squared": 0.4038,
+        "predicted_crossover_year": null,
+        "us_growth_rate_2015_2019": 466.44,
+        "cn_growth_rate_2015_2019": 750.54,
+        "historical": [
+            {
+                "year": 1995,
+                "us_ai_patents": 281,
+                "cn_ai_patents": 3,
+                "kr_ai_patents": 19,
+                "jp_ai_patents": 198,
+                "de_ai_patents": 6,
+                "us_cn_total": 284,
+                "us_share_pct": 98.94,
+                "cn_share_pct": 1.06
+            },
+            {
+                "year": 1996,
+                "us_ai_patents": 174,
+                "cn_ai_patents": 1,
+                "kr_ai_patents": 7,
+                "jp_ai_patents": 71,
+                "de_ai_patents": 22,
+                "us_cn_total": 175,
+                "us_share_pct": 99.43,
+                "cn_share_pct": 0.57
+            },
+            {
+                "year": 1997,
+                "us_ai_patents": 213,
+                "cn_ai_patents": 7,
+                "kr_ai_patents": 11,
+                "jp_ai_patents": 101,
+                "de_ai_patents": 30,
+                "us_cn_total": 220,
+                "us_share_pct": 96.82,
+                "cn_share_pct": 3.18
+            },
+            {
+                "year": 1998,
+                "us_ai_patents": 214,
+                "cn_ai_patents": 6,
+                "kr_ai_patents": 0,
+                "jp_ai_patents": 56,
+                "de_ai_patents": 13,
+                "us_cn_total": 220,
+                "us_share_pct": 97.27,
+                "cn_share_pct": 2.73
+            },
+            {
+                "year": 1999,
+                "us_ai_patents": 269,
+                "cn_ai_patents": 4,
+                "kr_ai_patents": 1,
+                "jp_ai_patents": 89,
+                "de_ai_patents": 18,
+                "us_cn_total": 273,
+                "us_share_pct": 98.53,
+                "cn_share_pct": 1.47
+            },
+            {
+                "year": 2000,
+                "us_ai_patents": 294,
+                "cn_ai_patents": 11,
+                "kr_ai_patents": 2,
+                "jp_ai_patents": 118,
+                "de_ai_patents": 8,
+                "us_cn_total": 305,
+                "us_share_pct": 96.39,
+                "cn_share_pct": 3.61
+            },
+            {
+                "year": 2001,
+                "us_ai_patents": 392,
+                "cn_ai_patents": 7,
+                "kr_ai_patents": 0,
+                "jp_ai_patents": 129,
+                "de_ai_patents": 7,
+                "us_cn_total": 399,
+                "us_share_pct": 98.25,
+                "cn_share_pct": 1.75
+            },
+            {
+                "year": 2002,
+                "us_ai_patents": 370,
+                "cn_ai_patents": 17,
+                "kr_ai_patents": 8,
+                "jp_ai_patents": 115,
+                "de_ai_patents": 26,
+                "us_cn_total": 387,
+                "us_share_pct": 95.61,
+                "cn_share_pct": 4.39
+            },
+            {
+                "year": 2003,
+                "us_ai_patents": 347,
+                "cn_ai_patents": 15,
+                "kr_ai_patents": 2,
+                "jp_ai_patents": 110,
+                "de_ai_patents": 10,
+                "us_cn_total": 362,
+                "us_share_pct": 95.86,
+                "cn_share_pct": 4.14
+            },
+            {
+                "year": 2004,
+                "us_ai_patents": 437,
+                "cn_ai_patents": 10,
+                "kr_ai_patents": 7,
+                "jp_ai_patents": 131,
+                "de_ai_patents": 10,
+                "us_cn_total": 447,
+                "us_share_pct": 97.76,
+                "cn_share_pct": 2.24
+            },
+            {
+                "year": 2005,
+                "us_ai_patents": 575,
+                "cn_ai_patents": 17,
+                "kr_ai_patents": 4,
+                "jp_ai_patents": 119,
+                "de_ai_patents": 31,
+                "us_cn_total": 592,
+                "us_share_pct": 97.13,
+                "cn_share_pct": 2.87
+            },
+            {
+                "year": 2006,
+                "us_ai_patents": 716,
+                "cn_ai_patents": 22,
+                "kr_ai_patents": 25,
+                "jp_ai_patents": 59,
+                "de_ai_patents": 33,
+                "us_cn_total": 738,
+                "us_share_pct": 97.02,
+                "cn_share_pct": 2.98
+            },
+            {
+                "year": 2007,
+                "us_ai_patents": 931,
+                "cn_ai_patents": 27,
+                "kr_ai_patents": 24,
+                "jp_ai_patents": 103,
+                "de_ai_patents": 33,
+                "us_cn_total": 958,
+                "us_share_pct": 97.18,
+                "cn_share_pct": 2.82
+            },
+            {
+                "year": 2008,
+                "us_ai_patents": 1305,
+                "cn_ai_patents": 60,
+                "kr_ai_patents": 57,
+                "jp_ai_patents": 110,
+                "de_ai_patents": 22,
+                "us_cn_total": 1365,
+                "us_share_pct": 95.6,
+                "cn_share_pct": 4.4
+            },
+            {
+                "year": 2009,
+                "us_ai_patents": 1096,
+                "cn_ai_patents": 41,
+                "kr_ai_patents": 34,
+                "jp_ai_patents": 102,
+                "de_ai_patents": 33,
+                "us_cn_total": 1137,
+                "us_share_pct": 96.39,
+                "cn_share_pct": 3.61
+            },
+            {
+                "year": 2010,
+                "us_ai_patents": 1144,
+                "cn_ai_patents": 65,
+                "kr_ai_patents": 27,
+                "jp_ai_patents": 120,
+                "de_ai_patents": 52,
+                "us_cn_total": 1209,
+                "us_share_pct": 94.62,
+                "cn_share_pct": 5.38
+            },
+            {
+                "year": 2011,
+                "us_ai_patents": 1785,
+                "cn_ai_patents": 71,
+                "kr_ai_patents": 63,
+                "jp_ai_patents": 105,
+                "de_ai_patents": 101,
+                "us_cn_total": 1856,
+                "us_share_pct": 96.17,
+                "cn_share_pct": 3.83
+            },
+            {
+                "year": 2012,
+                "us_ai_patents": 2231,
+                "cn_ai_patents": 135,
+                "kr_ai_patents": 112,
+                "jp_ai_patents": 149,
+                "de_ai_patents": 78,
+                "us_cn_total": 2366,
+                "us_share_pct": 94.29,
+                "cn_share_pct": 5.71
+            },
+            {
+                "year": 2013,
+                "us_ai_patents": 3131,
+                "cn_ai_patents": 220,
+                "kr_ai_patents": 81,
+                "jp_ai_patents": 193,
+                "de_ai_patents": 73,
+                "us_cn_total": 3351,
+                "us_share_pct": 93.43,
+                "cn_share_pct": 6.57
+            },
+            {
+                "year": 2014,
+                "us_ai_patents": 3610,
+                "cn_ai_patents": 212,
+                "kr_ai_patents": 82,
+                "jp_ai_patents": 201,
+                "de_ai_patents": 122,
+                "us_cn_total": 3822,
+                "us_share_pct": 94.45,
+                "cn_share_pct": 5.55
+            },
+            {
+                "year": 2015,
+                "us_ai_patents": 5149,
+                "cn_ai_patents": 463,
+                "kr_ai_patents": 145,
+                "jp_ai_patents": 370,
+                "de_ai_patents": 127,
+                "us_cn_total": 5612,
+                "us_share_pct": 91.75,
+                "cn_share_pct": 8.25
+            },
+            {
+                "year": 2016,
+                "us_ai_patents": 8114,
+                "cn_ai_patents": 748,
+                "kr_ai_patents": 228,
+                "jp_ai_patents": 486,
+                "de_ai_patents": 165,
+                "us_cn_total": 8862,
+                "us_share_pct": 91.56,
+                "cn_share_pct": 8.44
+            },
+            {
+                "year": 2017,
+                "us_ai_patents": 13229,
+                "cn_ai_patents": 1700,
+                "kr_ai_patents": 740,
+                "jp_ai_patents": 1011,
+                "de_ai_patents": 389,
+                "us_cn_total": 14929,
+                "us_share_pct": 88.61,
+                "cn_share_pct": 11.39
+            },
+            {
+                "year": 2018,
+                "us_ai_patents": 20703,
+                "cn_ai_patents": 2818,
+                "kr_ai_patents": 1640,
+                "jp_ai_patents": 1714,
+                "de_ai_patents": 786,
+                "us_cn_total": 23521,
+                "us_share_pct": 88.02,
+                "cn_share_pct": 11.98
+            },
+            {
+                "year": 2019,
+                "us_ai_patents": 29166,
+                "cn_ai_patents": 3938,
+                "kr_ai_patents": 3570,
+                "jp_ai_patents": 2776,
+                "de_ai_patents": 1087,
+                "us_cn_total": 33104,
+                "us_share_pct": 88.1,
+                "cn_share_pct": 11.9
+            },
+            {
+                "year": 2020,
+                "us_ai_patents": 30811,
+                "cn_ai_patents": 4881,
+                "kr_ai_patents": 3184,
+                "jp_ai_patents": 2339,
+                "de_ai_patents": 1291,
+                "us_cn_total": 35692,
+                "us_share_pct": 86.32,
+                "cn_share_pct": 13.68
+            },
+            {
+                "year": 2021,
+                "us_ai_patents": 27106,
+                "cn_ai_patents": 5036,
+                "kr_ai_patents": 2640,
+                "jp_ai_patents": 1491,
+                "de_ai_patents": 992,
+                "us_cn_total": 32142,
+                "us_share_pct": 84.33,
+                "cn_share_pct": 15.67
+            },
+            {
+                "year": 2022,
+                "us_ai_patents": 16895,
+                "cn_ai_patents": 2610,
+                "kr_ai_patents": 1453,
+                "jp_ai_patents": 662,
+                "de_ai_patents": 471,
+                "us_cn_total": 19505,
+                "us_share_pct": 86.62,
+                "cn_share_pct": 13.38
+            }
+        ],
+        "projection": [
+            {
+                "year": 2020,
+                "us_projected": 12546,
+                "cn_projected": 1517
+            },
+            {
+                "year": 2021,
+                "us_projected": 13217,
+                "cn_projected": 1601
+            },
+            {
+                "year": 2022,
+                "us_projected": 13887,
+                "cn_projected": 1685
+            },
+            {
+                "year": 2023,
+                "us_projected": 14557,
+                "cn_projected": 1769
+            },
+            {
+                "year": 2024,
+                "us_projected": 15227,
+                "cn_projected": 1853
+            },
+            {
+                "year": 2025,
+                "us_projected": 15897,
+                "cn_projected": 1937
+            },
+            {
+                "year": 2026,
+                "us_projected": 16567,
+                "cn_projected": 2021
+            },
+            {
+                "year": 2027,
+                "us_projected": 17238,
+                "cn_projected": 2105
+            },
+            {
+                "year": 2028,
+                "us_projected": 17908,
+                "cn_projected": 2189
+            },
+            {
+                "year": 2029,
+                "us_projected": 18578,
+                "cn_projected": 2273
+            },
+            {
+                "year": 2030,
+                "us_projected": 19248,
+                "cn_projected": 2357
+            },
+            {
+                "year": 2031,
+                "us_projected": 19918,
+                "cn_projected": 2441
+            },
+            {
+                "year": 2032,
+                "us_projected": 20588,
+                "cn_projected": 2525
+            },
+            {
+                "year": 2033,
+                "us_projected": 21258,
+                "cn_projected": 2609
+            },
+            {
+                "year": 2034,
+                "us_projected": 21929,
+                "cn_projected": 2693
+            },
+            {
+                "year": 2035,
+                "us_projected": 22599,
+                "cn_projected": 2777
+            }
+        ]
+    },
+    "p2_energy_future": {
+        "description": "When will renewables overtake fossil fuel extraction patents?",
+        "fossil_slope": 128.43,
+        "renewable_slope": 67.88,
+        "solar_slope": 30.78,
+        "fossil_r_squared": 0.8839,
+        "renewable_r_squared": 0.9089,
+        "predicted_crossover_year": null,
+        "fossil_multiplier_post_paris": 1.13,
+        "renew_multiplier_post_paris": 1.15,
+        "historical": [
+            {
+                "year": 1995,
+                "fossil_patents": 914,
+                "solar_patents": 38,
+                "wind_patents": 26,
+                "total_renewable_patents": 64
+            },
+            {
+                "year": 1996,
+                "fossil_patents": 960,
+                "solar_patents": 42,
+                "wind_patents": 32,
+                "total_renewable_patents": 74
+            },
+            {
+                "year": 1997,
+                "fossil_patents": 1121,
+                "solar_patents": 44,
+                "wind_patents": 27,
+                "total_renewable_patents": 71
+            },
+            {
+                "year": 1998,
+                "fossil_patents": 1177,
+                "solar_patents": 67,
+                "wind_patents": 39,
+                "total_renewable_patents": 106
+            },
+            {
+                "year": 1999,
+                "fossil_patents": 1120,
+                "solar_patents": 55,
+                "wind_patents": 44,
+                "total_renewable_patents": 99
+            },
+            {
+                "year": 2000,
+                "fossil_patents": 1315,
+                "solar_patents": 52,
+                "wind_patents": 68,
+                "total_renewable_patents": 120
+            },
+            {
+                "year": 2001,
+                "fossil_patents": 1449,
+                "solar_patents": 79,
+                "wind_patents": 119,
+                "total_renewable_patents": 198
+            },
+            {
+                "year": 2002,
+                "fossil_patents": 1580,
+                "solar_patents": 70,
+                "wind_patents": 167,
+                "total_renewable_patents": 237
+            },
+            {
+                "year": 2003,
+                "fossil_patents": 1425,
+                "solar_patents": 47,
+                "wind_patents": 154,
+                "total_renewable_patents": 201
+            },
+            {
+                "year": 2004,
+                "fossil_patents": 1457,
+                "solar_patents": 50,
+                "wind_patents": 187,
+                "total_renewable_patents": 237
+            },
+            {
+                "year": 2005,
+                "fossil_patents": 1356,
+                "solar_patents": 58,
+                "wind_patents": 219,
+                "total_renewable_patents": 277
+            },
+            {
+                "year": 2006,
+                "fossil_patents": 1491,
+                "solar_patents": 77,
+                "wind_patents": 233,
+                "total_renewable_patents": 310
+            },
+            {
+                "year": 2007,
+                "fossil_patents": 1788,
+                "solar_patents": 121,
+                "wind_patents": 366,
+                "total_renewable_patents": 487
+            },
+            {
+                "year": 2008,
+                "fossil_patents": 1995,
+                "solar_patents": 185,
+                "wind_patents": 507,
+                "total_renewable_patents": 692
+            },
+            {
+                "year": 2009,
+                "fossil_patents": 2134,
+                "solar_patents": 275,
+                "wind_patents": 695,
+                "total_renewable_patents": 970
+            },
+            {
+                "year": 2010,
+                "fossil_patents": 2245,
+                "solar_patents": 374,
+                "wind_patents": 783,
+                "total_renewable_patents": 1157
+            },
+            {
+                "year": 2011,
+                "fossil_patents": 2598,
+                "solar_patents": 423,
+                "wind_patents": 759,
+                "total_renewable_patents": 1182
+            },
+            {
+                "year": 2012,
+                "fossil_patents": 2961,
+                "solar_patents": 432,
+                "wind_patents": 751,
+                "total_renewable_patents": 1183
+            },
+            {
+                "year": 2013,
+                "fossil_patents": 3551,
+                "solar_patents": 444,
+                "wind_patents": 689,
+                "total_renewable_patents": 1133
+            },
+            {
+                "year": 2014,
+                "fossil_patents": 3799,
+                "solar_patents": 527,
+                "wind_patents": 668,
+                "total_renewable_patents": 1195
+            },
+            {
+                "year": 2015,
+                "fossil_patents": 3727,
+                "solar_patents": 570,
+                "wind_patents": 624,
+                "total_renewable_patents": 1194
+            },
+            {
+                "year": 2016,
+                "fossil_patents": 3570,
+                "solar_patents": 660,
+                "wind_patents": 592,
+                "total_renewable_patents": 1252
+            },
+            {
+                "year": 2017,
+                "fossil_patents": 3247,
+                "solar_patents": 636,
+                "wind_patents": 728,
+                "total_renewable_patents": 1364
+            },
+            {
+                "year": 2018,
+                "fossil_patents": 3395,
+                "solar_patents": 686,
+                "wind_patents": 737,
+                "total_renewable_patents": 1423
+            },
+            {
+                "year": 2019,
+                "fossil_patents": 3456,
+                "solar_patents": 639,
+                "wind_patents": 682,
+                "total_renewable_patents": 1321
+            },
+            {
+                "year": 2020,
+                "fossil_patents": 3513,
+                "solar_patents": 605,
+                "wind_patents": 684,
+                "total_renewable_patents": 1289
+            },
+            {
+                "year": 2021,
+                "fossil_patents": 3042,
+                "solar_patents": 606,
+                "wind_patents": 618,
+                "total_renewable_patents": 1224
+            },
+            {
+                "year": 2022,
+                "fossil_patents": 2473,
+                "solar_patents": 523,
+                "wind_patents": 403,
+                "total_renewable_patents": 926
+            }
+        ],
+        "projection": [
+            {
+                "year": 2020,
+                "fossil_projected": 3822,
+                "renewable_projected": 1544
+            },
+            {
+                "year": 2021,
+                "fossil_projected": 3951,
+                "renewable_projected": 1612
+            },
+            {
+                "year": 2022,
+                "fossil_projected": 4079,
+                "renewable_projected": 1680
+            },
+            {
+                "year": 2023,
+                "fossil_projected": 4208,
+                "renewable_projected": 1747
+            },
+            {
+                "year": 2024,
+                "fossil_projected": 4336,
+                "renewable_projected": 1815
+            },
+            {
+                "year": 2025,
+                "fossil_projected": 4465,
+                "renewable_projected": 1883
+            },
+            {
+                "year": 2026,
+                "fossil_projected": 4593,
+                "renewable_projected": 1951
+            },
+            {
+                "year": 2027,
+                "fossil_projected": 4721,
+                "renewable_projected": 2019
+            },
+            {
+                "year": 2028,
+                "fossil_projected": 4850,
+                "renewable_projected": 2087
+            },
+            {
+                "year": 2029,
+                "fossil_projected": 4978,
+                "renewable_projected": 2155
+            },
+            {
+                "year": 2030,
+                "fossil_projected": 5107,
+                "renewable_projected": 2223
+            },
+            {
+                "year": 2031,
+                "fossil_projected": 5235,
+                "renewable_projected": 2291
+            },
+            {
+                "year": 2032,
+                "fossil_projected": 5364,
+                "renewable_projected": 2358
+            },
+            {
+                "year": 2033,
+                "fossil_projected": 5492,
+                "renewable_projected": 2426
+            },
+            {
+                "year": 2034,
+                "fossil_projected": 5620,
+                "renewable_projected": 2494
+            },
+            {
+                "year": 2035,
+                "fossil_projected": 5749,
+                "renewable_projected": 2562
+            }
+        ]
+    }
+}

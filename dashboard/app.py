@@ -22,6 +22,8 @@ IBM_VS_SAMSUNG_PATH = ROOT_DIR / "reports" / "company_ibm_vs_samsung.csv"
 MEDIA_STREAMING_VS_OPTICAL_PATH = ROOT_DIR / "reports" / "media_streaming_vs_optical.csv"
 ENERGY_RENEWABLES_VS_FOSSIL_PATH = ROOT_DIR / "reports" / "energy_renewables_vs_fossil.csv"
 ENERGY_BATTERY_VS_OIL_PATH = ROOT_DIR / "reports" / "energy_battery_vs_oil.csv"
+CHINA_GROWTH_PATH = ROOT_DIR / "reports" / "country_china_growth.csv"
+INNOVATION_EFFICIENCY_PATH = ROOT_DIR / "reports" / "country_innovation_efficiency.csv"
 CPC_REPORT_PATH = ROOT_DIR / "reports" / "cpc_report.json"
 CPC_TOP_COMPANIES_PATH = ROOT_DIR / "reports" / "cpc_top_companies.csv"
 
@@ -177,6 +179,35 @@ def load_energy_battery_vs_oil() -> list[dict[str, Any]]:
     df["battery_patents"] = pd.to_numeric(df.get("battery_patents"), errors="coerce")
     df = df.dropna(subset=["year", "oil_extraction_patents", "battery_patents"]).copy()
     df["year"] = df["year"].astype(int)
+    return df.to_dict(orient="records")
+
+
+@lru_cache(maxsize=1)
+def load_china_growth() -> list[dict[str, Any]]:
+    if not CHINA_GROWTH_PATH.exists():
+        return []
+    df = pd.read_csv(CHINA_GROWTH_PATH)
+    if df.empty:
+        return []
+    df["year"] = pd.to_numeric(df.get("year"), errors="coerce")
+    df["cn_patents"] = pd.to_numeric(df.get("cn_patents"), errors="coerce")
+    df = df.dropna(subset=["year", "cn_patents"]).copy()
+    df["year"] = df["year"].astype(int)
+    return df.to_dict(orient="records")
+
+
+@lru_cache(maxsize=1)
+def load_innovation_efficiency() -> list[dict[str, Any]]:
+    if not INNOVATION_EFFICIENCY_PATH.exists():
+        return []
+    df = pd.read_csv(INNOVATION_EFFICIENCY_PATH)
+    if df.empty:
+        return []
+    df["total_patents"] = pd.to_numeric(df.get("total_patents"), errors="coerce")
+    df["avg_citations_per_patent"] = pd.to_numeric(df.get("avg_citations_per_patent"), errors="coerce")
+    df["total_citations"] = pd.to_numeric(df.get("total_citations"), errors="coerce")
+    df["max_citations"] = pd.to_numeric(df.get("max_citations"), errors="coerce")
+    df = df.dropna(subset=["country", "total_patents", "avg_citations_per_patent"]).copy()
     return df.to_dict(orient="records")
 
 
@@ -411,6 +442,44 @@ def _comparison_trend_chart(
     return fig.to_html(include_plotlyjs=False, full_html=False, config={"displayModeBar": False, "responsive": True})
 
 
+def _innovation_efficiency_chart(items: list[dict[str, Any]], *, title: str) -> str:
+    df = pd.DataFrame(items)
+    if df.empty:
+        fig = go.Figure()
+        fig.update_layout(title=title)
+        return fig.to_html(include_plotlyjs=False, full_html=False)
+
+    df["total_patents"] = pd.to_numeric(df.get("total_patents"), errors="coerce")
+    df["avg_citations_per_patent"] = pd.to_numeric(df.get("avg_citations_per_patent"), errors="coerce")
+    df["total_citations"] = pd.to_numeric(df.get("total_citations"), errors="coerce")
+    df = df.dropna(subset=["country", "total_patents", "avg_citations_per_patent"]).copy()
+
+    fig = px.scatter(
+        df,
+        x="total_patents",
+        y="avg_citations_per_patent",
+        color="quadrant",
+        size="total_citations",
+        hover_name="country",
+        title=title,
+        color_discrete_sequence=COLORWAY,
+    )
+    fig.update_layout(
+        margin=dict(l=40, r=40, t=50, b=70),
+        height=420,
+        xaxis=dict(title="Total patents", tickformat=",", tickfont=dict(size=11)),
+        yaxis=dict(title="Avg citations per patent", tickfont=dict(size=11)),
+        legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1),
+        title_font=dict(size=16),
+    )
+    fig.update_traces(
+        hovertemplate=(
+            "%{hovertext}<br>Total patents: %{x:,}<br>Avg citations: %{y}<extra></extra>"
+        )
+    )
+    return fig.to_html(include_plotlyjs=False, full_html=False, config={"displayModeBar": False, "responsive": True})
+
+
 def _cpc_sections_chart(cpc_report: dict[str, Any]) -> str:
     items = cpc_report.get("cpc_sections", []) if cpc_report else []
     df = pd.DataFrame(items)
@@ -485,6 +554,8 @@ def create_app() -> Flask:
         media_streaming_vs_optical = load_media_streaming_vs_optical()
         energy_renewables_vs_fossil = load_energy_renewables_vs_fossil()
         energy_battery_vs_oil = load_energy_battery_vs_oil()
+        china_growth = load_china_growth()
+        innovation_efficiency = load_innovation_efficiency()
         df_trends = trends_df(report)
 
         if not df_trends.empty:
@@ -591,6 +662,17 @@ def create_app() -> Flask:
                     ("Oil Extraction", "oil_extraction_patents"),
                 ],
                 title="Battery Storage vs Oil Extraction",
+            ),
+            "china_growth": _comparison_trend_chart(
+                china_growth,
+                [
+                    ("China", "cn_patents"),
+                ],
+                title="China Patent Growth",
+            ),
+            "innovation_efficiency": _innovation_efficiency_chart(
+                innovation_efficiency,
+                title="Innovation Efficiency (Volume vs Impact)",
             ),
             "geo_us_vs_china_overall": _comparison_trend_chart(
                 geopolitical_report.get("geo_us_vs_china_overall", []),

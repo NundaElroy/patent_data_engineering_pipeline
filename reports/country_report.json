@@ -1,0 +1,958 @@
+{
+    "country_china_growth": [
+        {
+            "year": 1985,
+            "total_patents": 53850,
+            "cn_patents": 178,
+            "us_patents": 58425,
+            "jp_patents": 39797,
+            "kr_patents": 138,
+            "de_patents": 14239,
+            "cn_share_pct": 0.33,
+            "us_share_pct": 108.5,
+            "cn_growth_pct": null
+        },
+        {
+            "year": 1986,
+            "total_patents": 55787,
+            "cn_patents": 223,
+            "us_patents": 60937,
+            "jp_patents": 44370,
+            "kr_patents": 162,
+            "de_patents": 14782,
+            "cn_share_pct": 0.4,
+            "us_share_pct": 109.23,
+            "cn_growth_pct": 25.28
+        },
+        {
+            "year": 1987,
+            "total_patents": 60512,
+            "cn_patents": 235,
+            "us_patents": 67499,
+            "jp_patents": 48624,
+            "kr_patents": 278,
+            "de_patents": 15519,
+            "cn_share_pct": 0.39,
+            "us_share_pct": 111.55,
+            "cn_growth_pct": 5.38
+        },
+        {
+            "year": 1988,
+            "total_patents": 67232,
+            "cn_patents": 312,
+            "us_patents": 76250,
+            "jp_patents": 57935,
+            "kr_patents": 395,
+            "de_patents": 16382,
+            "cn_share_pct": 0.46,
+            "us_share_pct": 113.41,
+            "cn_growth_pct": 32.77
+        },
+        {
+            "year": 1989,
+            "total_patents": 72537,
+            "cn_patents": 361,
+            "us_patents": 82995,
+            "jp_patents": 63960,
+            "kr_patents": 745,
+            "de_patents": 17321,
+            "cn_share_pct": 0.5,
+            "us_share_pct": 114.42,
+            "cn_growth_pct": 15.71
+        },
+        {
+            "year": 1990,
+            "total_patents": 75447,
+            "cn_patents": 471,
+            "us_patents": 90579,
+            "jp_patents": 65392,
+            "kr_patents": 892,
+            "de_patents": 17052,
+            "cn_share_pct": 0.62,
+            "us_share_pct": 120.06,
+            "cn_growth_pct": 30.47
+        },
+        {
+            "year": 1991,
+            "total_patents": 77617,
+            "cn_patents": 463,
+            "us_patents": 96370,
+            "jp_patents": 66954,
+            "kr_patents": 1373,
+            "de_patents": 16122,
+            "cn_share_pct": 0.6,
+            "us_share_pct": 124.16,
+            "cn_growth_pct": -1.7
+        },
+        {
+            "year": 1992,
+            "total_patents": 81505,
+            "cn_patents": 565,
+            "us_patents": 106356,
+            "jp_patents": 67935,
+            "kr_patents": 1600,
+            "de_patents": 16973,
+            "cn_share_pct": 0.69,
+            "us_share_pct": 130.49,
+            "cn_growth_pct": 22.03
+        },
+        {
+            "year": 1993,
+            "total_patents": 84022,
+            "cn_patents": 788,
+            "us_patents": 115133,
+            "jp_patents": 68473,
+            "kr_patents": 2021,
+            "de_patents": 16980,
+            "cn_share_pct": 0.94,
+            "us_share_pct": 137.03,
+            "cn_growth_pct": 39.47
+        },
+        {
+            "year": 1994,
+            "total_patents": 96293,
+            "cn_patents": 857,
+            "us_patents": 135268,
+            "jp_patents": 79663,
+            "kr_patents": 3238,
+            "de_patents": 19385,
+            "cn_share_pct": 0.89,
+            "us_share_pct": 140.48,
+            "cn_growth_pct": 8.76
+        },
+        {
+            "year": 1995,
+            "total_patents": 114735,
+            "cn_patents": 1182,
+            "us_patents": 176192,
+            "jp_patents": 91250,
+            "kr_patents": 4227,
+            "de_patents": 22870,
+            "cn_share_pct": 1.03,
+            "us_share_pct": 153.56,
+            "cn_growth_pct": 37.92
+        },
+        {
+            "year": 1996,
+            "total_patents": 115474,
+            "cn_patents": 1447,
+            "us_patents": 163362,
+            "jp_patents": 92194,
+            "kr_patents": 6431,
+            "de_patents": 22351,
+            "cn_share_pct": 1.25,
+            "us_share_pct": 141.47,
+            "cn_growth_pct": 22.42
+        },
+        {
+            "year": 1997,
+            "total_patents": 135694,
+            "cn_patents": 1857,
+            "us_patents": 200062,
+            "jp_patents": 106039,
+            "kr_patents": 7104,
+            "de_patents": 26656,
+            "cn_share_pct": 1.37,
+            "us_share_pct": 147.44,
+            "cn_growth_pct": 28.33
+        },
+        {
+            "year": 1998,
+            "total_patents": 135276,
+            "cn_patents": 2284,
+            "us_patents": 203146,
+            "jp_patents": 96682,
+            "kr_patents": 8138,
+            "de_patents": 27869,
+            "cn_share_pct": 1.69,
+            "us_share_pct": 150.17,
+            "cn_growth_pct": 22.99
+        },
+        {
+            "year": 1999,
+            "total_patents": 144661,
+            "cn_patents": 3035,
+            "us_patents": 223014,
+            "jp_patents": 100566,
+            "kr_patents": 8455,
+            "de_patents": 32951,
+            "cn_share_pct": 2.1,
+            "us_share_pct": 154.16,
+            "cn_growth_pct": 32.88
+        },
+        {
+            "year": 2000,
+            "total_patents": 159493,
+            "cn_patents": 3767,
+            "us_patents": 247420,
+            "jp_patents": 117612,
+            "kr_patents": 10345,
+            "de_patents": 35730,
+            "cn_share_pct": 2.36,
+            "us_share_pct": 155.13,
+            "cn_growth_pct": 24.12
+        },
+        {
+            "year": 2001,
+            "total_patents": 171222,
+            "cn_patents": 4981,
+            "us_patents": 258435,
+            "jp_patents": 132850,
+            "kr_patents": 12470,
+            "de_patents": 42473,
+            "cn_share_pct": 2.91,
+            "us_share_pct": 150.94,
+            "cn_growth_pct": 32.23
+        },
+        {
+            "year": 2002,
+            "total_patents": 171378,
+            "cn_patents": 5614,
+            "us_patents": 262631,
+            "jp_patents": 128669,
+            "kr_patents": 15894,
+            "de_patents": 42383,
+            "cn_share_pct": 3.28,
+            "us_share_pct": 153.25,
+            "cn_growth_pct": 12.71
+        },
+        {
+            "year": 2003,
+            "total_patents": 167440,
+            "cn_patents": 6193,
+            "us_patents": 262901,
+            "jp_patents": 120963,
+            "kr_patents": 19061,
+            "de_patents": 34960,
+            "cn_share_pct": 3.7,
+            "us_share_pct": 157.01,
+            "cn_growth_pct": 10.31
+        },
+        {
+            "year": 2004,
+            "total_patents": 169521,
+            "cn_patents": 8019,
+            "us_patents": 261706,
+            "jp_patents": 124176,
+            "kr_patents": 24426,
+            "de_patents": 34320,
+            "cn_share_pct": 4.73,
+            "us_share_pct": 154.38,
+            "cn_growth_pct": 29.48
+        },
+        {
+            "year": 2005,
+            "total_patents": 175363,
+            "cn_patents": 9183,
+            "us_patents": 267989,
+            "jp_patents": 128955,
+            "kr_patents": 29463,
+            "de_patents": 34669,
+            "cn_share_pct": 5.24,
+            "us_share_pct": 152.82,
+            "cn_growth_pct": 14.52
+        },
+        {
+            "year": 2006,
+            "total_patents": 179444,
+            "cn_patents": 12142,
+            "us_patents": 273685,
+            "jp_patents": 126670,
+            "kr_patents": 36894,
+            "de_patents": 35928,
+            "cn_share_pct": 6.77,
+            "us_share_pct": 152.52,
+            "cn_growth_pct": 32.22
+        },
+        {
+            "year": 2007,
+            "total_patents": 186348,
+            "cn_patents": 14824,
+            "us_patents": 295973,
+            "jp_patents": 127385,
+            "kr_patents": 38976,
+            "de_patents": 37228,
+            "cn_share_pct": 7.96,
+            "us_share_pct": 158.83,
+            "cn_growth_pct": 22.09
+        },
+        {
+            "year": 2008,
+            "total_patents": 186613,
+            "cn_patents": 17881,
+            "us_patents": 288676,
+            "jp_patents": 127187,
+            "kr_patents": 41424,
+            "de_patents": 38492,
+            "cn_share_pct": 9.58,
+            "us_share_pct": 154.69,
+            "cn_growth_pct": 20.62
+        },
+        {
+            "year": 2009,
+            "total_patents": 178496,
+            "cn_patents": 19945,
+            "us_patents": 278666,
+            "jp_patents": 119579,
+            "kr_patents": 42217,
+            "de_patents": 36426,
+            "cn_share_pct": 11.17,
+            "us_share_pct": 156.12,
+            "cn_growth_pct": 11.54
+        },
+        {
+            "year": 2010,
+            "total_patents": 189549,
+            "cn_patents": 24083,
+            "us_patents": 302512,
+            "jp_patents": 122100,
+            "kr_patents": 46471,
+            "de_patents": 40154,
+            "cn_share_pct": 12.71,
+            "us_share_pct": 159.6,
+            "cn_growth_pct": 20.75
+        },
+        {
+            "year": 2011,
+            "total_patents": 207174,
+            "cn_patents": 28995,
+            "us_patents": 333706,
+            "jp_patents": 133597,
+            "kr_patents": 51703,
+            "de_patents": 41978,
+            "cn_share_pct": 14.0,
+            "us_share_pct": 161.08,
+            "cn_growth_pct": 20.4
+        },
+        {
+            "year": 2012,
+            "total_patents": 227435,
+            "cn_patents": 34006,
+            "us_patents": 381340,
+            "jp_patents": 137115,
+            "kr_patents": 53792,
+            "de_patents": 44738,
+            "cn_share_pct": 14.95,
+            "us_share_pct": 167.67,
+            "cn_growth_pct": 17.28
+        },
+        {
+            "year": 2013,
+            "total_patents": 241971,
+            "cn_patents": 39489,
+            "us_patents": 414940,
+            "jp_patents": 134667,
+            "kr_patents": 68264,
+            "de_patents": 46287,
+            "cn_share_pct": 16.32,
+            "us_share_pct": 171.48,
+            "cn_growth_pct": 16.12
+        },
+        {
+            "year": 2014,
+            "total_patents": 250097,
+            "cn_patents": 48189,
+            "us_patents": 422611,
+            "jp_patents": 136079,
+            "kr_patents": 76183,
+            "de_patents": 47357,
+            "cn_share_pct": 19.27,
+            "us_share_pct": 168.98,
+            "cn_growth_pct": 22.03
+        },
+        {
+            "year": 2015,
+            "total_patents": 260419,
+            "cn_patents": 54997,
+            "us_patents": 439942,
+            "jp_patents": 142872,
+            "kr_patents": 82807,
+            "de_patents": 49326,
+            "cn_share_pct": 21.12,
+            "us_share_pct": 168.94,
+            "cn_growth_pct": 14.13
+        },
+        {
+            "year": 2016,
+            "total_patents": 269471,
+            "cn_patents": 66528,
+            "us_patents": 462243,
+            "jp_patents": 145242,
+            "kr_patents": 83600,
+            "de_patents": 51586,
+            "cn_share_pct": 24.69,
+            "us_share_pct": 171.54,
+            "cn_growth_pct": 20.97
+        },
+        {
+            "year": 2017,
+            "total_patents": 281696,
+            "cn_patents": 79839,
+            "us_patents": 487949,
+            "jp_patents": 148578,
+            "kr_patents": 85400,
+            "de_patents": 53944,
+            "cn_share_pct": 28.34,
+            "us_share_pct": 173.22,
+            "cn_growth_pct": 20.01
+        },
+        {
+            "year": 2018,
+            "total_patents": 285026,
+            "cn_patents": 94166,
+            "us_patents": 491208,
+            "jp_patents": 148824,
+            "kr_patents": 86437,
+            "de_patents": 54724,
+            "cn_share_pct": 33.04,
+            "us_share_pct": 172.34,
+            "cn_growth_pct": 17.94
+        },
+        {
+            "year": 2019,
+            "total_patents": 301447,
+            "cn_patents": 108126,
+            "us_patents": 520675,
+            "jp_patents": 150628,
+            "kr_patents": 100553,
+            "de_patents": 53723,
+            "cn_share_pct": 35.87,
+            "us_share_pct": 172.73,
+            "cn_growth_pct": 14.82
+        },
+        {
+            "year": 2020,
+            "total_patents": 279490,
+            "cn_patents": 113234,
+            "us_patents": 486964,
+            "jp_patents": 130368,
+            "kr_patents": 100876,
+            "de_patents": 48210,
+            "cn_share_pct": 40.51,
+            "us_share_pct": 174.23,
+            "cn_growth_pct": 4.72
+        },
+        {
+            "year": 2021,
+            "total_patents": 246842,
+            "cn_patents": 114458,
+            "us_patents": 443223,
+            "jp_patents": 98331,
+            "kr_patents": 85582,
+            "de_patents": 37048,
+            "cn_share_pct": 46.37,
+            "us_share_pct": 179.56,
+            "cn_growth_pct": 1.08
+        },
+        {
+            "year": 2022,
+            "total_patents": 191456,
+            "cn_patents": 86141,
+            "us_patents": 341954,
+            "jp_patents": 73043,
+            "kr_patents": 72041,
+            "de_patents": 25146,
+            "cn_share_pct": 44.99,
+            "us_share_pct": 178.61,
+            "cn_growth_pct": -24.74
+        }
+    ],
+    "country_china_events": {
+        "1985": "Patent Law enacted",
+        "1992": "Patent Law amended",
+        "2001": "WTO accession",
+        "2008": "Patent Law strengthened",
+        "2015": "Made in China 2025",
+        "2018": "US-China trade war"
+    },
+    "country_china_wto_multiplier": 4.12,
+    "country_china_mic_multiplier": 2.64,
+    "country_top_per_section": [
+        {
+            "country": "US",
+            "cpc_section": "G",
+            "patents": 1407162,
+            "cpc_label": "Physics"
+        },
+        {
+            "country": "US",
+            "cpc_section": "H",
+            "patents": 1200700,
+            "cpc_label": "Electricity"
+        },
+        {
+            "country": "US",
+            "cpc_section": "A",
+            "patents": 734060,
+            "cpc_label": "Human Necessities"
+        },
+        {
+            "country": "US",
+            "cpc_section": "B",
+            "patents": 682810,
+            "cpc_label": "Operations & Transport"
+        },
+        {
+            "country": "US",
+            "cpc_section": "C",
+            "patents": 601707,
+            "cpc_label": "Chemistry & Metallurgy"
+        },
+        {
+            "country": "US",
+            "cpc_section": "F",
+            "patents": 336352,
+            "cpc_label": "Mechanical Engineering"
+        },
+        {
+            "country": "US",
+            "cpc_section": "E",
+            "patents": 134221,
+            "cpc_label": "Fixed Constructions"
+        },
+        {
+            "country": "US",
+            "cpc_section": "D",
+            "patents": 44446,
+            "cpc_label": "Textiles & Paper"
+        },
+        {
+            "country": "KR",
+            "cpc_section": "Y",
+            "patents": 1,
+            "cpc_label": "New Technologies"
+        },
+        {
+            "country": "US",
+            "cpc_section": "Y",
+            "patents": 1,
+            "cpc_label": "New Technologies"
+        }
+    ],
+    "country_top3_per_section": [
+        {
+            "country": "US",
+            "cpc_section": "A",
+            "patents": 734060,
+            "rnk": 1,
+            "cpc_label": "Human Necessities"
+        },
+        {
+            "country": "JP",
+            "cpc_section": "A",
+            "patents": 104706,
+            "rnk": 2,
+            "cpc_label": "Human Necessities"
+        },
+        {
+            "country": "DE",
+            "cpc_section": "A",
+            "patents": 85738,
+            "rnk": 3,
+            "cpc_label": "Human Necessities"
+        },
+        {
+            "country": "US",
+            "cpc_section": "B",
+            "patents": 682810,
+            "rnk": 1,
+            "cpc_label": "Operations & Transport"
+        },
+        {
+            "country": "JP",
+            "cpc_section": "B",
+            "patents": 311225,
+            "rnk": 2,
+            "cpc_label": "Operations & Transport"
+        },
+        {
+            "country": "DE",
+            "cpc_section": "B",
+            "patents": 153860,
+            "rnk": 3,
+            "cpc_label": "Operations & Transport"
+        },
+        {
+            "country": "US",
+            "cpc_section": "C",
+            "patents": 601707,
+            "rnk": 1,
+            "cpc_label": "Chemistry & Metallurgy"
+        },
+        {
+            "country": "JP",
+            "cpc_section": "C",
+            "patents": 199967,
+            "rnk": 2,
+            "cpc_label": "Chemistry & Metallurgy"
+        },
+        {
+            "country": "DE",
+            "cpc_section": "C",
+            "patents": 110399,
+            "rnk": 3,
+            "cpc_label": "Chemistry & Metallurgy"
+        },
+        {
+            "country": "US",
+            "cpc_section": "D",
+            "patents": 44446,
+            "rnk": 1,
+            "cpc_label": "Textiles & Paper"
+        },
+        {
+            "country": "JP",
+            "cpc_section": "D",
+            "patents": 14450,
+            "rnk": 2,
+            "cpc_label": "Textiles & Paper"
+        },
+        {
+            "country": "DE",
+            "cpc_section": "D",
+            "patents": 14224,
+            "rnk": 3,
+            "cpc_label": "Textiles & Paper"
+        },
+        {
+            "country": "US",
+            "cpc_section": "E",
+            "patents": 134221,
+            "rnk": 1,
+            "cpc_label": "Fixed Constructions"
+        },
+        {
+            "country": "DE",
+            "cpc_section": "E",
+            "patents": 15507,
+            "rnk": 2,
+            "cpc_label": "Fixed Constructions"
+        },
+        {
+            "country": "JP",
+            "cpc_section": "E",
+            "patents": 15115,
+            "rnk": 3,
+            "cpc_label": "Fixed Constructions"
+        },
+        {
+            "country": "US",
+            "cpc_section": "F",
+            "patents": 336352,
+            "rnk": 1,
+            "cpc_label": "Mechanical Engineering"
+        },
+        {
+            "country": "JP",
+            "cpc_section": "F",
+            "patents": 134490,
+            "rnk": 2,
+            "cpc_label": "Mechanical Engineering"
+        },
+        {
+            "country": "DE",
+            "cpc_section": "F",
+            "patents": 85105,
+            "rnk": 3,
+            "cpc_label": "Mechanical Engineering"
+        },
+        {
+            "country": "US",
+            "cpc_section": "G",
+            "patents": 1407162,
+            "rnk": 1,
+            "cpc_label": "Physics"
+        },
+        {
+            "country": "JP",
+            "cpc_section": "G",
+            "patents": 572353,
+            "rnk": 2,
+            "cpc_label": "Physics"
+        },
+        {
+            "country": "CN",
+            "cpc_section": "G",
+            "patents": 148918,
+            "rnk": 3,
+            "cpc_label": "Physics"
+        },
+        {
+            "country": "US",
+            "cpc_section": "H",
+            "patents": 1200700,
+            "rnk": 1,
+            "cpc_label": "Electricity"
+        },
+        {
+            "country": "JP",
+            "cpc_section": "H",
+            "patents": 565358,
+            "rnk": 2,
+            "cpc_label": "Electricity"
+        },
+        {
+            "country": "KR",
+            "cpc_section": "H",
+            "patents": 206567,
+            "rnk": 3,
+            "cpc_label": "Electricity"
+        },
+        {
+            "country": "KR",
+            "cpc_section": "Y",
+            "patents": 1,
+            "rnk": 1,
+            "cpc_label": "New Technologies"
+        },
+        {
+            "country": "US",
+            "cpc_section": "Y",
+            "patents": 1,
+            "rnk": 1,
+            "cpc_label": "New Technologies"
+        }
+    ],
+    "country_innovation_efficiency": [
+        {
+            "country": "US",
+            "total_patents": 3090512,
+            "total_citations": 217997035,
+            "avg_citations_per_patent": 29.06,
+            "max_citations": 5794,
+            "quadrant": "High Volume High Quality"
+        },
+        {
+            "country": "JP",
+            "total_patents": 1061394,
+            "total_citations": 42815726,
+            "avg_citations_per_patent": 14.47,
+            "max_citations": 4311,
+            "quadrant": "High Volume High Quality"
+        },
+        {
+            "country": "DE",
+            "total_patents": 402054,
+            "total_citations": 12090120,
+            "avg_citations_per_patent": 13.13,
+            "max_citations": 2736,
+            "quadrant": "High Volume Low Quality"
+        },
+        {
+            "country": "KR",
+            "total_patents": 217170,
+            "total_citations": 6099764,
+            "avg_citations_per_patent": 9.52,
+            "max_citations": 4038,
+            "quadrant": "High Volume Low Quality"
+        },
+        {
+            "country": "GB",
+            "total_patents": 183891,
+            "total_citations": 6360387,
+            "avg_citations_per_patent": 20.05,
+            "max_citations": 2552,
+            "quadrant": "High Volume High Quality"
+        },
+        {
+            "country": "CN",
+            "total_patents": 169639,
+            "total_citations": 3353363,
+            "avg_citations_per_patent": 9.85,
+            "max_citations": 2167,
+            "quadrant": "High Volume Low Quality"
+        },
+        {
+            "country": "FR",
+            "total_patents": 155684,
+            "total_citations": 4690667,
+            "avg_citations_per_patent": 14.03,
+            "max_citations": 2463,
+            "quadrant": "High Volume Low Quality"
+        },
+        {
+            "country": "CA",
+            "total_patents": 149606,
+            "total_citations": 5499753,
+            "avg_citations_per_patent": 19.69,
+            "max_citations": 2577,
+            "quadrant": "High Volume High Quality"
+        },
+        {
+            "country": "TW",
+            "total_patents": 145225,
+            "total_citations": 3404547,
+            "avg_citations_per_patent": 11.17,
+            "max_citations": 2824,
+            "quadrant": "High Volume Low Quality"
+        },
+        {
+            "country": "CH",
+            "total_patents": 75376,
+            "total_citations": 1987539,
+            "avg_citations_per_patent": 15.3,
+            "max_citations": 2635,
+            "quadrant": "High Volume High Quality"
+        },
+        {
+            "country": "IT",
+            "total_patents": 67501,
+            "total_citations": 1639485,
+            "avg_citations_per_patent": 12.41,
+            "max_citations": 2153,
+            "quadrant": "High Volume Low Quality"
+        },
+        {
+            "country": "NL",
+            "total_patents": 59632,
+            "total_citations": 1760071,
+            "avg_citations_per_patent": 14.89,
+            "max_citations": 3932,
+            "quadrant": "High Volume High Quality"
+        },
+        {
+            "country": "SE",
+            "total_patents": 56594,
+            "total_citations": 1744812,
+            "avg_citations_per_patent": 16.42,
+            "max_citations": 2110,
+            "quadrant": "High Volume High Quality"
+        },
+        {
+            "country": "IL",
+            "total_patents": 52869,
+            "total_citations": 2810731,
+            "avg_citations_per_patent": 23.2,
+            "max_citations": 4524,
+            "quadrant": "High Volume High Quality"
+        },
+        {
+            "country": "IN",
+            "total_patents": 49375,
+            "total_citations": 1029160,
+            "avg_citations_per_patent": 10.48,
+            "max_citations": 1629,
+            "quadrant": "High Volume Low Quality"
+        },
+        {
+            "country": "AU",
+            "total_patents": 42472,
+            "total_citations": 1604983,
+            "avg_citations_per_patent": 20.71,
+            "max_citations": 1783,
+            "quadrant": "Low Volume High Quality"
+        },
+        {
+            "country": "BE",
+            "total_patents": 31772,
+            "total_citations": 951982,
+            "avg_citations_per_patent": 15.46,
+            "max_citations": 1923,
+            "quadrant": "Low Volume High Quality"
+        },
+        {
+            "country": "AT",
+            "total_patents": 27865,
+            "total_citations": 561642,
+            "avg_citations_per_patent": 11.47,
+            "max_citations": 2059,
+            "quadrant": "Low Volume Low Quality"
+        },
+        {
+            "country": "FI",
+            "total_patents": 27639,
+            "total_citations": 1040098,
+            "avg_citations_per_patent": 18.2,
+            "max_citations": 1743,
+            "quadrant": "Low Volume High Quality"
+        },
+        {
+            "country": "DK",
+            "total_patents": 21746,
+            "total_citations": 702136,
+            "avg_citations_per_patent": 16.75,
+            "max_citations": 1698,
+            "quadrant": "Low Volume High Quality"
+        },
+        {
+            "country": "SG",
+            "total_patents": 19227,
+            "total_citations": 506318,
+            "avg_citations_per_patent": 13.77,
+            "max_citations": 1063,
+            "quadrant": "Low Volume Low Quality"
+        },
+        {
+            "country": "ES",
+            "total_patents": 14616,
+            "total_citations": 352618,
+            "avg_citations_per_patent": 11.29,
+            "max_citations": 1204,
+            "quadrant": "Low Volume Low Quality"
+        },
+        {
+            "country": "IE",
+            "total_patents": 12588,
+            "total_citations": 462683,
+            "avg_citations_per_patent": 20.49,
+            "max_citations": 2045,
+            "quadrant": "Low Volume High Quality"
+        },
+        {
+            "country": "NO",
+            "total_patents": 10688,
+            "total_citations": 283605,
+            "avg_citations_per_patent": 14.18,
+            "max_citations": 713,
+            "quadrant": "Low Volume Low Quality"
+        },
+        {
+            "country": "RU",
+            "total_patents": 9160,
+            "total_citations": 452726,
+            "avg_citations_per_patent": 18.11,
+            "max_citations": 2771,
+            "quadrant": "Low Volume High Quality"
+        },
+        {
+            "country": "NZ",
+            "total_patents": 6893,
+            "total_citations": 240372,
+            "avg_citations_per_patent": 18.56,
+            "max_citations": 1683,
+            "quadrant": "Low Volume High Quality"
+        },
+        {
+            "country": "BR",
+            "total_patents": 6214,
+            "total_citations": 173722,
+            "avg_citations_per_patent": 13.73,
+            "max_citations": 1373,
+            "quadrant": "Low Volume Low Quality"
+        },
+        {
+            "country": "CM",
+            "total_patents": 5485,
+            "total_citations": 84238,
+            "avg_citations_per_patent": 9.99,
+            "max_citations": 516,
+            "quadrant": "Low Volume Low Quality"
+        },
+        {
+            "country": "SA",
+            "total_patents": 4452,
+            "total_citations": 75988,
+            "avg_citations_per_patent": 7.86,
+            "max_citations": 721,
+            "quadrant": "Low Volume Low Quality"
+        },
+        {
+            "country": "MY",
+            "total_patents": 4425,
+            "total_citations": 101069,
+            "avg_citations_per_patent": 12.07,
+            "max_citations": 894,
+            "quadrant": "Low Volume Low Quality"
+        }
+    ]
+}

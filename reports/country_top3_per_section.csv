@@ -1,0 +1,27 @@
+country,cpc_section,patents,rnk,cpc_label
+US,A,734060,1,Human Necessities
+JP,A,104706,2,Human Necessities
+DE,A,85738,3,Human Necessities
+US,B,682810,1,Operations & Transport
+JP,B,311225,2,Operations & Transport
+DE,B,153860,3,Operations & Transport
+US,C,601707,1,Chemistry & Metallurgy
+JP,C,199967,2,Chemistry & Metallurgy
+DE,C,110399,3,Chemistry & Metallurgy
+US,D,44446,1,Textiles & Paper
+JP,D,14450,2,Textiles & Paper
+DE,D,14224,3,Textiles & Paper
+US,E,134221,1,Fixed Constructions
+DE,E,15507,2,Fixed Constructions
+JP,E,15115,3,Fixed Constructions
+US,F,336352,1,Mechanical Engineering
+JP,F,134490,2,Mechanical Engineering
+DE,F,85105,3,Mechanical Engineering
+US,G,1407162,1,Physics
+JP,G,572353,2,Physics
+CN,G,148918,3,Physics
+US,H,1200700,1,Electricity
+JP,H,565358,2,Electricity
+KR,H,206567,3,Electricity
+KR,Y,1,1,New Technologies
+US,Y,1,1,New Technologies
