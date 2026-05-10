@@ -43,11 +43,31 @@ Run the end-to-end pipeline from the project root:
 python pipeline.py
 ```
 
-This executes download, clean, and load steps in order.
+This executes download, clean, load, and analysis steps in order.
+
+NOTE: The analysis scripts can take a long time to run. For most runs, it is
+recommended to skip analysis and execute each analysis file separately when
+you are ready.
+
+Skip analysis:
+
+```bash
+python pipeline.py --skip-analysis
+```
+
+Run selected analyses:
+
+```bash
+python pipeline.py --analysis core,cpc,weighted
+```
 
 ## Analysis outputs
 
-Analysis is currently run via standalone scripts and writes CSV/JSON files to `reports/`.
+Analysis is run via standalone scripts and writes CSV/JSON files to `reports/`.
+
+NOTE: These scripts are heavy and may take a long time. For best results, run
+the pipeline with `--skip-analysis` and execute each analysis script one by one
+at your own convenience.
 
 Example:
 
