@@ -87,6 +87,7 @@ python analysis_01_core.py
 8. `analysis_08_company.py` — company diagnostics (IBM vs Samsung, volume vs quality, KR vs CN citations)
 9. `analysis_09_fin.py` — sector guardrails (fintech vs banking, genomics vs pharma, ecommerce vs retail)
 10. `analysis_10_trend_other.py` — media/energy trends (streaming vs optical, renewables vs fossil, battery vs oil)
+11. `analysis_11_predictive_analysis.py` - predictive analytics section
 
 ## Dashboard
 
@@ -98,8 +99,7 @@ python dashboard/app.py
 
 Open:
 
-- http://127.0.0.1:5000/
-
+- http://172.20.10.2:5000
 ## Project outputs
 
 - `raw/`: downloaded TSV files
@@ -107,7 +107,4 @@ Open:
 - `patents.db`: SQLite database
 - `reports/`: analysis outputs (CSV + JSON)
 
-## Notes
 
-- The pipeline is designed for large datasets and can take significant time.
-- Report filenames are stable and used directly by the dashboard.

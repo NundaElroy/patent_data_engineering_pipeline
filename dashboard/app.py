@@ -15,6 +15,7 @@ from flask import Flask, render_template, request
 
 ROOT_DIR = Path(__file__).resolve().parents[1]
 REPORT_PATH = ROOT_DIR / "reports" / "report.json"
+PREDICTIVE_REPORT_PATH = ROOT_DIR / "reports" / "predictive_report.json"
 WEIGHTED_REPORT_PATH = ROOT_DIR / "reports" / "weighted_report.json"
 DISPLACEMENT_REPORT_PATH = ROOT_DIR / "reports" / "displacement_report.json"
 GEOPOLITICAL_REPORT_PATH = ROOT_DIR / "reports" / "geopolitical_report.json"
@@ -101,6 +102,15 @@ def load_weighted_report() -> dict[str, Any]:
         return {}
 
     with WEIGHTED_REPORT_PATH.open("r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+@lru_cache(maxsize=1)
+def load_predictive_report() -> dict[str, Any]:
+    if not PREDICTIVE_REPORT_PATH.exists():
+        return {}
+
+    with PREDICTIVE_REPORT_PATH.open("r", encoding="utf-8") as f:
         return json.load(f)
 
 
@@ -442,6 +452,70 @@ def _comparison_trend_chart(
     return fig.to_html(include_plotlyjs=False, full_html=False, config={"displayModeBar": False, "responsive": True})
 
 
+def _forecast_chart(
+    historical_items: list[dict[str, Any]],
+    projection_items: list[dict[str, Any]],
+    series: list[tuple[str, str, str]],
+) -> str:
+    hist_df = pd.DataFrame(historical_items)
+    proj_df = pd.DataFrame(projection_items)
+    if hist_df.empty or proj_df.empty:
+        fig = go.Figure()
+        return fig.to_html(include_plotlyjs=False, full_html=False)
+
+    hist_df["year"] = pd.to_numeric(hist_df.get("year"), errors="coerce")
+    proj_df["year"] = pd.to_numeric(proj_df.get("year"), errors="coerce")
+    fig = go.Figure()
+
+    for label, hist_key, proj_key in series:
+        if hist_key in hist_df.columns:
+            hist_df[hist_key] = pd.to_numeric(hist_df.get(hist_key), errors="coerce")
+            fig.add_trace(
+                go.Scatter(
+                    x=hist_df["year"],
+                    y=hist_df[hist_key],
+                    mode="lines+markers",
+                    name=f"{label} history",
+                    hovertemplate="%{x}: %{y:,}<extra></extra>",
+                )
+            )
+        if proj_key in proj_df.columns:
+            proj_df[proj_key] = pd.to_numeric(proj_df.get(proj_key), errors="coerce")
+            fig.add_trace(
+                go.Scatter(
+                    x=proj_df["year"],
+                    y=proj_df[proj_key],
+                    mode="lines",
+                    line=dict(dash="dash"),
+                    name=f"{label} projection",
+                    hovertemplate="%{x}: %{y:,}<extra></extra>",
+                )
+            )
+
+    fig.update_layout(
+        title=None,
+        margin=dict(l=40, r=40, t=10, b=70),
+        height=420,
+        xaxis=dict(tickfont=dict(size=11), automargin=True, ticklabeloverflow="allow"),
+        yaxis=dict(tickformat=",", tickfont=dict(size=11)),
+        legend=dict(orientation="h", yanchor="bottom", y=-0.15, xanchor="center", x=0.5),
+        colorway=COLORWAY,
+    )
+    return fig.to_html(include_plotlyjs=False, full_html=False, config={"displayModeBar": False, "responsive": True})
+
+
+def _predictive_methodology_card(report: dict[str, Any]) -> dict[str, str | int | None]:
+    methodology = report.get("methodology", {}) if report else {}
+    return {
+        "model": methodology.get("model"),
+        "training_window": methodology.get("training_window"),
+        "forecast_to": methodology.get("forecast_to"),
+        "limitation": methodology.get("limitation"),
+        "ai_crossover": report.get("p1_ai_race", {}).get("predicted_crossover_year") if report else None,
+        "energy_crossover": report.get("p2_energy_future", {}).get("predicted_crossover_year") if report else None,
+    }
+
+
 def _innovation_efficiency_chart(items: list[dict[str, Any]], *, title: str) -> str:
     df = pd.DataFrame(items)
     if df.empty:
@@ -543,10 +617,16 @@ def _cpc_growth_by_decade_chart(cpc_report: dict[str, Any]) -> str:
 
 def create_app() -> Flask:
     app = Flask(__name__, template_folder="templates", static_folder="static")
+    app.config.update(
+        TEMPLATES_AUTO_RELOAD=True,
+        SEND_FILE_MAX_AGE_DEFAULT=0,
+    )
+    app.jinja_env.auto_reload = True
 
     @app.get("/")
     def dashboard() -> str:
         report = load_report()
+        predictive_report = load_predictive_report()
         weighted_report = load_weighted_report()
         displacement_report = load_displacement_report()
         geopolitical_report = load_geopolitical_report()
@@ -578,6 +658,7 @@ def create_app() -> Flask:
         filtered = apply_filters(df_trends, filters)
 
         cpc_report = cpc_payload(report)
+        predictive_cards = _predictive_methodology_card(predictive_report)
         charts = {
             "trend": _trend_chart(filtered, title="Patents Over Time"),
             "top_companies_raw": _bar_chart(
@@ -674,6 +755,22 @@ def create_app() -> Flask:
                 innovation_efficiency,
                 title="Innovation Efficiency (Volume vs Impact)",
             ),
+            "predictive_ai": _forecast_chart(
+                predictive_report.get("p1_ai_race", {}).get("historical", []),
+                predictive_report.get("p1_ai_race", {}).get("projection", []),
+                [
+                    ("US AI", "us_ai_patents", "us_projected"),
+                    ("China AI", "cn_ai_patents", "cn_projected"),
+                ],
+            ),
+            "predictive_energy": _forecast_chart(
+                predictive_report.get("p2_energy_future", {}).get("historical", []),
+                predictive_report.get("p2_energy_future", {}).get("projection", []),
+                [
+                    ("Fossil Extraction", "fossil_patents", "fossil_projected"),
+                    ("Renewables", "total_renewable_patents", "renewable_projected"),
+                ],
+            ),
             "geo_us_vs_china_overall": _comparison_trend_chart(
                 geopolitical_report.get("geo_us_vs_china_overall", []),
                 [
@@ -725,6 +822,8 @@ def create_app() -> Flask:
             charts=charts,
             tables=tables,
             cpc_legend=cpc_legend,
+            predictive_cards=predictive_cards,
+            predictive_report=predictive_report,
         )
 
     @app.get("/health")

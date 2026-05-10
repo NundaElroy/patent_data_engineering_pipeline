@@ -42,9 +42,6 @@
                   value="{{ filters.end_year }}"
                 />
               </div>
-              <div class="col-auto">
-                <button class="btn btn-primary" type="submit">Apply</button>
-              </div>
             </form>
           </div>
         </div>
@@ -68,6 +65,9 @@
           </li>
           <li class="nav-item" role="presentation">
             <button class="nav-link" id="tab-trends-tab" data-bs-toggle="tab" data-bs-target="#tab-trends" type="button" role="tab" aria-controls="tab-trends" aria-selected="false">Trends</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="tab-predictive-tab" data-bs-toggle="tab" data-bs-target="#tab-predictive" type="button" role="tab" aria-controls="tab-predictive" aria-selected="false">Predictive Analysis</button>
           </li>
         </ul>
       </div>
@@ -470,6 +470,96 @@
                         Battery patents exploded through 2018 as EV makers and grid storage companies raced to lock down cell chemistry and pack architecture, then dropped sharply. That spike and crash is a classic sign of a technology crossing from lab to mass production where the key claims get filed fast and then the thicket matures. Oil patents declined on the same post-2014 trajectory as fossil fuel extraction. The two curves are now converging, meaning both industries are innovating at roughly the same intensity for the first time.
                       </div>
                     </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade" id="tab-predictive" role="tabpanel" aria-labelledby="tab-predictive-tab">
+          <div class="row g-3 align-items-stretch">
+            <div class="col-12">
+              <div class="card shadow-sm">
+                <div class="card-body">
+                  <div class="d-flex flex-wrap gap-3 align-items-end justify-content-between">
+                    <div>
+                      <h2 class="h5 mb-1">Predictive Analysis</h2>
+                      <div class="text-muted">Forecasts for AI and energy transition based on patent growth trajectories.</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+              <div class="card shadow-sm h-100">
+                <div class="card-body">
+                  <div class="text-muted small">Model</div>
+                  <div class="h4 mb-1">{{ predictive_cards.model or 'N/A' }}</div>
+                  <div class="text-muted small">{{ predictive_cards.training_window or 'Training window unavailable' }}</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+              <div class="card shadow-sm h-100">
+                <div class="card-body">
+                  <div class="text-muted small">Forecast horizon</div>
+                  <div class="h4 mb-1">{{ predictive_cards.forecast_to or 'N/A' }}</div>
+                  <div class="text-muted small">Projection endpoint</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+              <div class="card shadow-sm h-100">
+                <div class="card-body">
+                  <div class="text-muted small">Limitation</div>
+                  <div class="small text-muted">{{ predictive_cards.limitation or 'No limitation text available.' }}</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <div class="card shadow-sm h-100">
+                <div class="card-header bg-white">
+                  <div class="fw-semibold">AI Race Forecast</div>
+                  <div class="text-muted small">China vs US projected patent leadership</div>
+                </div>
+                <div class="card-body">
+                  <div class="predictive-chart-frame">
+                    {{ charts.predictive_ai | safe }}
+                  </div>
+                  <div class="text-muted small mt-2 predictive-explanation">
+                    <div class="fw-semibold mb-1">AI Race Forecast</div>
+                    <p class="mb-2">The US shows a steady exponential climb in citation-weighted AI patents, reflecting consistent high quality output from established research institutions and tech companies. China's history line tells a more complicated story, rapid growth through the 2010s driven by state funding, a dramatic spike around 2020 as filing incentives peaked, then a sharp correction as Beijing tightened quality standards. The model projects neither country crossing the other before 2035, with the US maintaining its lead throughout the window.</p>
+                    <p class="mb-0">Limitation: China's projection is likely understated. The exponential model was trained on data that includes the tail end of the filing inflation period, meaning the slope it learned blends genuine innovation growth with policy-driven volume. The real crossover could come earlier than the model suggests if China's post-crackdown filings prove to be higher quality and more internationally cited than the historical average.</p>
+                  </div>
+                  <div class="text-muted small mt-2">
+                    Predicted crossover year: {{ predictive_cards.ai_crossover or 'No crossover in forecast window' }}
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <div class="card shadow-sm h-100">
+                <div class="card-header bg-white">
+                  <div class="fw-semibold">Energy Future Forecast</div>
+                  <div class="text-muted small">Renewables vs fossil extraction</div>
+                </div>
+                <div class="card-body">
+                  <div class="predictive-chart-frame">
+                    {{ charts.predictive_energy | safe }}
+                  </div>
+                  <div class="text-muted small mt-2 predictive-explanation">
+                    <div class="fw-semibold mb-1">Energy Future Forecast</div>
+                    <p class="mb-2">Fossil extraction patents decline gradually as expected from a mature industry losing R&amp;D investment, while renewables grow steadily but remain well below fossil levels through the entire forecast window. The gap is wider than it visually appears because fossil fuels have decades of accumulated filings that renewables are only beginning to close. No crossover is predicted before 2035.</p>
+                    <p class="mb-0">Limitation: The renewable projection uses an exponential growth model which assumes the current policy environment, falling hardware costs, and grid investment continue uninterrupted to 2035. Any slowdown in government incentives or a sustained drop in energy prices could flatten that curve considerably and push the crossover well beyond the forecast window, if it happens at all.</p>
+                  </div>
+                  <div class="text-muted small mt-2">
+                    Predicted crossover year: {{ predictive_cards.energy_crossover or 'No crossover in forecast window' }}
                   </div>
                 </div>
               </div>

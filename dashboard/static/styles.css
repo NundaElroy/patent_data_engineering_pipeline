@@ -74,6 +74,11 @@ h3,
   width: 100% !important;
 }
 
+.predictive-chart-frame .gtitle,
+.predictive-chart-frame .g-gtitle {
+  display: none !important;
+}
+
 .dashboard-tabs .nav-tabs {
   border-bottom: 1px solid #e3e7ee;
 }
