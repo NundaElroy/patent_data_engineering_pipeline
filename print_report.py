@@ -5,11 +5,17 @@ import os
 sys.stdout.reconfigure(encoding="utf-8")
 
 REPORT_PATH = "./reports/report.json"
+WEIGHTED_REPORT_PATH = "./reports/weighted_report.json"
 
 def print_report():
     if not os.path.exists(REPORT_PATH):
         print(f"Report not found at {REPORT_PATH}. Run analysis.py first.")
         return
+
+    weighted_report = {}
+    if os.path.exists(WEIGHTED_REPORT_PATH):
+        with open(WEIGHTED_REPORT_PATH, "r", encoding="utf-8") as f:
+            weighted_report = json.load(f)
 
     with open(REPORT_PATH, "r", encoding="utf-8") as f:
         r = json.load(f)
@@ -19,14 +25,37 @@ def print_report():
     print(f"  Peak Year     : {r['peak_year']['year']} ({r['peak_year']['patents']:,} patents)\n")
 
     # ── Top Inventors ────────────────────────────────────────────────────
-    print("  Top Inventors:")
+    print("\n  Top Inventors (Raw patent count):")
     for i, row in enumerate(r["top_inventors"], 1):
         print(f"    {i:>2}. {row['name']} — {int(row['patents']):,}")
 
+    # ── Weighted Inventors (H-Index) ───────────────────────────────────
+    if weighted_report.get("weighted_inventors_hindex"):
+        print("\n  Weighted Inventors (H-Index):")
+        for i, row in enumerate(weighted_report["weighted_inventors_hindex"], 1):
+            raw_patents = int(row.get('patents', 0))
+            print(
+                f"    {i:>2}. {row['name']} — h-index {int(row['h_index']):,} | "
+                f"total citations: {int(row.get('total_citations', 0)):,} | "
+                f"avg citations: {float(row.get('avg_citations', 0)):.2f} [{raw_patents:,} raw]"
+            )
+
     # ── Top Companies ────────────────────────────────────────────────────
-    print("\n  Top Companies:")
+    print("\n  Top Companies (Raw patent count):")
     for i, row in enumerate(r["top_companies"], 1):
         print(f"    {i:>2}. {row['name']} — {int(row['patents']):,}")
+
+    # ── Weighted Companies (Citation Impact) ────────────────────────────
+    if weighted_report.get("weighted_companies_citations"):
+        print("\n  Weighted Companies (Citation Impact):")
+        for i, row in enumerate(weighted_report["weighted_companies_citations"], 1):
+            raw_patents = int(row.get('patent_count', 0))
+            print(
+                f"    {i:>2}. {row['name']} — "
+                f"total citations: {int(row.get('total_citations', 0)):,} | "
+                f"avg citations/patent: {float(row.get('avg_citations_per_patent', 0)):.2f} | "
+                f"max single-patent citations: {int(row.get('max_single_patent_citations', 0)):,} [{raw_patents:,} raw]"
+            )
 
     # ── Top Countries ────────────────────────────────────────────────────
     print("\n  Top Countries:")

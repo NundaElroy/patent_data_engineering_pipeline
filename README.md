@@ -89,6 +89,16 @@ python analysis_01_core.py
 10. `analysis_10_trend_other.py` — media/energy trends (streaming vs optical, renewables vs fossil, battery vs oil)
 11. `analysis_11_predictive_analysis.py` - predictive analytics section
 
+## CLI report
+
+Generate a terminal summary of the main and weighted reports with:
+
+```bash
+python print_report.py
+```
+
+This prints the main patent report plus weighted inventor and company sections, along with CPC and country summaries, directly in the console.
+
 ## Dashboard
 
 Start the Flask dashboard:
