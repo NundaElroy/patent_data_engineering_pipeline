@@ -6,7 +6,7 @@ import os
 
 sys.stdout.reconfigure(encoding="utf-8")
 
-# ── Configuration ─────────────────────────────────────────────────────────
+# Configuration
 DB_PATH    = "patents.db"
 OUTPUT_DIR = "./reports"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -33,9 +33,9 @@ def run_cpc_analysis():
     print("Connecting to database...")
     conn = get_conn()
 
-    # ══════════════════════════════════════════════════════════════════════
+    #
     # CPC Q1 — Patents per Technology Section
-    # ══════════════════════════════════════════════════════════════════════
+    #
     print("Running CPC Q1: Patents by Technology Section...")
     df_cpc_sections = run_query(conn, """
         SELECT cpc_section,
@@ -46,9 +46,9 @@ def run_cpc_analysis():
         ORDER BY patents DESC;
     """)
 
-    # ══════════════════════════════════════════════════════════════════════
+    #
     # CPC Q2 — Technology Section Growth by Decade
-    # ══════════════════════════════════════════════════════════════════════
+    #
     print("Running CPC Q2: Technology Growth by Decade...")
     df_cpc_decades = run_query(conn, """
         SELECT c.cpc_section,
@@ -63,9 +63,9 @@ def run_cpc_analysis():
         ORDER BY decade ASC, patents DESC;
     """)
 
-    # ══════════════════════════════════════════════════════════════════════
+    #
     # CPC Q3 — Top Company per Technology Section
-    # ══════════════════════════════════════════════════════════════════════
+    #
     print("Running CPC Q3: Top Company per Technology Section (this may take a few minutes)...")
     df_cpc_companies = run_query(conn, """
         WITH SectionCompany AS (
@@ -92,17 +92,17 @@ def run_cpc_analysis():
 
     conn.close()
 
-    # ══════════════════════════════════════════════════════════════════════
+    #
     # CSV Exports
-    # ══════════════════════════════════════════════════════════════════════
+    #
     print("\nExporting CSVs...")
     df_cpc_sections.to_csv( f"{OUTPUT_DIR}/cpc_sections.csv",        index=False)
     df_cpc_decades.to_csv(  f"{OUTPUT_DIR}/cpc_growth_by_decade.csv", index=False)
     df_cpc_companies.to_csv(f"{OUTPUT_DIR}/cpc_top_companies.csv",    index=False)
 
-    # ══════════════════════════════════════════════════════════════════════
+    #
     # JSON Export
-    # ══════════════════════════════════════════════════════════════════════
+    #
     print("Writing CPC JSON report...")
     cpc_report = {
         "cpc_sections"         : df_cpc_sections.to_dict(orient="records"),
@@ -112,9 +112,9 @@ def run_cpc_analysis():
     with open(f"{OUTPUT_DIR}/cpc_report.json", "w", encoding="utf-8") as f:
         json.dump(cpc_report, f, indent=4, ensure_ascii=False)
 
-    # ══════════════════════════════════════════════════════════════════════
+    #
     # Console Report
-    # ══════════════════════════════════════════════════════════════════════
+    #
     print("\n============== CPC TECHNOLOGY REPORT ================")
 
     print("\n  Patents by Technology Section:")

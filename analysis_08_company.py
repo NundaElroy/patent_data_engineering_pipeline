@@ -31,12 +31,12 @@ def run_company_analysis():
     print("Connecting to database...")
     conn = get_conn()
 
-    # ══════════════════════════════════════════════════════════════════════
+    # 
     # IBM vs Samsung — Volume vs Quality Over Time
     # Hypothesis: IBM deliberately reduced patent volume while improving
     # citation quality — Samsung did the opposite — proving two completely
     # different innovation philosophies produce measurably different outcomes
-    # ══════════════════════════════════════════════════════════════════════
+    # 
     print("\nRunning IBM vs Samsung: Volume vs Quality Over Time...")
     df_ibm_samsung = run_query(conn, """
         SELECT
@@ -71,11 +71,11 @@ def run_company_analysis():
     ibm_peak_patents = df_ibm_samsung.loc[df_ibm_samsung['ibm_patents'].idxmax(), 'year']
     sam_peak_patents = df_ibm_samsung.loc[df_ibm_samsung['samsung_patents'].idxmax(), 'year']
 
-    # ══════════════════════════════════════════════════════════════════════
+    # 
     # Query 1: Volume vs Quality Correlation
     # Hypothesis: companies that file more patents produce lower citation
     # quality per patent — proving volume is inversely related to impact
-    # ══════════════════════════════════════════════════════════════════════
+    # 
     print("Running Query 1: Volume vs Quality Correlation (top companies)...")
     df_vol_quality = run_query(conn, """
         SELECT
@@ -105,12 +105,12 @@ def run_company_analysis():
         'avg_citations_per_patent', ascending=False
     ).reset_index(drop=True)
 
-    # ══════════════════════════════════════════════════════════════════════
+    # 
     # Query 6: Korean vs Chinese Citation Impact in H (Electricity)
     # Hypothesis: as Chinese patent volume in H grew post-2010, Korean
     # average citations per patent declined — proving Chinese flooding
     # degraded citation value of the entire electricity sector
-    # ══════════════════════════════════════════════════════════════════════
+    # 
     print("Running Query 6: KR vs CN Citation Impact in Electricity (H) 2010-2022...")
     df_kr_cn = run_query(conn, """
         SELECT

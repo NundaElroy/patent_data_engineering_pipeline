@@ -53,14 +53,14 @@ def run_media_energy_analysis():
     print("Connecting to database...")
     conn = get_conn()
 
-    # ══════════════════════════════════════════════════════════════════════
+    # 
     # TREND 1: Death of Physical Media — Streaming vs Optical Discs
     # Legacy:   G11B (optical recording — DVDs, CDs, Blu-rays)
     # Emerging: H04L (network transmission — streaming protocols)
     # Hypothesis: optical disc patents show a mountain peak that crashes
     # after 2008 while streaming shows a vertical hockey stick
     # Netflix launched streaming 2007 — mark as intervention point
-    # ══════════════════════════════════════════════════════════════════════
+    # 
     print("\nRunning Trend 1: Death of Physical Media (Streaming vs Optical Discs)...")
     df_media = run_query(conn, """
         SELECT
@@ -88,7 +88,7 @@ def run_media_energy_analysis():
     optical_pre  = compute_multiplier(df_media, 'optical_disc_patents', 2002, 2006, 2009, 2014)
     stream_multi = compute_multiplier(df_media, 'streaming_patents',    2002, 2006, 2009, 2014)
 
-    # ══════════════════════════════════════════════════════════════════════
+    # 
     # TREND 2: Renewables vs Fossil Fuel Extraction
     # Legacy:   E21B (earth drilling — oil, gas, water extraction)
     # Emerging: H02S (solar photovoltaic power generation)
@@ -96,7 +96,7 @@ def run_media_energy_analysis():
     # Hypothesis: E21B stays flat as mature field while H02S shows
     # exponential takeoff starting 2010-2011
     # Key annotation: 2011 is when solar PV patents separated from fossil R&D
-    # ══════════════════════════════════════════════════════════════════════
+    # 
     print("Running Trend 2: Renewables vs Fossil Fuel Extraction (E21B vs H02S + F03D)...")
     df_energy = run_query(conn, """
         SELECT
@@ -131,14 +131,14 @@ def run_media_energy_analysis():
     solar_multi   = compute_multiplier(df_energy, 'solar_patents',             2010, 2014, 2016, 2020)
     wind_multi    = compute_multiplier(df_energy, 'wind_patents',              2010, 2014, 2016, 2020)
 
-    # ══════════════════════════════════════════════════════════════════════
+    # 
     # TREND 3: Battery Storage Bonus — Oil Extraction vs Battery Innovation
     # Legacy:   E21B (oil and gas drilling)
     # Emerging: H01M (batteries — electrochemical energy storage)
     # Hypothesis: battery patents show one of the most aggressive
     # hockey stick curves in the entire USPTO database post-2015
     # proving the renewable grid cannot exist without storage innovation
-    # ══════════════════════════════════════════════════════════════════════
+    # 
     print("Running Trend 3: Bonus — Oil Extraction vs Battery Storage (E21B vs H01M)...")
     df_battery = run_query(conn, """
         SELECT

@@ -4,7 +4,7 @@ import os
 
 from citations import run_load_citations
 
-# ── Configuration ────────────────────────────────────────────────────────
+#  Configuration 
 CLEAN_DIR = "./data"
 DB_PATH = "patents.db"
 SCHEMA_PATH = "schema.sql"
@@ -61,6 +61,6 @@ def run_load() -> None:
     run_load_citations()
 
 
-# ── Execution ────────────────────────────────────────────────────────────
+#  Execution 
 if __name__ == "__main__":
     run_load()

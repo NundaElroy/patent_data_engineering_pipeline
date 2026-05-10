@@ -24,12 +24,12 @@ def print_report():
     print(f"  Total Patents : {r['total_patents']:,}")
     print(f"  Peak Year     : {r['peak_year']['year']} ({r['peak_year']['patents']:,} patents)\n")
 
-    # ── Top Inventors ────────────────────────────────────────────────────
+    #  Top Inventors 
     print("\n  Top Inventors (Raw patent count):")
     for i, row in enumerate(r["top_inventors"], 1):
         print(f"    {i:>2}. {row['name']} — {int(row['patents']):,}")
 
-    # ── Weighted Inventors (H-Index) ───────────────────────────────────
+    #  Weighted Inventors (H-Index) 
     if weighted_report.get("weighted_inventors_hindex"):
         print("\n  Weighted Inventors (H-Index):")
         for i, row in enumerate(weighted_report["weighted_inventors_hindex"], 1):
@@ -40,12 +40,12 @@ def print_report():
                 f"avg citations: {float(row.get('avg_citations', 0)):.2f} [{raw_patents:,} raw]"
             )
 
-    # ── Top Companies ────────────────────────────────────────────────────
+    #  Top Companies 
     print("\n  Top Companies (Raw patent count):")
     for i, row in enumerate(r["top_companies"], 1):
         print(f"    {i:>2}. {row['name']} — {int(row['patents']):,}")
 
-    # ── Weighted Companies (Citation Impact) ────────────────────────────
+    #  Weighted Companies (Citation Impact) 
     if weighted_report.get("weighted_companies_citations"):
         print("\n  Weighted Companies (Citation Impact):")
         for i, row in enumerate(weighted_report["weighted_companies_citations"], 1):
@@ -57,13 +57,13 @@ def print_report():
                 f"max single-patent citations: {int(row.get('max_single_patent_citations', 0)):,} [{raw_patents:,} raw]"
             )
 
-    # ── Top Countries ────────────────────────────────────────────────────
+    #  Top Countries 
     print("\n  Top Countries:")
     for i, row in enumerate(r["top_countries"], 1):
         share = float(row["share"]) * 100
         print(f"    {i:>2}. {row['country']} — {int(row['patents']):,} ({share:.1f}%)")
 
-    # ── Patent Growth (last 5 years) ─────────────────────────────────────
+    #  Patent Growth (last 5 years) 
     print("\n  Patent Growth (last 5 years on record):")
     trends = r["yearly_trends"]
     for row in trends[-5:]:
@@ -76,23 +76,23 @@ def print_report():
         else:
             print(f"    {year}: {patents:,}")
 
-    # ── Solo vs Team ──────────────────────────────────────────────────────
+    #  Solo vs Team 
     print("\n  Solo vs Team Patents:")
     for row in r["solo_vs_team"]:
         print(f"    {row['inventor_type']}: {int(row['patents']):,} ({row['share_pct']}%)")
 
-    # ── Top Company Per Decade ────────────────────────────────────────────
+    #  Top Company Per Decade 
     print("\n  Top Company Per Decade (1900s onwards):")
     for row in r["top_company_per_decade"]:
         if int(row["decade"]) >= 1900:
             print(f"    {int(row['decade'])}s: {row['company_name']} — {int(row['patents']):,}")
 
-    # ── Top Inventor Per Country ──────────────────────────────────────────
+    #  Top Inventor Per Country 
     print("\n  Top Inventor Per Country (top 20):")
     for row in r["top_inventor_per_country"]:
         print(f"    {row['country']:<4} {row['inventor_name']} — {int(row['patents']):,}")
 
-    # ── Top Inventor-Company Pairs ────────────────────────────────────────
+    #  Top Inventor-Company Pairs 
     print("\n  Top Inventor-Company Pairs:")
     for i, row in enumerate(r["inventor_company_pairs"], 1):
         print(f"    {i:>2}. {row['inventor_name']} @ {row['company_name']}")

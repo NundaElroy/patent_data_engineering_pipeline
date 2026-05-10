@@ -4,7 +4,7 @@ import zipfile
 import requests
 import pandas as pd
 
-# ── Configuration ────────────────────────────────────────────────────────
+#  Configuration 
 RAW_DIR   = "./raw"
 CLEAN_DIR = "./data"
 DB_PATH   = "patents.db"
@@ -17,7 +17,7 @@ os.makedirs(CLEAN_DIR, exist_ok=True)
 
 CHUNK_SIZE = 100_000
 
-# ── Step 1: Download ──────────────────────────────────────────────────────
+#  Step 1: Download 
 def download_file():
     url      = BASE_URL + FILENAME
     filepath = os.path.join(RAW_DIR, FILENAME)
@@ -51,7 +51,7 @@ def download_file():
     os.remove(filepath)
     print("Extracted and deleted zip.")
 
-# ── Step 2: Clean ─────────────────────────────────────────────────────────
+#  Step 2: Clean ─
 def clean_cpc():
     filepath = os.path.join(RAW_DIR, "g_cpc_current.tsv")
     out_path = os.path.join(CLEAN_DIR, "clean_cpc.csv")
@@ -84,7 +84,7 @@ def clean_cpc():
     print(f"Saved clean_cpc.csv ({len(df):,} rows)")
     return df
 
-# ── Step 3: Create CPC table if missing ──────────────────────────────────
+#  Step 3: Create CPC table if missing 
 def ensure_cpc_table(conn):
     conn.executescript("""
         CREATE TABLE IF NOT EXISTS cpc (
@@ -98,7 +98,7 @@ def ensure_cpc_table(conn):
     """)
     print("CPC table ready.")
 
-# ── Step 4: Load ──────────────────────────────────────────────────────────
+#  Step 4: Load 
 def load_cpc():
     csv_path = os.path.join(CLEAN_DIR, "clean_cpc.csv")
     print(f"\nLoading clean_cpc.csv into database...")
@@ -116,7 +116,7 @@ def load_cpc():
 
     print(f" Finished loading CPC table.")
 
-# ── Execution ─────────────────────────────────────────────────────────────
+#  Execution ─
 if __name__ == "__main__":
     print("=" * 50)
     print(" CPC Data Pipeline")

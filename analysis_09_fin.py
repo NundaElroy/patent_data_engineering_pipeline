@@ -43,14 +43,14 @@ def run_guard_analysis():
     print("Connecting to database...")
     conn = get_conn()
 
-    # ══════════════════════════════════════════════════════════════════════
+    # 
     # TREND 1: FinTech Shift — Digital Ledgers vs Traditional Banking
     # Legacy:   G06Q 40/02 (traditional banking, ATMs, loans)
     # Emerging: G06Q 20/06 (digital currency payment protocols)
     #           H04L 9/32  (secure communication, authentication)
     # Hypothesis: traditional banking patents remained flat for 20 years
     # while blockchain/digital finance exploded post-2015
-    # ══════════════════════════════════════════════════════════════════════
+    # 
     print("\nRunning Trend 1: FinTech Shift (Digital vs Traditional Banking)...")
     df_t1 = run_query(conn, """
         SELECT
@@ -99,14 +99,14 @@ def run_guard_analysis():
     crossover_t1   = find_crossover(df_t1, 'digital_finance_patents', 'traditional_banking_patents')
     inflection_t1  = find_inflection(df_t1, 'digital_finance_patents')
 
-    # ══════════════════════════════════════════════════════════════════════
+    # 
     # TREND 2: Genetic Revolution — Biological vs Chemical Medicine
     # Legacy:   A61K 31/00 → A61K (traditional drug preparations)
     # Emerging: C12N 15/00 → C12N (genetic engineering, recombinant DNA)
     # Hypothesis: while traditional pharma is high volume, genomics/biotech
     # growth rate post-2012 is significantly higher proving a fundamental
     # shift in how disease treatment is being innovated
-    # ══════════════════════════════════════════════════════════════════════
+    # 
     print("Running Trend 2: Genetic Revolution (Genomics vs Chemical Pharma)...")
     df_t2 = run_query(conn, """
         SELECT
@@ -142,7 +142,7 @@ def run_guard_analysis():
     # Human Genome Project completed 2003, CRISPR discovered 2012
     # COVID mRNA vaccines 2020 — mark all three as annotation points
 
-    # ══════════════════════════════════════════════════════════════════════
+    # 
     # TREND 3: Retail Flip — E-Commerce Logistics vs Brick and Mortar
     # Legacy:   G06Q 30/00 (general commerce, physical shopping systems)
     # Emerging: G06Q 10/08 (logistics, inventory, delivery management)
@@ -150,7 +150,7 @@ def run_guard_analysis():
     # Hypothesis: physical retail innovation stagnated as e-commerce
     # logistics and drone delivery patents exploded post-2012
     # Amazon effect visible as sharp inflection after 2012 Prime launch
-    # ══════════════════════════════════════════════════════════════════════
+    # 
     print("Running Trend 3: Retail Flip (E-Commerce vs Brick and Mortar)...")
     df_t3 = run_query(conn, """
         SELECT
