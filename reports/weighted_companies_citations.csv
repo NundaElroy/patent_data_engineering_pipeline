@@ -1,0 +1,11 @@
+name,patent_count,total_citations,avg_citations_per_patent,max_single_patent_citations
+International Business Machines Corporation,113587,7824169,20.62,2059
+"Ethicon Endo-Surgery, Inc.",2096,6363661,773.51,3426
+"Ethicon, Inc.",3221,4564229,384.03,3916
+Microsoft Corporation,27953,3382362,35.97,1479
+Apple Inc.,24042,3171176,25.4,3274
+"HITACHI, LTD.",39138,3079710,20.34,1308
+"SAMSUNG ELECTRONICS CO., LTD.",100747,3075618,9.46,4038
+Canon Kabushiki Kaisha,62552,2649214,16.4,3946
+Covidien LP,5429,2295515,150.33,2164
+United States Surgical Corporation,1187,2212174,698.51,3347

@@ -1,0 +1,678 @@
+{
+    "trend_chips_before_software": [
+        {
+            "year": 1976,
+            "semiconductor_patents": 578,
+            "computing_patents": 571,
+            "semi_growth": null,
+            "comp_growth": null
+        },
+        {
+            "year": 1977,
+            "semiconductor_patents": 568,
+            "computing_patents": 602,
+            "semi_growth": -1.73,
+            "comp_growth": 5.43
+        },
+        {
+            "year": 1978,
+            "semiconductor_patents": 636,
+            "computing_patents": 579,
+            "semi_growth": 11.97,
+            "comp_growth": -3.82
+        },
+        {
+            "year": 1979,
+            "semiconductor_patents": 579,
+            "computing_patents": 623,
+            "semi_growth": -8.959999999999999,
+            "comp_growth": 7.6
+        },
+        {
+            "year": 1980,
+            "semiconductor_patents": 687,
+            "computing_patents": 754,
+            "semi_growth": 18.65,
+            "comp_growth": 21.029999999999998
+        },
+        {
+            "year": 1981,
+            "semiconductor_patents": 696,
+            "computing_patents": 855,
+            "semi_growth": 1.31,
+            "comp_growth": 13.4
+        },
+        {
+            "year": 1982,
+            "semiconductor_patents": 773,
+            "computing_patents": 939,
+            "semi_growth": 11.06,
+            "comp_growth": 9.82
+        },
+        {
+            "year": 1983,
+            "semiconductor_patents": 821,
+            "computing_patents": 1042,
+            "semi_growth": 6.21,
+            "comp_growth": 10.97
+        },
+        {
+            "year": 1984,
+            "semiconductor_patents": 1007,
+            "computing_patents": 1049,
+            "semi_growth": 22.66,
+            "comp_growth": 0.67
+        },
+        {
+            "year": 1985,
+            "semiconductor_patents": 1040,
+            "computing_patents": 1206,
+            "semi_growth": 3.2800000000000002,
+            "comp_growth": 14.97
+        },
+        {
+            "year": 1986,
+            "semiconductor_patents": 1216,
+            "computing_patents": 1330,
+            "semi_growth": 16.919999999999998,
+            "comp_growth": 10.280000000000001
+        },
+        {
+            "year": 1987,
+            "semiconductor_patents": 1283,
+            "computing_patents": 1595,
+            "semi_growth": 5.510000000000001,
+            "comp_growth": 19.919999999999998
+        },
+        {
+            "year": 1988,
+            "semiconductor_patents": 1612,
+            "computing_patents": 1842,
+            "semi_growth": 25.64,
+            "comp_growth": 15.49
+        },
+        {
+            "year": 1989,
+            "semiconductor_patents": 1729,
+            "computing_patents": 2228,
+            "semi_growth": 7.26,
+            "comp_growth": 20.96
+        },
+        {
+            "year": 1990,
+            "semiconductor_patents": 1989,
+            "computing_patents": 2568,
+            "semi_growth": 15.040000000000001,
+            "comp_growth": 15.260000000000002
+        },
+        {
+            "year": 1991,
+            "semiconductor_patents": 2371,
+            "computing_patents": 2846,
+            "semi_growth": 19.21,
+            "comp_growth": 10.83
+        },
+        {
+            "year": 1992,
+            "semiconductor_patents": 2644,
+            "computing_patents": 3521,
+            "semi_growth": 11.51,
+            "comp_growth": 23.72
+        },
+        {
+            "year": 1993,
+            "semiconductor_patents": 2639,
+            "computing_patents": 4122,
+            "semi_growth": -0.19,
+            "comp_growth": 17.07
+        },
+        {
+            "year": 1994,
+            "semiconductor_patents": 3100,
+            "computing_patents": 5531,
+            "semi_growth": 17.47,
+            "comp_growth": 34.18
+        },
+        {
+            "year": 1995,
+            "semiconductor_patents": 4081,
+            "computing_patents": 7905,
+            "semi_growth": 31.65,
+            "comp_growth": 42.92
+        },
+        {
+            "year": 1996,
+            "semiconductor_patents": 4889,
+            "computing_patents": 9120,
+            "semi_growth": 19.8,
+            "comp_growth": 15.370000000000001
+        },
+        {
+            "year": 1997,
+            "semiconductor_patents": 6398,
+            "computing_patents": 11339,
+            "semi_growth": 30.869999999999997,
+            "comp_growth": 24.33
+        },
+        {
+            "year": 1998,
+            "semiconductor_patents": 7110,
+            "computing_patents": 11711,
+            "semi_growth": 11.129999999999999,
+            "comp_growth": 3.2800000000000002
+        },
+        {
+            "year": 1999,
+            "semiconductor_patents": 7898,
+            "computing_patents": 12662,
+            "semi_growth": 11.08,
+            "comp_growth": 8.12
+        },
+        {
+            "year": 2000,
+            "semiconductor_patents": 8584,
+            "computing_patents": 14231,
+            "semi_growth": 8.690000000000001,
+            "comp_growth": 12.389999999999999
+        },
+        {
+            "year": 2001,
+            "semiconductor_patents": 9323,
+            "computing_patents": 15173,
+            "semi_growth": 8.61,
+            "comp_growth": 6.619999999999999
+        },
+        {
+            "year": 2002,
+            "semiconductor_patents": 9824,
+            "computing_patents": 15153,
+            "semi_growth": 5.37,
+            "comp_growth": -0.13
+        },
+        {
+            "year": 2003,
+            "semiconductor_patents": 9148,
+            "computing_patents": 16215,
+            "semi_growth": -6.88,
+            "comp_growth": 7.01
+        },
+        {
+            "year": 2004,
+            "semiconductor_patents": 8766,
+            "computing_patents": 18458,
+            "semi_growth": -4.18,
+            "comp_growth": 13.83
+        },
+        {
+            "year": 2005,
+            "semiconductor_patents": 8335,
+            "computing_patents": 19407,
+            "semi_growth": -4.92,
+            "comp_growth": 5.140000000000001
+        },
+        {
+            "year": 2006,
+            "semiconductor_patents": 8419,
+            "computing_patents": 20772,
+            "semi_growth": 1.01,
+            "comp_growth": 7.03
+        },
+        {
+            "year": 2007,
+            "semiconductor_patents": 8165,
+            "computing_patents": 22912,
+            "semi_growth": -3.02,
+            "comp_growth": 10.299999999999999
+        },
+        {
+            "year": 2008,
+            "semiconductor_patents": 7973,
+            "computing_patents": 25293,
+            "semi_growth": -2.35,
+            "comp_growth": 10.39
+        },
+        {
+            "year": 2009,
+            "semiconductor_patents": 7173,
+            "computing_patents": 22494,
+            "semi_growth": -10.03,
+            "comp_growth": -11.07
+        },
+        {
+            "year": 2010,
+            "semiconductor_patents": 8001,
+            "computing_patents": 25784,
+            "semi_growth": 11.540000000000001,
+            "comp_growth": 14.63
+        },
+        {
+            "year": 2011,
+            "semiconductor_patents": 9179,
+            "computing_patents": 30052,
+            "semi_growth": 14.719999999999999,
+            "comp_growth": 16.55
+        },
+        {
+            "year": 2012,
+            "semiconductor_patents": 9824,
+            "computing_patents": 37611,
+            "semi_growth": 7.03,
+            "comp_growth": 25.15
+        },
+        {
+            "year": 2013,
+            "semiconductor_patents": 11108,
+            "computing_patents": 41939,
+            "semi_growth": 13.07,
+            "comp_growth": 11.51
+        },
+        {
+            "year": 2014,
+            "semiconductor_patents": 11864,
+            "computing_patents": 42998,
+            "semi_growth": 6.81,
+            "comp_growth": 2.53
+        },
+        {
+            "year": 2015,
+            "semiconductor_patents": 12874,
+            "computing_patents": 46674,
+            "semi_growth": 8.51,
+            "comp_growth": 8.55
+        },
+        {
+            "year": 2016,
+            "semiconductor_patents": 13724,
+            "computing_patents": 48426,
+            "semi_growth": 6.6000000000000005,
+            "comp_growth": 3.75
+        },
+        {
+            "year": 2017,
+            "semiconductor_patents": 14933,
+            "computing_patents": 51118,
+            "semi_growth": 8.81,
+            "comp_growth": 5.56
+        },
+        {
+            "year": 2018,
+            "semiconductor_patents": 14844,
+            "computing_patents": 53981,
+            "semi_growth": -0.6,
+            "comp_growth": 5.6000000000000005
+        },
+        {
+            "year": 2019,
+            "semiconductor_patents": 15871,
+            "computing_patents": 61136,
+            "semi_growth": 6.92,
+            "comp_growth": 13.25
+        },
+        {
+            "year": 2020,
+            "semiconductor_patents": 14916,
+            "computing_patents": 56114,
+            "semi_growth": -6.02,
+            "comp_growth": -8.21
+        },
+        {
+            "year": 2021,
+            "semiconductor_patents": 13373,
+            "computing_patents": 50166,
+            "semi_growth": -10.34,
+            "comp_growth": -10.6
+        },
+        {
+            "year": 2022,
+            "semiconductor_patents": 9136,
+            "computing_patents": 39127,
+            "semi_growth": -31.680000000000003,
+            "comp_growth": -22.0
+        }
+    ],
+    "trend_infra_before_mobile": [
+        {
+            "year": 1990,
+            "transmission_patents": 917,
+            "wireless_patents": 241
+        },
+        {
+            "year": 1991,
+            "transmission_patents": 1047,
+            "wireless_patents": 320
+        },
+        {
+            "year": 1992,
+            "transmission_patents": 1295,
+            "wireless_patents": 343
+        },
+        {
+            "year": 1993,
+            "transmission_patents": 1485,
+            "wireless_patents": 482
+        },
+        {
+            "year": 1994,
+            "transmission_patents": 2045,
+            "wireless_patents": 776
+        },
+        {
+            "year": 1995,
+            "transmission_patents": 2906,
+            "wireless_patents": 1135
+        },
+        {
+            "year": 1996,
+            "transmission_patents": 3820,
+            "wireless_patents": 1512
+        },
+        {
+            "year": 1997,
+            "transmission_patents": 5250,
+            "wireless_patents": 1854
+        },
+        {
+            "year": 1998,
+            "transmission_patents": 6302,
+            "wireless_patents": 1999
+        },
+        {
+            "year": 1999,
+            "transmission_patents": 7688,
+            "wireless_patents": 2453
+        },
+        {
+            "year": 2000,
+            "transmission_patents": 9499,
+            "wireless_patents": 2846
+        },
+        {
+            "year": 2001,
+            "transmission_patents": 10696,
+            "wireless_patents": 3205
+        },
+        {
+            "year": 2002,
+            "transmission_patents": 10918,
+            "wireless_patents": 3468
+        },
+        {
+            "year": 2003,
+            "transmission_patents": 10900,
+            "wireless_patents": 3535
+        },
+        {
+            "year": 2004,
+            "transmission_patents": 11906,
+            "wireless_patents": 4248
+        },
+        {
+            "year": 2005,
+            "transmission_patents": 12972,
+            "wireless_patents": 4677
+        },
+        {
+            "year": 2006,
+            "transmission_patents": 14218,
+            "wireless_patents": 5475
+        },
+        {
+            "year": 2007,
+            "transmission_patents": 15486,
+            "wireless_patents": 6367
+        },
+        {
+            "year": 2008,
+            "transmission_patents": 16009,
+            "wireless_patents": 6986
+        },
+        {
+            "year": 2009,
+            "transmission_patents": 15114,
+            "wireless_patents": 7682
+        },
+        {
+            "year": 2010,
+            "transmission_patents": 16063,
+            "wireless_patents": 8393
+        },
+        {
+            "year": 2011,
+            "transmission_patents": 18466,
+            "wireless_patents": 10597
+        },
+        {
+            "year": 2012,
+            "transmission_patents": 22804,
+            "wireless_patents": 13328
+        },
+        {
+            "year": 2013,
+            "transmission_patents": 26155,
+            "wireless_patents": 15847
+        },
+        {
+            "year": 2014,
+            "transmission_patents": 29160,
+            "wireless_patents": 17391
+        },
+        {
+            "year": 2015,
+            "transmission_patents": 31712,
+            "wireless_patents": 19392
+        },
+        {
+            "year": 2016,
+            "transmission_patents": 33526,
+            "wireless_patents": 20257
+        },
+        {
+            "year": 2017,
+            "transmission_patents": 33224,
+            "wireless_patents": 20728
+        },
+        {
+            "year": 2018,
+            "transmission_patents": 33765,
+            "wireless_patents": 21512
+        },
+        {
+            "year": 2019,
+            "transmission_patents": 37397,
+            "wireless_patents": 24581
+        },
+        {
+            "year": 2020,
+            "transmission_patents": 35181,
+            "wireless_patents": 24228
+        },
+        {
+            "year": 2021,
+            "transmission_patents": 31391,
+            "wireless_patents": 21183
+        },
+        {
+            "year": 2022,
+            "transmission_patents": 23887,
+            "wireless_patents": 14188
+        }
+    ],
+    "trend_wireless_history": [
+        {
+            "year": 1995,
+            "wireless_patents": 1135,
+            "rolling_3yr": 1135.0
+        },
+        {
+            "year": 1996,
+            "wireless_patents": 1512,
+            "rolling_3yr": 1324.0
+        },
+        {
+            "year": 1997,
+            "wireless_patents": 1854,
+            "rolling_3yr": 1500.0
+        },
+        {
+            "year": 1998,
+            "wireless_patents": 1999,
+            "rolling_3yr": 1788.0
+        },
+        {
+            "year": 1999,
+            "wireless_patents": 2453,
+            "rolling_3yr": 2102.0
+        },
+        {
+            "year": 2000,
+            "wireless_patents": 2846,
+            "rolling_3yr": 2433.0
+        },
+        {
+            "year": 2001,
+            "wireless_patents": 3205,
+            "rolling_3yr": 2835.0
+        },
+        {
+            "year": 2002,
+            "wireless_patents": 3468,
+            "rolling_3yr": 3173.0
+        },
+        {
+            "year": 2003,
+            "wireless_patents": 3535,
+            "rolling_3yr": 3403.0
+        },
+        {
+            "year": 2004,
+            "wireless_patents": 4248,
+            "rolling_3yr": 3750.0
+        },
+        {
+            "year": 2005,
+            "wireless_patents": 4677,
+            "rolling_3yr": 4153.0
+        },
+        {
+            "year": 2006,
+            "wireless_patents": 5475,
+            "rolling_3yr": 4800.0
+        },
+        {
+            "year": 2007,
+            "wireless_patents": 6367,
+            "rolling_3yr": 5506.0
+        },
+        {
+            "year": 2008,
+            "wireless_patents": 6986,
+            "rolling_3yr": 6276.0
+        },
+        {
+            "year": 2009,
+            "wireless_patents": 7682,
+            "rolling_3yr": 7012.0
+        },
+        {
+            "year": 2010,
+            "wireless_patents": 8393,
+            "rolling_3yr": 7687.0
+        },
+        {
+            "year": 2011,
+            "wireless_patents": 10597,
+            "rolling_3yr": 8891.0
+        },
+        {
+            "year": 2012,
+            "wireless_patents": 13328,
+            "rolling_3yr": 10773.0
+        },
+        {
+            "year": 2013,
+            "wireless_patents": 15847,
+            "rolling_3yr": 13257.0
+        },
+        {
+            "year": 2014,
+            "wireless_patents": 17391,
+            "rolling_3yr": 15522.0
+        },
+        {
+            "year": 2015,
+            "wireless_patents": 19392,
+            "rolling_3yr": 17543.0
+        },
+        {
+            "year": 2016,
+            "wireless_patents": 20257,
+            "rolling_3yr": 19013.0
+        },
+        {
+            "year": 2017,
+            "wireless_patents": 20728,
+            "rolling_3yr": 20126.0
+        },
+        {
+            "year": 2018,
+            "wireless_patents": 21512,
+            "rolling_3yr": 20832.0
+        },
+        {
+            "year": 2019,
+            "wireless_patents": 24581,
+            "rolling_3yr": 22274.0
+        },
+        {
+            "year": 2020,
+            "wireless_patents": 24228,
+            "rolling_3yr": 23440.0
+        },
+        {
+            "year": 2021,
+            "wireless_patents": 21183,
+            "rolling_3yr": 23331.0
+        },
+        {
+            "year": 2022,
+            "wireless_patents": 14188,
+            "rolling_3yr": 19866.0
+        }
+    ],
+    "trend_wireless_forecast": [
+        {
+            "year": 2020,
+            "forecast_patents": 21829,
+            "type": "forecast"
+        },
+        {
+            "year": 2021,
+            "forecast_patents": 22802,
+            "type": "forecast"
+        },
+        {
+            "year": 2022,
+            "forecast_patents": 23775,
+            "type": "forecast"
+        },
+        {
+            "year": 2023,
+            "forecast_patents": 24749,
+            "type": "forecast"
+        },
+        {
+            "year": 2024,
+            "forecast_patents": 25722,
+            "type": "forecast"
+        }
+    ],
+    "trend_lag_analysis": {
+        "h01l_peak_year": 2019,
+        "g06f_peak_year": 2019,
+        "chips_to_software_lag": 0,
+        "h04l_peak_year": 2019,
+        "h04w_peak_year": 2019,
+        "infra_to_mobile_lag": 0,
+        "forecast_slope": 973.15
+    }
+}

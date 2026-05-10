@@ -1,0 +1,742 @@
+{
+    "media_streaming_vs_optical": [
+        {
+            "year": 1995,
+            "optical_disc_patents": 3556,
+            "streaming_patents": 2906,
+            "optical_growth": null,
+            "streaming_growth": null
+        },
+        {
+            "year": 1996,
+            "optical_disc_patents": 4053,
+            "streaming_patents": 3820,
+            "optical_growth": 13.98,
+            "streaming_growth": 31.45
+        },
+        {
+            "year": 1997,
+            "optical_disc_patents": 4920,
+            "streaming_patents": 5250,
+            "optical_growth": 21.39,
+            "streaming_growth": 37.43
+        },
+        {
+            "year": 1998,
+            "optical_disc_patents": 4350,
+            "streaming_patents": 6302,
+            "optical_growth": -11.59,
+            "streaming_growth": 20.04
+        },
+        {
+            "year": 1999,
+            "optical_disc_patents": 4609,
+            "streaming_patents": 7688,
+            "optical_growth": 5.95,
+            "streaming_growth": 21.99
+        },
+        {
+            "year": 2000,
+            "optical_disc_patents": 5113,
+            "streaming_patents": 9499,
+            "optical_growth": 10.94,
+            "streaming_growth": 23.56
+        },
+        {
+            "year": 2001,
+            "optical_disc_patents": 5527,
+            "streaming_patents": 10696,
+            "optical_growth": 8.1,
+            "streaming_growth": 12.6
+        },
+        {
+            "year": 2002,
+            "optical_disc_patents": 5095,
+            "streaming_patents": 10918,
+            "optical_growth": -7.82,
+            "streaming_growth": 2.08
+        },
+        {
+            "year": 2003,
+            "optical_disc_patents": 5309,
+            "streaming_patents": 10900,
+            "optical_growth": 4.2,
+            "streaming_growth": -0.16
+        },
+        {
+            "year": 2004,
+            "optical_disc_patents": 5376,
+            "streaming_patents": 11906,
+            "optical_growth": 1.26,
+            "streaming_growth": 9.23
+        },
+        {
+            "year": 2005,
+            "optical_disc_patents": 5192,
+            "streaming_patents": 12972,
+            "optical_growth": -3.42,
+            "streaming_growth": 8.95
+        },
+        {
+            "year": 2006,
+            "optical_disc_patents": 4822,
+            "streaming_patents": 14218,
+            "optical_growth": -7.13,
+            "streaming_growth": 9.61
+        },
+        {
+            "year": 2007,
+            "optical_disc_patents": 4308,
+            "streaming_patents": 15486,
+            "optical_growth": -10.66,
+            "streaming_growth": 8.92
+        },
+        {
+            "year": 2008,
+            "optical_disc_patents": 3588,
+            "streaming_patents": 16009,
+            "optical_growth": -16.71,
+            "streaming_growth": 3.38
+        },
+        {
+            "year": 2009,
+            "optical_disc_patents": 3142,
+            "streaming_patents": 15114,
+            "optical_growth": -12.43,
+            "streaming_growth": -5.59
+        },
+        {
+            "year": 2010,
+            "optical_disc_patents": 2855,
+            "streaming_patents": 16063,
+            "optical_growth": -9.13,
+            "streaming_growth": 6.28
+        },
+        {
+            "year": 2011,
+            "optical_disc_patents": 2568,
+            "streaming_patents": 18466,
+            "optical_growth": -10.05,
+            "streaming_growth": 14.96
+        },
+        {
+            "year": 2012,
+            "optical_disc_patents": 2623,
+            "streaming_patents": 22804,
+            "optical_growth": 2.14,
+            "streaming_growth": 23.49
+        },
+        {
+            "year": 2013,
+            "optical_disc_patents": 2705,
+            "streaming_patents": 26155,
+            "optical_growth": 3.13,
+            "streaming_growth": 14.69
+        },
+        {
+            "year": 2014,
+            "optical_disc_patents": 2422,
+            "streaming_patents": 29160,
+            "optical_growth": -10.46,
+            "streaming_growth": 11.49
+        },
+        {
+            "year": 2015,
+            "optical_disc_patents": 2248,
+            "streaming_patents": 31712,
+            "optical_growth": -7.18,
+            "streaming_growth": 8.75
+        },
+        {
+            "year": 2016,
+            "optical_disc_patents": 1938,
+            "streaming_patents": 33526,
+            "optical_growth": -13.79,
+            "streaming_growth": 5.72
+        },
+        {
+            "year": 2017,
+            "optical_disc_patents": 1850,
+            "streaming_patents": 33224,
+            "optical_growth": -4.54,
+            "streaming_growth": -0.9
+        },
+        {
+            "year": 2018,
+            "optical_disc_patents": 1615,
+            "streaming_patents": 33765,
+            "optical_growth": -12.7,
+            "streaming_growth": 1.63
+        },
+        {
+            "year": 2019,
+            "optical_disc_patents": 1625,
+            "streaming_patents": 37397,
+            "optical_growth": 0.62,
+            "streaming_growth": 10.76
+        },
+        {
+            "year": 2020,
+            "optical_disc_patents": 1426,
+            "streaming_patents": 35181,
+            "optical_growth": -12.25,
+            "streaming_growth": -5.93
+        },
+        {
+            "year": 2021,
+            "optical_disc_patents": 1316,
+            "streaming_patents": 31391,
+            "optical_growth": -7.71,
+            "streaming_growth": -10.77
+        },
+        {
+            "year": 2022,
+            "optical_disc_patents": 1088,
+            "streaming_patents": 23887,
+            "optical_growth": -17.33,
+            "streaming_growth": -23.9
+        }
+    ],
+    "media_optical_peak_year": 2001,
+    "media_streaming_inflection_year": 1997,
+    "media_crossover_year": 1997,
+    "media_optical_multiplier_post_netflix": 0.53,
+    "media_streaming_multiplier_post_netflix": 1.75,
+    "energy_renewables_vs_fossil": [
+        {
+            "year": 1995,
+            "fossil_extraction_patents": 914,
+            "solar_patents": 38,
+            "wind_patents": 26,
+            "total_renewable_patents": 64,
+            "fossil_growth": null,
+            "solar_growth": null,
+            "wind_growth": null,
+            "renewable_growth": null
+        },
+        {
+            "year": 1996,
+            "fossil_extraction_patents": 960,
+            "solar_patents": 42,
+            "wind_patents": 32,
+            "total_renewable_patents": 74,
+            "fossil_growth": 5.03,
+            "solar_growth": 10.53,
+            "wind_growth": 23.08,
+            "renewable_growth": 15.62
+        },
+        {
+            "year": 1997,
+            "fossil_extraction_patents": 1121,
+            "solar_patents": 44,
+            "wind_patents": 27,
+            "total_renewable_patents": 71,
+            "fossil_growth": 16.77,
+            "solar_growth": 4.76,
+            "wind_growth": -15.62,
+            "renewable_growth": -4.05
+        },
+        {
+            "year": 1998,
+            "fossil_extraction_patents": 1177,
+            "solar_patents": 67,
+            "wind_patents": 39,
+            "total_renewable_patents": 106,
+            "fossil_growth": 5.0,
+            "solar_growth": 52.27,
+            "wind_growth": 44.44,
+            "renewable_growth": 49.3
+        },
+        {
+            "year": 1999,
+            "fossil_extraction_patents": 1120,
+            "solar_patents": 55,
+            "wind_patents": 44,
+            "total_renewable_patents": 99,
+            "fossil_growth": -4.84,
+            "solar_growth": -17.91,
+            "wind_growth": 12.82,
+            "renewable_growth": -6.6
+        },
+        {
+            "year": 2000,
+            "fossil_extraction_patents": 1315,
+            "solar_patents": 52,
+            "wind_patents": 68,
+            "total_renewable_patents": 120,
+            "fossil_growth": 17.41,
+            "solar_growth": -5.45,
+            "wind_growth": 54.55,
+            "renewable_growth": 21.21
+        },
+        {
+            "year": 2001,
+            "fossil_extraction_patents": 1449,
+            "solar_patents": 79,
+            "wind_patents": 119,
+            "total_renewable_patents": 198,
+            "fossil_growth": 10.19,
+            "solar_growth": 51.92,
+            "wind_growth": 75.0,
+            "renewable_growth": 65.0
+        },
+        {
+            "year": 2002,
+            "fossil_extraction_patents": 1580,
+            "solar_patents": 70,
+            "wind_patents": 167,
+            "total_renewable_patents": 237,
+            "fossil_growth": 9.04,
+            "solar_growth": -11.39,
+            "wind_growth": 40.34,
+            "renewable_growth": 19.7
+        },
+        {
+            "year": 2003,
+            "fossil_extraction_patents": 1425,
+            "solar_patents": 47,
+            "wind_patents": 154,
+            "total_renewable_patents": 201,
+            "fossil_growth": -9.81,
+            "solar_growth": -32.86,
+            "wind_growth": -7.78,
+            "renewable_growth": -15.19
+        },
+        {
+            "year": 2004,
+            "fossil_extraction_patents": 1457,
+            "solar_patents": 50,
+            "wind_patents": 187,
+            "total_renewable_patents": 237,
+            "fossil_growth": 2.25,
+            "solar_growth": 6.38,
+            "wind_growth": 21.43,
+            "renewable_growth": 17.91
+        },
+        {
+            "year": 2005,
+            "fossil_extraction_patents": 1356,
+            "solar_patents": 58,
+            "wind_patents": 219,
+            "total_renewable_patents": 277,
+            "fossil_growth": -6.93,
+            "solar_growth": 16.0,
+            "wind_growth": 17.11,
+            "renewable_growth": 16.88
+        },
+        {
+            "year": 2006,
+            "fossil_extraction_patents": 1491,
+            "solar_patents": 77,
+            "wind_patents": 233,
+            "total_renewable_patents": 310,
+            "fossil_growth": 9.96,
+            "solar_growth": 32.76,
+            "wind_growth": 6.39,
+            "renewable_growth": 11.91
+        },
+        {
+            "year": 2007,
+            "fossil_extraction_patents": 1788,
+            "solar_patents": 121,
+            "wind_patents": 366,
+            "total_renewable_patents": 487,
+            "fossil_growth": 19.92,
+            "solar_growth": 57.14,
+            "wind_growth": 57.08,
+            "renewable_growth": 57.1
+        },
+        {
+            "year": 2008,
+            "fossil_extraction_patents": 1995,
+            "solar_patents": 185,
+            "wind_patents": 507,
+            "total_renewable_patents": 692,
+            "fossil_growth": 11.58,
+            "solar_growth": 52.89,
+            "wind_growth": 38.52,
+            "renewable_growth": 42.09
+        },
+        {
+            "year": 2009,
+            "fossil_extraction_patents": 2134,
+            "solar_patents": 275,
+            "wind_patents": 695,
+            "total_renewable_patents": 970,
+            "fossil_growth": 6.97,
+            "solar_growth": 48.65,
+            "wind_growth": 37.08,
+            "renewable_growth": 40.17
+        },
+        {
+            "year": 2010,
+            "fossil_extraction_patents": 2245,
+            "solar_patents": 374,
+            "wind_patents": 783,
+            "total_renewable_patents": 1157,
+            "fossil_growth": 5.2,
+            "solar_growth": 36.0,
+            "wind_growth": 12.66,
+            "renewable_growth": 19.28
+        },
+        {
+            "year": 2011,
+            "fossil_extraction_patents": 2598,
+            "solar_patents": 423,
+            "wind_patents": 759,
+            "total_renewable_patents": 1182,
+            "fossil_growth": 15.72,
+            "solar_growth": 13.1,
+            "wind_growth": -3.07,
+            "renewable_growth": 2.16
+        },
+        {
+            "year": 2012,
+            "fossil_extraction_patents": 2961,
+            "solar_patents": 432,
+            "wind_patents": 751,
+            "total_renewable_patents": 1183,
+            "fossil_growth": 13.97,
+            "solar_growth": 2.13,
+            "wind_growth": -1.05,
+            "renewable_growth": 0.08
+        },
+        {
+            "year": 2013,
+            "fossil_extraction_patents": 3551,
+            "solar_patents": 444,
+            "wind_patents": 689,
+            "total_renewable_patents": 1133,
+            "fossil_growth": 19.93,
+            "solar_growth": 2.78,
+            "wind_growth": -8.26,
+            "renewable_growth": -4.23
+        },
+        {
+            "year": 2014,
+            "fossil_extraction_patents": 3799,
+            "solar_patents": 527,
+            "wind_patents": 668,
+            "total_renewable_patents": 1195,
+            "fossil_growth": 6.98,
+            "solar_growth": 18.69,
+            "wind_growth": -3.05,
+            "renewable_growth": 5.47
+        },
+        {
+            "year": 2015,
+            "fossil_extraction_patents": 3727,
+            "solar_patents": 570,
+            "wind_patents": 624,
+            "total_renewable_patents": 1194,
+            "fossil_growth": -1.9,
+            "solar_growth": 8.16,
+            "wind_growth": -6.59,
+            "renewable_growth": -0.08
+        },
+        {
+            "year": 2016,
+            "fossil_extraction_patents": 3570,
+            "solar_patents": 660,
+            "wind_patents": 592,
+            "total_renewable_patents": 1252,
+            "fossil_growth": -4.21,
+            "solar_growth": 15.79,
+            "wind_growth": -5.13,
+            "renewable_growth": 4.86
+        },
+        {
+            "year": 2017,
+            "fossil_extraction_patents": 3247,
+            "solar_patents": 636,
+            "wind_patents": 728,
+            "total_renewable_patents": 1364,
+            "fossil_growth": -9.05,
+            "solar_growth": -3.64,
+            "wind_growth": 22.97,
+            "renewable_growth": 8.95
+        },
+        {
+            "year": 2018,
+            "fossil_extraction_patents": 3395,
+            "solar_patents": 686,
+            "wind_patents": 737,
+            "total_renewable_patents": 1423,
+            "fossil_growth": 4.56,
+            "solar_growth": 7.86,
+            "wind_growth": 1.24,
+            "renewable_growth": 4.33
+        },
+        {
+            "year": 2019,
+            "fossil_extraction_patents": 3456,
+            "solar_patents": 639,
+            "wind_patents": 682,
+            "total_renewable_patents": 1321,
+            "fossil_growth": 1.8,
+            "solar_growth": -6.85,
+            "wind_growth": -7.46,
+            "renewable_growth": -7.17
+        },
+        {
+            "year": 2020,
+            "fossil_extraction_patents": 3513,
+            "solar_patents": 605,
+            "wind_patents": 684,
+            "total_renewable_patents": 1289,
+            "fossil_growth": 1.65,
+            "solar_growth": -5.32,
+            "wind_growth": 0.29,
+            "renewable_growth": -2.42
+        },
+        {
+            "year": 2021,
+            "fossil_extraction_patents": 3042,
+            "solar_patents": 606,
+            "wind_patents": 618,
+            "total_renewable_patents": 1224,
+            "fossil_growth": -13.41,
+            "solar_growth": 0.17,
+            "wind_growth": -9.65,
+            "renewable_growth": -5.04
+        },
+        {
+            "year": 2022,
+            "fossil_extraction_patents": 2473,
+            "solar_patents": 523,
+            "wind_patents": 403,
+            "total_renewable_patents": 926,
+            "fossil_growth": -18.7,
+            "solar_growth": -13.7,
+            "wind_growth": -34.79,
+            "renewable_growth": -24.35
+        }
+    ],
+    "energy_fossil_peak_year": 2014,
+    "energy_solar_inflection_year": 2007,
+    "energy_crossover_year": null,
+    "energy_fossil_multiplier_post_paris": 1.13,
+    "energy_solar_multiplier_post_paris": 1.47,
+    "energy_wind_multiplier_post_paris": 0.94,
+    "battery_vs_oil": [
+        {
+            "year": 1995,
+            "oil_extraction_patents": 914,
+            "battery_patents": 985,
+            "oil_growth": null,
+            "battery_growth": null
+        },
+        {
+            "year": 1996,
+            "oil_extraction_patents": 960,
+            "battery_patents": 1012,
+            "oil_growth": 5.03,
+            "battery_growth": 2.74
+        },
+        {
+            "year": 1997,
+            "oil_extraction_patents": 1121,
+            "battery_patents": 1197,
+            "oil_growth": 16.77,
+            "battery_growth": 18.28
+        },
+        {
+            "year": 1998,
+            "oil_extraction_patents": 1177,
+            "battery_patents": 1284,
+            "oil_growth": 5.0,
+            "battery_growth": 7.27
+        },
+        {
+            "year": 1999,
+            "oil_extraction_patents": 1120,
+            "battery_patents": 1295,
+            "oil_growth": -4.84,
+            "battery_growth": 0.86
+        },
+        {
+            "year": 2000,
+            "oil_extraction_patents": 1315,
+            "battery_patents": 1709,
+            "oil_growth": 17.41,
+            "battery_growth": 31.97
+        },
+        {
+            "year": 2001,
+            "oil_extraction_patents": 1449,
+            "battery_patents": 2073,
+            "oil_growth": 10.19,
+            "battery_growth": 21.3
+        },
+        {
+            "year": 2002,
+            "oil_extraction_patents": 1580,
+            "battery_patents": 1958,
+            "oil_growth": 9.04,
+            "battery_growth": -5.55
+        },
+        {
+            "year": 2003,
+            "oil_extraction_patents": 1425,
+            "battery_patents": 1895,
+            "oil_growth": -9.81,
+            "battery_growth": -3.22
+        },
+        {
+            "year": 2004,
+            "oil_extraction_patents": 1457,
+            "battery_patents": 1900,
+            "oil_growth": 2.25,
+            "battery_growth": 0.26
+        },
+        {
+            "year": 2005,
+            "oil_extraction_patents": 1356,
+            "battery_patents": 2132,
+            "oil_growth": -6.93,
+            "battery_growth": 12.21
+        },
+        {
+            "year": 2006,
+            "oil_extraction_patents": 1491,
+            "battery_patents": 2311,
+            "oil_growth": 9.96,
+            "battery_growth": 8.4
+        },
+        {
+            "year": 2007,
+            "oil_extraction_patents": 1788,
+            "battery_patents": 2416,
+            "oil_growth": 19.92,
+            "battery_growth": 4.54
+        },
+        {
+            "year": 2008,
+            "oil_extraction_patents": 1995,
+            "battery_patents": 2486,
+            "oil_growth": 11.58,
+            "battery_growth": 2.9
+        },
+        {
+            "year": 2009,
+            "oil_extraction_patents": 2134,
+            "battery_patents": 2429,
+            "oil_growth": 6.97,
+            "battery_growth": -2.29
+        },
+        {
+            "year": 2010,
+            "oil_extraction_patents": 2245,
+            "battery_patents": 3261,
+            "oil_growth": 5.2,
+            "battery_growth": 34.25
+        },
+        {
+            "year": 2011,
+            "oil_extraction_patents": 2598,
+            "battery_patents": 3554,
+            "oil_growth": 15.72,
+            "battery_growth": 8.98
+        },
+        {
+            "year": 2012,
+            "oil_extraction_patents": 2961,
+            "battery_patents": 3772,
+            "oil_growth": 13.97,
+            "battery_growth": 6.13
+        },
+        {
+            "year": 2013,
+            "oil_extraction_patents": 3551,
+            "battery_patents": 4020,
+            "oil_growth": 19.93,
+            "battery_growth": 6.57
+        },
+        {
+            "year": 2014,
+            "oil_extraction_patents": 3799,
+            "battery_patents": 4315,
+            "oil_growth": 6.98,
+            "battery_growth": 7.34
+        },
+        {
+            "year": 2015,
+            "oil_extraction_patents": 3727,
+            "battery_patents": 4569,
+            "oil_growth": -1.9,
+            "battery_growth": 5.89
+        },
+        {
+            "year": 2016,
+            "oil_extraction_patents": 3570,
+            "battery_patents": 4644,
+            "oil_growth": -4.21,
+            "battery_growth": 1.64
+        },
+        {
+            "year": 2017,
+            "oil_extraction_patents": 3247,
+            "battery_patents": 5274,
+            "oil_growth": -9.05,
+            "battery_growth": 13.57
+        },
+        {
+            "year": 2018,
+            "oil_extraction_patents": 3395,
+            "battery_patents": 5826,
+            "oil_growth": 4.56,
+            "battery_growth": 10.47
+        },
+        {
+            "year": 2019,
+            "oil_extraction_patents": 3456,
+            "battery_patents": 6453,
+            "oil_growth": 1.8,
+            "battery_growth": 10.76
+        },
+        {
+            "year": 2020,
+            "oil_extraction_patents": 3513,
+            "battery_patents": 5410,
+            "oil_growth": 1.65,
+            "battery_growth": -16.16
+        },
+        {
+            "year": 2021,
+            "oil_extraction_patents": 3042,
+            "battery_patents": 4580,
+            "oil_growth": -13.41,
+            "battery_growth": -15.34
+        },
+        {
+            "year": 2022,
+            "oil_extraction_patents": 2473,
+            "battery_patents": 3186,
+            "oil_growth": -18.7,
+            "battery_growth": -30.44
+        }
+    ],
+    "battery_inflection_year": 2010,
+    "battery_crossover_year": 1995,
+    "battery_multiplier_post_paris": 1.46,
+    "oil_multiplier_post_paris": 1.13,
+    "policy_annotations": {
+        "media": {
+            "2007": "Netflix launches streaming",
+            "2008": "Spotify launches",
+            "2013": "Blu-ray peaks then collapses"
+        },
+        "energy": {
+            "1997": "Kyoto Protocol",
+            "2010": "Solar costs begin collapsing",
+            "2011": "Solar PV patents separate from fossil R&D",
+            "2015": "Paris Agreement",
+            "2022": "US Inflation Reduction Act"
+        },
+        "battery": {
+            "2012": "Tesla Model S launch",
+            "2015": "Paris Agreement",
+            "2020": "Global EV tipping point"
+        }
+    }
+}

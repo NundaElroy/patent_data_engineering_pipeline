@@ -1,0 +1,10 @@
+company_name,cpc_section,company_patents_in_section,company_citations_in_section,field_avg_citations,normalized_score
+International Business Machines Corporation,G,78375,6204746,21.2,292692.88
+International Business Machines Corporation,H,46222,4152637,18.52,224263.13
+"Ethicon Endo-Surgery, Inc.",A,1985,6749450,35.23,191590.78
+General Electric Company,F,12938,875315,14.46,60539.29
+Donnelly Corporation,B,813,966201,16.49,58591.31
+"Applied Materials, Inc.",C,3310,844654,15.97,52894.4
+SHELL OIL COMPNY,E,1186,390199,16.99,22967.16
+The Procter & Gamble Company,D,1450,226776,15.62,14517.51
+"SAMSUNG ELECTRONICS CO., LTD.",Y,1,4,1.0,4.0

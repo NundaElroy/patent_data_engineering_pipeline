@@ -1,0 +1,620 @@
+{
+    "ibm_vs_samsung": [
+        {
+            "year": 1990,
+            "ibm_patents": 2716,
+            "samsung_patents": 342,
+            "ibm_avg_citations": 57.6,
+            "samsung_avg_citations": 17.25
+        },
+        {
+            "year": 1991,
+            "ibm_patents": 3832,
+            "samsung_patents": 559,
+            "ibm_avg_citations": 54.13,
+            "samsung_avg_citations": 17.16
+        },
+        {
+            "year": 1992,
+            "ibm_patents": 4758,
+            "samsung_patents": 595,
+            "ibm_avg_citations": 61.68,
+            "samsung_avg_citations": 22.12
+        },
+        {
+            "year": 1993,
+            "ibm_patents": 4113,
+            "samsung_patents": 664,
+            "ibm_avg_citations": 59.95,
+            "samsung_avg_citations": 34.24
+        },
+        {
+            "year": 1994,
+            "ibm_patents": 5718,
+            "samsung_patents": 817,
+            "ibm_avg_citations": 58.3,
+            "samsung_avg_citations": 23.55
+        },
+        {
+            "year": 1995,
+            "ibm_patents": 8049,
+            "samsung_patents": 1216,
+            "ibm_avg_citations": 51.02,
+            "samsung_avg_citations": 24.53
+        },
+        {
+            "year": 1996,
+            "ibm_patents": 8104,
+            "samsung_patents": 2563,
+            "ibm_avg_citations": 46.16,
+            "samsung_avg_citations": 25.89
+        },
+        {
+            "year": 1997,
+            "ibm_patents": 10803,
+            "samsung_patents": 2590,
+            "ibm_avg_citations": 54.07,
+            "samsung_avg_citations": 24.03
+        },
+        {
+            "year": 1998,
+            "ibm_patents": 11402,
+            "samsung_patents": 3227,
+            "ibm_avg_citations": 48.5,
+            "samsung_avg_citations": 25.72
+        },
+        {
+            "year": 1999,
+            "ibm_patents": 13410,
+            "samsung_patents": 3108,
+            "ibm_avg_citations": 43.79,
+            "samsung_avg_citations": 26.26
+        },
+        {
+            "year": 2000,
+            "ibm_patents": 13053,
+            "samsung_patents": 3624,
+            "ibm_avg_citations": 37.68,
+            "samsung_avg_citations": 20.62
+        },
+        {
+            "year": 2001,
+            "ibm_patents": 12190,
+            "samsung_patents": 4123,
+            "ibm_avg_citations": 25.97,
+            "samsung_avg_citations": 18.38
+        },
+        {
+            "year": 2002,
+            "ibm_patents": 10894,
+            "samsung_patents": 5422,
+            "ibm_avg_citations": 23.46,
+            "samsung_avg_citations": 13.66
+        },
+        {
+            "year": 2003,
+            "ibm_patents": 12631,
+            "samsung_patents": 7965,
+            "ibm_avg_citations": 19.24,
+            "samsung_avg_citations": 12.09
+        },
+        {
+            "year": 2004,
+            "ibm_patents": 11677,
+            "samsung_patents": 10600,
+            "ibm_avg_citations": 17.89,
+            "samsung_avg_citations": 14.09
+        },
+        {
+            "year": 2005,
+            "ibm_patents": 12035,
+            "samsung_patents": 12693,
+            "ibm_avg_citations": 14.07,
+            "samsung_avg_citations": 12.36
+        },
+        {
+            "year": 2006,
+            "ibm_patents": 11728,
+            "samsung_patents": 15220,
+            "ibm_avg_citations": 13.36,
+            "samsung_avg_citations": 11.04
+        },
+        {
+            "year": 2007,
+            "ibm_patents": 17327,
+            "samsung_patents": 14880,
+            "ibm_avg_citations": 12.92,
+            "samsung_avg_citations": 10.67
+        },
+        {
+            "year": 2008,
+            "ibm_patents": 23866,
+            "samsung_patents": 13234,
+            "ibm_avg_citations": 11.32,
+            "samsung_avg_citations": 10.52
+        },
+        {
+            "year": 2009,
+            "ibm_patents": 11537,
+            "samsung_patents": 12110,
+            "ibm_avg_citations": 10.1,
+            "samsung_avg_citations": 8.51
+        },
+        {
+            "year": 2010,
+            "ibm_patents": 11326,
+            "samsung_patents": 13089,
+            "ibm_avg_citations": 9.53,
+            "samsung_avg_citations": 9.58
+        },
+        {
+            "year": 2011,
+            "ibm_patents": 11276,
+            "samsung_patents": 14317,
+            "ibm_avg_citations": 9.81,
+            "samsung_avg_citations": 9.14
+        },
+        {
+            "year": 2012,
+            "ibm_patents": 19069,
+            "samsung_patents": 14257,
+            "ibm_avg_citations": 7.46,
+            "samsung_avg_citations": 10.22
+        },
+        {
+            "year": 2013,
+            "ibm_patents": 14991,
+            "samsung_patents": 20039,
+            "ibm_avg_citations": 6.2,
+            "samsung_avg_citations": 11.18
+        },
+        {
+            "year": 2014,
+            "ibm_patents": 12915,
+            "samsung_patents": 20495,
+            "ibm_avg_citations": 5.77,
+            "samsung_avg_citations": 8.02
+        },
+        {
+            "year": 2015,
+            "ibm_patents": 19524,
+            "samsung_patents": 23225,
+            "ibm_avg_citations": 5.19,
+            "samsung_avg_citations": 8.29
+        },
+        {
+            "year": 2016,
+            "ibm_patents": 18071,
+            "samsung_patents": 20110,
+            "ibm_avg_citations": 5.64,
+            "samsung_avg_citations": 7.0
+        },
+        {
+            "year": 2017,
+            "ibm_patents": 16220,
+            "samsung_patents": 18982,
+            "ibm_avg_citations": 3.68,
+            "samsung_avg_citations": 6.22
+        },
+        {
+            "year": 2018,
+            "ibm_patents": 10721,
+            "samsung_patents": 17460,
+            "ibm_avg_citations": 3.31,
+            "samsung_avg_citations": 4.67
+        },
+        {
+            "year": 2019,
+            "ibm_patents": 8522,
+            "samsung_patents": 17648,
+            "ibm_avg_citations": 2.58,
+            "samsung_avg_citations": 4.17
+        },
+        {
+            "year": 2020,
+            "ibm_patents": 4347,
+            "samsung_patents": 15541,
+            "ibm_avg_citations": 2.23,
+            "samsung_avg_citations": 2.85
+        },
+        {
+            "year": 2021,
+            "ibm_patents": 1728,
+            "samsung_patents": 8646,
+            "ibm_avg_citations": 1.79,
+            "samsung_avg_citations": 3.0
+        },
+        {
+            "year": 2022,
+            "ibm_patents": 418,
+            "samsung_patents": 4044,
+            "ibm_avg_citations": 1.89,
+            "samsung_avg_citations": 2.25
+        }
+    ],
+    "ibm_peak_patent_year": 2008,
+    "samsung_peak_patent_year": 2015,
+    "ibm_avg_citations_1990_2000": 52.08,
+    "ibm_avg_citations_2015_2019": 4.08,
+    "samsung_avg_citations_1990_2000": 23.76,
+    "samsung_avg_citations_2015_2019": 6.07,
+    "volume_vs_quality": [
+        {
+            "name": "International Business Machines Corporation",
+            "total_patents": 113587,
+            "avg_citations_per_patent": 20.62,
+            "total_citations": 7824169,
+            "max_patent_citations": 2059
+        },
+        {
+            "name": "SAMSUNG ELECTRONICS CO., LTD.",
+            "total_patents": 100747,
+            "avg_citations_per_patent": 9.46,
+            "total_citations": 3075618,
+            "max_patent_citations": 4038
+        },
+        {
+            "name": "Canon Kabushiki Kaisha",
+            "total_patents": 62552,
+            "avg_citations_per_patent": 16.4,
+            "total_citations": 2649214,
+            "max_patent_citations": 3946
+        },
+        {
+            "name": "FUJITSU LIMITED",
+            "total_patents": 44013,
+            "avg_citations_per_patent": 15.8,
+            "total_citations": 1765181,
+            "max_patent_citations": 987
+        },
+        {
+            "name": "SONY GROUP CORPORATION",
+            "total_patents": 43840,
+            "avg_citations_per_patent": 14.35,
+            "total_citations": 1492382,
+            "max_patent_citations": 1666
+        },
+        {
+            "name": "General Electric Company",
+            "total_patents": 43390,
+            "avg_citations_per_patent": 17.34,
+            "total_citations": 2035985,
+            "max_patent_citations": 1533
+        },
+        {
+            "name": "Kabushiki Kaisha Toshiba",
+            "total_patents": 40332,
+            "avg_citations_per_patent": 17.41,
+            "total_citations": 1813216,
+            "max_patent_citations": 2309
+        },
+        {
+            "name": "HITACHI, LTD.",
+            "total_patents": 39138,
+            "avg_citations_per_patent": 20.34,
+            "total_citations": 3079710,
+            "max_patent_citations": 1308
+        },
+        {
+            "name": "Intel Corporation",
+            "total_patents": 35751,
+            "avg_citations_per_patent": 15.65,
+            "total_citations": 1744009,
+            "max_patent_citations": 1861
+        },
+        {
+            "name": "Mitsubishi Electric Corporation",
+            "total_patents": 32932,
+            "avg_citations_per_patent": 13.7,
+            "total_citations": 1233783,
+            "max_patent_citations": 1146
+        },
+        {
+            "name": "Sumitomo Electric Industries, Ltd.",
+            "total_patents": 32774,
+            "avg_citations_per_patent": 18.62,
+            "total_citations": 1877166,
+            "max_patent_citations": 1332
+        },
+        {
+            "name": "LG ELECTRONICS INC.",
+            "total_patents": 30119,
+            "avg_citations_per_patent": 9.59,
+            "total_citations": 954753,
+            "max_patent_citations": 2120
+        },
+        {
+            "name": "Microsoft Corporation",
+            "total_patents": 27953,
+            "avg_citations_per_patent": 35.97,
+            "total_citations": 3382362,
+            "max_patent_citations": 1479
+        },
+        {
+            "name": "NEC CORPORATION",
+            "total_patents": 26509,
+            "avg_citations_per_patent": 15.56,
+            "total_citations": 683840,
+            "max_patent_citations": 620
+        },
+        {
+            "name": "Micron Technology, Inc.",
+            "total_patents": 26024,
+            "avg_citations_per_patent": 19.22,
+            "total_citations": 1021381,
+            "max_patent_citations": 1096
+        },
+        {
+            "name": "Siemens Aktiengesellschaft",
+            "total_patents": 24377,
+            "avg_citations_per_patent": 13.64,
+            "total_citations": 747507,
+            "max_patent_citations": 1463
+        },
+        {
+            "name": "Apple Inc.",
+            "total_patents": 24042,
+            "avg_citations_per_patent": 25.4,
+            "total_citations": 3171176,
+            "max_patent_citations": 3274
+        },
+        {
+            "name": "TOYOTA JIDOSHA KABUSHIKI KAISHA",
+            "total_patents": 23292,
+            "avg_citations_per_patent": 10.56,
+            "total_citations": 712840,
+            "max_patent_citations": 1417
+        },
+        {
+            "name": "HONDA MOTOR CO., LTD.",
+            "total_patents": 23127,
+            "avg_citations_per_patent": 11.87,
+            "total_citations": 781242,
+            "max_patent_citations": 1051
+        },
+        {
+            "name": "QUALCOMM Incorporated",
+            "total_patents": 23004,
+            "avg_citations_per_patent": 10.9,
+            "total_citations": 864263,
+            "max_patent_citations": 1732
+        }
+    ],
+    "quality_ranking": [
+        {
+            "name": "Microsoft Corporation",
+            "total_patents": 27953,
+            "avg_citations_per_patent": 35.97,
+            "total_citations": 3382362,
+            "max_patent_citations": 1479
+        },
+        {
+            "name": "Apple Inc.",
+            "total_patents": 24042,
+            "avg_citations_per_patent": 25.4,
+            "total_citations": 3171176,
+            "max_patent_citations": 3274
+        },
+        {
+            "name": "International Business Machines Corporation",
+            "total_patents": 113587,
+            "avg_citations_per_patent": 20.62,
+            "total_citations": 7824169,
+            "max_patent_citations": 2059
+        },
+        {
+            "name": "HITACHI, LTD.",
+            "total_patents": 39138,
+            "avg_citations_per_patent": 20.34,
+            "total_citations": 3079710,
+            "max_patent_citations": 1308
+        },
+        {
+            "name": "Micron Technology, Inc.",
+            "total_patents": 26024,
+            "avg_citations_per_patent": 19.22,
+            "total_citations": 1021381,
+            "max_patent_citations": 1096
+        },
+        {
+            "name": "Sumitomo Electric Industries, Ltd.",
+            "total_patents": 32774,
+            "avg_citations_per_patent": 18.62,
+            "total_citations": 1877166,
+            "max_patent_citations": 1332
+        },
+        {
+            "name": "Kabushiki Kaisha Toshiba",
+            "total_patents": 40332,
+            "avg_citations_per_patent": 17.41,
+            "total_citations": 1813216,
+            "max_patent_citations": 2309
+        },
+        {
+            "name": "General Electric Company",
+            "total_patents": 43390,
+            "avg_citations_per_patent": 17.34,
+            "total_citations": 2035985,
+            "max_patent_citations": 1533
+        },
+        {
+            "name": "Canon Kabushiki Kaisha",
+            "total_patents": 62552,
+            "avg_citations_per_patent": 16.4,
+            "total_citations": 2649214,
+            "max_patent_citations": 3946
+        },
+        {
+            "name": "FUJITSU LIMITED",
+            "total_patents": 44013,
+            "avg_citations_per_patent": 15.8,
+            "total_citations": 1765181,
+            "max_patent_citations": 987
+        },
+        {
+            "name": "Intel Corporation",
+            "total_patents": 35751,
+            "avg_citations_per_patent": 15.65,
+            "total_citations": 1744009,
+            "max_patent_citations": 1861
+        },
+        {
+            "name": "NEC CORPORATION",
+            "total_patents": 26509,
+            "avg_citations_per_patent": 15.56,
+            "total_citations": 683840,
+            "max_patent_citations": 620
+        },
+        {
+            "name": "SONY GROUP CORPORATION",
+            "total_patents": 43840,
+            "avg_citations_per_patent": 14.35,
+            "total_citations": 1492382,
+            "max_patent_citations": 1666
+        },
+        {
+            "name": "Mitsubishi Electric Corporation",
+            "total_patents": 32932,
+            "avg_citations_per_patent": 13.7,
+            "total_citations": 1233783,
+            "max_patent_citations": 1146
+        },
+        {
+            "name": "Siemens Aktiengesellschaft",
+            "total_patents": 24377,
+            "avg_citations_per_patent": 13.64,
+            "total_citations": 747507,
+            "max_patent_citations": 1463
+        },
+        {
+            "name": "HONDA MOTOR CO., LTD.",
+            "total_patents": 23127,
+            "avg_citations_per_patent": 11.87,
+            "total_citations": 781242,
+            "max_patent_citations": 1051
+        },
+        {
+            "name": "QUALCOMM Incorporated",
+            "total_patents": 23004,
+            "avg_citations_per_patent": 10.9,
+            "total_citations": 864263,
+            "max_patent_citations": 1732
+        },
+        {
+            "name": "TOYOTA JIDOSHA KABUSHIKI KAISHA",
+            "total_patents": 23292,
+            "avg_citations_per_patent": 10.56,
+            "total_citations": 712840,
+            "max_patent_citations": 1417
+        },
+        {
+            "name": "LG ELECTRONICS INC.",
+            "total_patents": 30119,
+            "avg_citations_per_patent": 9.59,
+            "total_citations": 954753,
+            "max_patent_citations": 2120
+        },
+        {
+            "name": "SAMSUNG ELECTRONICS CO., LTD.",
+            "total_patents": 100747,
+            "avg_citations_per_patent": 9.46,
+            "total_citations": 3075618,
+            "max_patent_citations": 4038
+        }
+    ],
+    "volume_quality_correlation": -0.0514,
+    "kr_vs_cn_citations": [
+        {
+            "year": 2010,
+            "kr_avg_citations": 7.91,
+            "cn_avg_citations": 6.91,
+            "kr_patents": 23167,
+            "cn_patents": 9102
+        },
+        {
+            "year": 2011,
+            "kr_avg_citations": 7.11,
+            "cn_avg_citations": 7.03,
+            "kr_patents": 26092,
+            "cn_patents": 10189
+        },
+        {
+            "year": 2012,
+            "kr_avg_citations": 5.69,
+            "cn_avg_citations": 7.12,
+            "kr_patents": 24787,
+            "cn_patents": 11490
+        },
+        {
+            "year": 2013,
+            "kr_avg_citations": 5.54,
+            "cn_avg_citations": 6.5,
+            "kr_patents": 29553,
+            "cn_patents": 12769
+        },
+        {
+            "year": 2014,
+            "kr_avg_citations": 5.11,
+            "cn_avg_citations": 5.74,
+            "kr_patents": 33973,
+            "cn_patents": 14855
+        },
+        {
+            "year": 2015,
+            "kr_avg_citations": 4.78,
+            "cn_avg_citations": 4.96,
+            "kr_patents": 36056,
+            "cn_patents": 15587
+        },
+        {
+            "year": 2016,
+            "kr_avg_citations": 4.31,
+            "cn_avg_citations": 4.49,
+            "kr_patents": 35019,
+            "cn_patents": 17652
+        },
+        {
+            "year": 2017,
+            "kr_avg_citations": 4.29,
+            "cn_avg_citations": 3.28,
+            "kr_patents": 34334,
+            "cn_patents": 19913
+        },
+        {
+            "year": 2018,
+            "kr_avg_citations": 3.22,
+            "cn_avg_citations": 3.05,
+            "kr_patents": 30288,
+            "cn_patents": 18948
+        },
+        {
+            "year": 2019,
+            "kr_avg_citations": 2.6,
+            "cn_avg_citations": 2.44,
+            "kr_patents": 29432,
+            "cn_patents": 20285
+        },
+        {
+            "year": 2020,
+            "kr_avg_citations": 2.2,
+            "cn_avg_citations": 2.63,
+            "kr_patents": 24360,
+            "cn_patents": 14599
+        },
+        {
+            "year": 2021,
+            "kr_avg_citations": 1.74,
+            "cn_avg_citations": 2.55,
+            "kr_patents": 11006,
+            "cn_patents": 9758
+        },
+        {
+            "year": 2022,
+            "kr_avg_citations": 1.4,
+            "cn_avg_citations": 1.98,
+            "kr_patents": 5590,
+            "cn_patents": 4423
+        }
+    ],
+    "kr_cn_correlation": -0.0924
+}

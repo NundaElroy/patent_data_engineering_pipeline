@@ -1,0 +1,529 @@
+{
+    "cpc_sections": [
+        {
+            "cpc_section": "G",
+            "patents": 2866684
+        },
+        {
+            "cpc_section": "H",
+            "patents": 2668268
+        },
+        {
+            "cpc_section": "B",
+            "patents": 1668340
+        },
+        {
+            "cpc_section": "A",
+            "patents": 1449067
+        },
+        {
+            "cpc_section": "C",
+            "patents": 1187487
+        },
+        {
+            "cpc_section": "F",
+            "patents": 831452
+        },
+        {
+            "cpc_section": "E",
+            "patents": 295997
+        },
+        {
+            "cpc_section": "D",
+            "patents": 111342
+        },
+        {
+            "cpc_section": "Y",
+            "patents": 2
+        }
+    ],
+    "cpc_growth_by_decade": [
+        {
+            "cpc_section": "G",
+            "decade": 1900,
+            "patents": 4
+        },
+        {
+            "cpc_section": "C",
+            "decade": 1900,
+            "patents": 3
+        },
+        {
+            "cpc_section": "H",
+            "decade": 1900,
+            "patents": 3
+        },
+        {
+            "cpc_section": "A",
+            "decade": 1900,
+            "patents": 2
+        },
+        {
+            "cpc_section": "B",
+            "decade": 1900,
+            "patents": 2
+        },
+        {
+            "cpc_section": "D",
+            "decade": 1900,
+            "patents": 1
+        },
+        {
+            "cpc_section": "F",
+            "decade": 1900,
+            "patents": 1
+        },
+        {
+            "cpc_section": "A",
+            "decade": 1910,
+            "patents": 1
+        },
+        {
+            "cpc_section": "C",
+            "decade": 1910,
+            "patents": 1
+        },
+        {
+            "cpc_section": "B",
+            "decade": 1920,
+            "patents": 1
+        },
+        {
+            "cpc_section": "C",
+            "decade": 1920,
+            "patents": 1
+        },
+        {
+            "cpc_section": "D",
+            "decade": 1920,
+            "patents": 1
+        },
+        {
+            "cpc_section": "F",
+            "decade": 1920,
+            "patents": 1
+        },
+        {
+            "cpc_section": "G",
+            "decade": 1930,
+            "patents": 4
+        },
+        {
+            "cpc_section": "A",
+            "decade": 1930,
+            "patents": 2
+        },
+        {
+            "cpc_section": "B",
+            "decade": 1930,
+            "patents": 2
+        },
+        {
+            "cpc_section": "H",
+            "decade": 1930,
+            "patents": 2
+        },
+        {
+            "cpc_section": "H",
+            "decade": 1940,
+            "patents": 39
+        },
+        {
+            "cpc_section": "F",
+            "decade": 1940,
+            "patents": 16
+        },
+        {
+            "cpc_section": "G",
+            "decade": 1940,
+            "patents": 14
+        },
+        {
+            "cpc_section": "B",
+            "decade": 1940,
+            "patents": 12
+        },
+        {
+            "cpc_section": "A",
+            "decade": 1940,
+            "patents": 4
+        },
+        {
+            "cpc_section": "C",
+            "decade": 1940,
+            "patents": 4
+        },
+        {
+            "cpc_section": "E",
+            "decade": 1940,
+            "patents": 1
+        },
+        {
+            "cpc_section": "G",
+            "decade": 1950,
+            "patents": 88
+        },
+        {
+            "cpc_section": "F",
+            "decade": 1950,
+            "patents": 61
+        },
+        {
+            "cpc_section": "H",
+            "decade": 1950,
+            "patents": 52
+        },
+        {
+            "cpc_section": "B",
+            "decade": 1950,
+            "patents": 20
+        },
+        {
+            "cpc_section": "C",
+            "decade": 1950,
+            "patents": 19
+        },
+        {
+            "cpc_section": "G",
+            "decade": 1960,
+            "patents": 406
+        },
+        {
+            "cpc_section": "C",
+            "decade": 1960,
+            "patents": 368
+        },
+        {
+            "cpc_section": "F",
+            "decade": 1960,
+            "patents": 293
+        },
+        {
+            "cpc_section": "H",
+            "decade": 1960,
+            "patents": 254
+        },
+        {
+            "cpc_section": "B",
+            "decade": 1960,
+            "patents": 151
+        },
+        {
+            "cpc_section": "A",
+            "decade": 1960,
+            "patents": 59
+        },
+        {
+            "cpc_section": "D",
+            "decade": 1960,
+            "patents": 22
+        },
+        {
+            "cpc_section": "E",
+            "decade": 1960,
+            "patents": 6
+        },
+        {
+            "cpc_section": "B",
+            "decade": 1970,
+            "patents": 99964
+        },
+        {
+            "cpc_section": "C",
+            "decade": 1970,
+            "patents": 86909
+        },
+        {
+            "cpc_section": "G",
+            "decade": 1970,
+            "patents": 70262
+        },
+        {
+            "cpc_section": "A",
+            "decade": 1970,
+            "patents": 59054
+        },
+        {
+            "cpc_section": "H",
+            "decade": 1970,
+            "patents": 55498
+        },
+        {
+            "cpc_section": "F",
+            "decade": 1970,
+            "patents": 53860
+        },
+        {
+            "cpc_section": "E",
+            "decade": 1970,
+            "patents": 20825
+        },
+        {
+            "cpc_section": "D",
+            "decade": 1970,
+            "patents": 12672
+        },
+        {
+            "cpc_section": "B",
+            "decade": 1980,
+            "patents": 186771
+        },
+        {
+            "cpc_section": "G",
+            "decade": 1980,
+            "patents": 159752
+        },
+        {
+            "cpc_section": "C",
+            "decade": 1980,
+            "patents": 152220
+        },
+        {
+            "cpc_section": "H",
+            "decade": 1980,
+            "patents": 126768
+        },
+        {
+            "cpc_section": "A",
+            "decade": 1980,
+            "patents": 124101
+        },
+        {
+            "cpc_section": "F",
+            "decade": 1980,
+            "patents": 97930
+        },
+        {
+            "cpc_section": "E",
+            "decade": 1980,
+            "patents": 36214
+        },
+        {
+            "cpc_section": "D",
+            "decade": 1980,
+            "patents": 19650
+        },
+        {
+            "cpc_section": "G",
+            "decade": 1990,
+            "patents": 365468
+        },
+        {
+            "cpc_section": "H",
+            "decade": 1990,
+            "patents": 318733
+        },
+        {
+            "cpc_section": "B",
+            "decade": 1990,
+            "patents": 293986
+        },
+        {
+            "cpc_section": "A",
+            "decade": 1990,
+            "patents": 248994
+        },
+        {
+            "cpc_section": "C",
+            "decade": 1990,
+            "patents": 234186
+        },
+        {
+            "cpc_section": "F",
+            "decade": 1990,
+            "patents": 133097
+        },
+        {
+            "cpc_section": "E",
+            "decade": 1990,
+            "patents": 48870
+        },
+        {
+            "cpc_section": "D",
+            "decade": 1990,
+            "patents": 25737
+        },
+        {
+            "cpc_section": "G",
+            "decade": 2000,
+            "patents": 701982
+        },
+        {
+            "cpc_section": "H",
+            "decade": 2000,
+            "patents": 662483
+        },
+        {
+            "cpc_section": "B",
+            "decade": 2000,
+            "patents": 368762
+        },
+        {
+            "cpc_section": "A",
+            "decade": 2000,
+            "patents": 331962
+        },
+        {
+            "cpc_section": "C",
+            "decade": 2000,
+            "patents": 269840
+        },
+        {
+            "cpc_section": "F",
+            "decade": 2000,
+            "patents": 179212
+        },
+        {
+            "cpc_section": "E",
+            "decade": 2000,
+            "patents": 58272
+        },
+        {
+            "cpc_section": "D",
+            "decade": 2000,
+            "patents": 21663
+        },
+        {
+            "cpc_section": "Y",
+            "decade": 2000,
+            "patents": 1
+        },
+        {
+            "cpc_section": "G",
+            "decade": 2010,
+            "patents": 1141749
+        },
+        {
+            "cpc_section": "H",
+            "decade": 2010,
+            "patents": 1105190
+        },
+        {
+            "cpc_section": "B",
+            "decade": 2010,
+            "patents": 543125
+        },
+        {
+            "cpc_section": "A",
+            "decade": 2010,
+            "patents": 525775
+        },
+        {
+            "cpc_section": "C",
+            "decade": 2010,
+            "patents": 360333
+        },
+        {
+            "cpc_section": "F",
+            "decade": 2010,
+            "patents": 279703
+        },
+        {
+            "cpc_section": "E",
+            "decade": 2010,
+            "patents": 98185
+        },
+        {
+            "cpc_section": "D",
+            "decade": 2010,
+            "patents": 24524
+        },
+        {
+            "cpc_section": "Y",
+            "decade": 2010,
+            "patents": 1
+        },
+        {
+            "cpc_section": "G",
+            "decade": 2020,
+            "patents": 426939
+        },
+        {
+            "cpc_section": "H",
+            "decade": 2020,
+            "patents": 399241
+        },
+        {
+            "cpc_section": "B",
+            "decade": 2020,
+            "patents": 175533
+        },
+        {
+            "cpc_section": "A",
+            "decade": 2020,
+            "patents": 159108
+        },
+        {
+            "cpc_section": "F",
+            "decade": 2020,
+            "patents": 87272
+        },
+        {
+            "cpc_section": "C",
+            "decade": 2020,
+            "patents": 83597
+        },
+        {
+            "cpc_section": "E",
+            "decade": 2020,
+            "patents": 33623
+        },
+        {
+            "cpc_section": "D",
+            "decade": 2020,
+            "patents": 7071
+        }
+    ],
+    "cpc_top_companies": [
+        {
+            "cpc_section": "G",
+            "company_name": "International Business Machines Corporation",
+            "patents": 115523
+        },
+        {
+            "cpc_section": "H",
+            "company_name": "SAMSUNG ELECTRONICS CO., LTD.",
+            "patents": 101532
+        },
+        {
+            "cpc_section": "B",
+            "company_name": "TOYOTA JIDOSHA KABUSHIKI KAISHA",
+            "patents": 18226
+        },
+        {
+            "cpc_section": "F",
+            "company_name": "General Electric Company",
+            "patents": 16416
+        },
+        {
+            "cpc_section": "C",
+            "company_name": "BASF SE",
+            "patents": 15158
+        },
+        {
+            "cpc_section": "E",
+            "company_name": "Halliburton Energy Services, Inc.",
+            "patents": 8723
+        },
+        {
+            "cpc_section": "A",
+            "company_name": "Medtronic, Inc.",
+            "patents": 8044
+        },
+        {
+            "cpc_section": "D",
+            "company_name": "LG ELECTRONICS INC.",
+            "patents": 2373
+        },
+        {
+            "cpc_section": "Y",
+            "company_name": "SAMSUNG ELECTRONICS CO., LTD.",
+            "patents": 1
+        },
+        {
+            "cpc_section": "Y",
+            "company_name": "CARNEGIE MELLON UNIVERSITY",
+            "patents": 1
+        }
+    ]
+}

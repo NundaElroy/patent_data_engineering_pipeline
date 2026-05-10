@@ -1,0 +1,6176 @@
+{
+  "total_patents": 9361444,
+  "peak_year": {
+    "year": 2019,
+    "patents": 388318
+  },
+  "top_inventors": [
+    {
+      "name": "Shunpei Yamazaki",
+      "patents": 6749
+    },
+    {
+      "name": "Kia Silverbrook",
+      "patents": 4772
+    },
+    {
+      "name": "Tao Luo",
+      "patents": 4274
+    },
+    {
+      "name": "Kangguo Cheng",
+      "patents": 2944
+    },
+    {
+      "name": "Jonathan P. Ive",
+      "patents": 2871
+    },
+    {
+      "name": "Junyi Li",
+      "patents": 2756
+    },
+    {
+      "name": "Frederick E. Shelton, IV",
+      "patents": 2667
+    },
+    {
+      "name": "Shou-Shan Fan",
+      "patents": 2621
+    },
+    {
+      "name": "Peter Gaal",
+      "patents": 2487
+    },
+    {
+      "name": "Duncan Robert Kerr",
+      "patents": 2462
+    }
+  ],
+  "top_companies": [
+    {
+      "name": "SAMSUNG ELECTRONICS CO., LTD.",
+      "patents": 586111
+    },
+    {
+      "name": "International Business Machines Corporation",
+      "patents": 559837
+    },
+    {
+      "name": "Canon Kabushiki Kaisha",
+      "patents": 217282
+    },
+    {
+      "name": "Apple Inc.",
+      "patents": 191908
+    },
+    {
+      "name": "Intel Corporation",
+      "patents": 178782
+    },
+    {
+      "name": "HITACHI, LTD.",
+      "patents": 173682
+    },
+    {
+      "name": "LG ELECTRONICS INC.",
+      "patents": 165246
+    },
+    {
+      "name": "TAIWAN SEMICONDUCTOR MANUFACTURING COMPANY LTD.",
+      "patents": 155850
+    },
+    {
+      "name": "SONY GROUP CORPORATION",
+      "patents": 152749
+    },
+    {
+      "name": "QUALCOMM Incorporated",
+      "patents": 152505
+    }
+  ],
+  "top_countries": [
+    {
+      "country": "US",
+      "patents": 4390477,
+      "share": 0.469
+    },
+    {
+      "country": "JP",
+      "patents": 1566369,
+      "share": 0.1673
+    },
+    {
+      "country": "DE",
+      "patents": 597455,
+      "share": 0.0638
+    },
+    {
+      "country": "CN",
+      "patents": 436048,
+      "share": 0.0466
+    },
+    {
+      "country": "KR",
+      "patents": 421440,
+      "share": 0.045
+    },
+    {
+      "country": "TW",
+      "patents": 273160,
+      "share": 0.0292
+    },
+    {
+      "country": "GB",
+      "patents": 272414,
+      "share": 0.0291
+    },
+    {
+      "country": "FR",
+      "patents": 237346,
+      "share": 0.0254
+    },
+    {
+      "country": "CA",
+      "patents": 226154,
+      "share": 0.0242
+    },
+    {
+      "country": "CH",
+      "patents": 113584,
+      "share": 0.0121
+    }
+  ],
+  "yearly_trends": [
+    {
+      "year": 1682,
+      "patents": 1,
+      "prev_year_patents": null,
+      "growth_pct": null,
+      "rolling_5yr_avg": 1.0
+    },
+    {
+      "year": 1868,
+      "patents": 1,
+      "prev_year_patents": 1.0,
+      "growth_pct": 0.0,
+      "rolling_5yr_avg": 1.0
+    },
+    {
+      "year": 1872,
+      "patents": 1,
+      "prev_year_patents": 1.0,
+      "growth_pct": 0.0,
+      "rolling_5yr_avg": 1.0
+    },
+    {
+      "year": 1873,
+      "patents": 1,
+      "prev_year_patents": 1.0,
+      "growth_pct": 0.0,
+      "rolling_5yr_avg": 1.0
+    },
+    {
+      "year": 1877,
+      "patents": 4,
+      "prev_year_patents": 1.0,
+      "growth_pct": 300.0,
+      "rolling_5yr_avg": 2.0
+    },
+    {
+      "year": 1878,
+      "patents": 2,
+      "prev_year_patents": 4.0,
+      "growth_pct": -50.0,
+      "rolling_5yr_avg": 2.0
+    },
+    {
+      "year": 1885,
+      "patents": 1,
+      "prev_year_patents": 2.0,
+      "growth_pct": -50.0,
+      "rolling_5yr_avg": 2.0
+    },
+    {
+      "year": 1893,
+      "patents": 1,
+      "prev_year_patents": 1.0,
+      "growth_pct": 0.0,
+      "rolling_5yr_avg": 2.0
+    },
+    {
+      "year": 1897,
+      "patents": 1,
+      "prev_year_patents": 1.0,
+      "growth_pct": 0.0,
+      "rolling_5yr_avg": 2.0
+    },
+    {
+      "year": 1900,
+      "patents": 1,
+      "prev_year_patents": 1.0,
+      "growth_pct": 0.0,
+      "rolling_5yr_avg": 1.0
+    },
+    {
+      "year": 1901,
+      "patents": 2,
+      "prev_year_patents": 1.0,
+      "growth_pct": 100.0,
+      "rolling_5yr_avg": 1.0
+    },
+    {
+      "year": 1902,
+      "patents": 1,
+      "prev_year_patents": 2.0,
+      "growth_pct": -50.0,
+      "rolling_5yr_avg": 1.0
+    },
+    {
+      "year": 1903,
+      "patents": 5,
+      "prev_year_patents": 1.0,
+      "growth_pct": 400.0,
+      "rolling_5yr_avg": 2.0
+    },
+    {
+      "year": 1904,
+      "patents": 6,
+      "prev_year_patents": 5.0,
+      "growth_pct": 20.0,
+      "rolling_5yr_avg": 3.0
+    },
+    {
+      "year": 1905,
+      "patents": 1,
+      "prev_year_patents": 6.0,
+      "growth_pct": -83.33,
+      "rolling_5yr_avg": 3.0
+    },
+    {
+      "year": 1908,
+      "patents": 1,
+      "prev_year_patents": 1.0,
+      "growth_pct": 0.0,
+      "rolling_5yr_avg": 3.0
+    },
+    {
+      "year": 1909,
+      "patents": 1,
+      "prev_year_patents": 1.0,
+      "growth_pct": 0.0,
+      "rolling_5yr_avg": 3.0
+    },
+    {
+      "year": 1915,
+      "patents": 1,
+      "prev_year_patents": 1.0,
+      "growth_pct": 0.0,
+      "rolling_5yr_avg": 2.0
+    },
+    {
+      "year": 1918,
+      "patents": 1,
+      "prev_year_patents": 1.0,
+      "growth_pct": 0.0,
+      "rolling_5yr_avg": 1.0
+    },
+    {
+      "year": 1921,
+      "patents": 1,
+      "prev_year_patents": 1.0,
+      "growth_pct": 0.0,
+      "rolling_5yr_avg": 1.0
+    },
+    {
+      "year": 1922,
+      "patents": 1,
+      "prev_year_patents": 1.0,
+      "growth_pct": 0.0,
+      "rolling_5yr_avg": 1.0
+    },
+    {
+      "year": 1925,
+      "patents": 1,
+      "prev_year_patents": 1.0,
+      "growth_pct": 0.0,
+      "rolling_5yr_avg": 1.0
+    },
+    {
+      "year": 1929,
+      "patents": 1,
+      "prev_year_patents": 1.0,
+      "growth_pct": 0.0,
+      "rolling_5yr_avg": 1.0
+    },
+    {
+      "year": 1931,
+      "patents": 2,
+      "prev_year_patents": 1.0,
+      "growth_pct": 100.0,
+      "rolling_5yr_avg": 1.0
+    },
+    {
+      "year": 1933,
+      "patents": 1,
+      "prev_year_patents": 2.0,
+      "growth_pct": -50.0,
+      "rolling_5yr_avg": 1.0
+    },
+    {
+      "year": 1936,
+      "patents": 2,
+      "prev_year_patents": 1.0,
+      "growth_pct": 100.0,
+      "rolling_5yr_avg": 1.0
+    },
+    {
+      "year": 1938,
+      "patents": 4,
+      "prev_year_patents": 2.0,
+      "growth_pct": 100.0,
+      "rolling_5yr_avg": 2.0
+    },
+    {
+      "year": 1939,
+      "patents": 1,
+      "prev_year_patents": 4.0,
+      "growth_pct": -75.0,
+      "rolling_5yr_avg": 2.0
+    },
+    {
+      "year": 1940,
+      "patents": 3,
+      "prev_year_patents": 1.0,
+      "growth_pct": 200.0,
+      "rolling_5yr_avg": 2.0
+    },
+    {
+      "year": 1941,
+      "patents": 2,
+      "prev_year_patents": 3.0,
+      "growth_pct": -33.33,
+      "rolling_5yr_avg": 2.0
+    },
+    {
+      "year": 1943,
+      "patents": 4,
+      "prev_year_patents": 2.0,
+      "growth_pct": 100.0,
+      "rolling_5yr_avg": 3.0
+    },
+    {
+      "year": 1944,
+      "patents": 18,
+      "prev_year_patents": 4.0,
+      "growth_pct": 350.0,
+      "rolling_5yr_avg": 6.0
+    },
+    {
+      "year": 1945,
+      "patents": 19,
+      "prev_year_patents": 18.0,
+      "growth_pct": 5.56,
+      "rolling_5yr_avg": 9.0
+    },
+    {
+      "year": 1946,
+      "patents": 12,
+      "prev_year_patents": 19.0,
+      "growth_pct": -36.84,
+      "rolling_5yr_avg": 11.0
+    },
+    {
+      "year": 1947,
+      "patents": 4,
+      "prev_year_patents": 12.0,
+      "growth_pct": -66.67,
+      "rolling_5yr_avg": 11.0
+    },
+    {
+      "year": 1948,
+      "patents": 8,
+      "prev_year_patents": 4.0,
+      "growth_pct": 100.0,
+      "rolling_5yr_avg": 12.0
+    },
+    {
+      "year": 1949,
+      "patents": 10,
+      "prev_year_patents": 8.0,
+      "growth_pct": 25.0,
+      "rolling_5yr_avg": 11.0
+    },
+    {
+      "year": 1950,
+      "patents": 9,
+      "prev_year_patents": 10.0,
+      "growth_pct": -10.0,
+      "rolling_5yr_avg": 9.0
+    },
+    {
+      "year": 1951,
+      "patents": 11,
+      "prev_year_patents": 9.0,
+      "growth_pct": 22.22,
+      "rolling_5yr_avg": 8.0
+    },
+    {
+      "year": 1952,
+      "patents": 17,
+      "prev_year_patents": 11.0,
+      "growth_pct": 54.55,
+      "rolling_5yr_avg": 11.0
+    },
+    {
+      "year": 1953,
+      "patents": 11,
+      "prev_year_patents": 17.0,
+      "growth_pct": -35.29,
+      "rolling_5yr_avg": 12.0
+    },
+    {
+      "year": 1954,
+      "patents": 24,
+      "prev_year_patents": 11.0,
+      "growth_pct": 118.18,
+      "rolling_5yr_avg": 14.0
+    },
+    {
+      "year": 1955,
+      "patents": 24,
+      "prev_year_patents": 24.0,
+      "growth_pct": 0.0,
+      "rolling_5yr_avg": 17.0
+    },
+    {
+      "year": 1956,
+      "patents": 24,
+      "prev_year_patents": 24.0,
+      "growth_pct": 0.0,
+      "rolling_5yr_avg": 20.0
+    },
+    {
+      "year": 1957,
+      "patents": 18,
+      "prev_year_patents": 24.0,
+      "growth_pct": -25.0,
+      "rolling_5yr_avg": 20.0
+    },
+    {
+      "year": 1958,
+      "patents": 31,
+      "prev_year_patents": 18.0,
+      "growth_pct": 72.22,
+      "rolling_5yr_avg": 24.0
+    },
+    {
+      "year": 1959,
+      "patents": 40,
+      "prev_year_patents": 31.0,
+      "growth_pct": 29.03,
+      "rolling_5yr_avg": 27.0
+    },
+    {
+      "year": 1960,
+      "patents": 44,
+      "prev_year_patents": 40.0,
+      "growth_pct": 10.0,
+      "rolling_5yr_avg": 31.0
+    },
+    {
+      "year": 1961,
+      "patents": 61,
+      "prev_year_patents": 44.0,
+      "growth_pct": 38.64,
+      "rolling_5yr_avg": 39.0
+    },
+    {
+      "year": 1962,
+      "patents": 83,
+      "prev_year_patents": 61.0,
+      "growth_pct": 36.07,
+      "rolling_5yr_avg": 52.0
+    },
+    {
+      "year": 1963,
+      "patents": 77,
+      "prev_year_patents": 83.0,
+      "growth_pct": -7.23,
+      "rolling_5yr_avg": 61.0
+    },
+    {
+      "year": 1964,
+      "patents": 109,
+      "prev_year_patents": 77.0,
+      "growth_pct": 41.56,
+      "rolling_5yr_avg": 75.0
+    },
+    {
+      "year": 1965,
+      "patents": 124,
+      "prev_year_patents": 109.0,
+      "growth_pct": 13.76,
+      "rolling_5yr_avg": 91.0
+    },
+    {
+      "year": 1966,
+      "patents": 140,
+      "prev_year_patents": 124.0,
+      "growth_pct": 12.9,
+      "rolling_5yr_avg": 107.0
+    },
+    {
+      "year": 1967,
+      "patents": 160,
+      "prev_year_patents": 140.0,
+      "growth_pct": 14.29,
+      "rolling_5yr_avg": 122.0
+    },
+    {
+      "year": 1968,
+      "patents": 195,
+      "prev_year_patents": 160.0,
+      "growth_pct": 21.88,
+      "rolling_5yr_avg": 146.0
+    },
+    {
+      "year": 1969,
+      "patents": 305,
+      "prev_year_patents": 195.0,
+      "growth_pct": 56.41,
+      "rolling_5yr_avg": 185.0
+    },
+    {
+      "year": 1970,
+      "patents": 534,
+      "prev_year_patents": 305.0,
+      "growth_pct": 75.08,
+      "rolling_5yr_avg": 267.0
+    },
+    {
+      "year": 1971,
+      "patents": 1181,
+      "prev_year_patents": 534.0,
+      "growth_pct": 121.16,
+      "rolling_5yr_avg": 475.0
+    },
+    {
+      "year": 1972,
+      "patents": 2195,
+      "prev_year_patents": 1181.0,
+      "growth_pct": 85.86,
+      "rolling_5yr_avg": 882.0
+    },
+    {
+      "year": 1973,
+      "patents": 8396,
+      "prev_year_patents": 2195.0,
+      "growth_pct": 282.51,
+      "rolling_5yr_avg": 2522.0
+    },
+    {
+      "year": 1974,
+      "patents": 38522,
+      "prev_year_patents": 8396.0,
+      "growth_pct": 358.81,
+      "rolling_5yr_avg": 10166.0
+    },
+    {
+      "year": 1975,
+      "patents": 68052,
+      "prev_year_patents": 38522.0,
+      "growth_pct": 76.66,
+      "rolling_5yr_avg": 23669.0
+    },
+    {
+      "year": 1976,
+      "patents": 71046,
+      "prev_year_patents": 68052.0,
+      "growth_pct": 4.4,
+      "rolling_5yr_avg": 37642.0
+    },
+    {
+      "year": 1977,
+      "patents": 71543,
+      "prev_year_patents": 71046.0,
+      "growth_pct": 0.7,
+      "rolling_5yr_avg": 51512.0
+    },
+    {
+      "year": 1978,
+      "patents": 71046,
+      "prev_year_patents": 71543.0,
+      "growth_pct": -0.69,
+      "rolling_5yr_avg": 64042.0
+    },
+    {
+      "year": 1979,
+      "patents": 71120,
+      "prev_year_patents": 71046.0,
+      "growth_pct": 0.1,
+      "rolling_5yr_avg": 70561.0
+    },
+    {
+      "year": 1980,
+      "patents": 72129,
+      "prev_year_patents": 71120.0,
+      "growth_pct": 1.42,
+      "rolling_5yr_avg": 71377.0
+    },
+    {
+      "year": 1981,
+      "patents": 69238,
+      "prev_year_patents": 72129.0,
+      "growth_pct": -4.01,
+      "rolling_5yr_avg": 71015.0
+    },
+    {
+      "year": 1982,
+      "patents": 70781,
+      "prev_year_patents": 69238.0,
+      "growth_pct": 2.23,
+      "rolling_5yr_avg": 70863.0
+    },
+    {
+      "year": 1983,
+      "patents": 67612,
+      "prev_year_patents": 70781.0,
+      "growth_pct": -4.48,
+      "rolling_5yr_avg": 70176.0
+    },
+    {
+      "year": 1984,
+      "patents": 73596,
+      "prev_year_patents": 67612.0,
+      "growth_pct": 8.85,
+      "rolling_5yr_avg": 70671.0
+    },
+    {
+      "year": 1985,
+      "patents": 78472,
+      "prev_year_patents": 73596.0,
+      "growth_pct": 6.63,
+      "rolling_5yr_avg": 71940.0
+    },
+    {
+      "year": 1986,
+      "patents": 81997,
+      "prev_year_patents": 78472.0,
+      "growth_pct": 4.49,
+      "rolling_5yr_avg": 74492.0
+    },
+    {
+      "year": 1987,
+      "patents": 89163,
+      "prev_year_patents": 81997.0,
+      "growth_pct": 8.74,
+      "rolling_5yr_avg": 78168.0
+    },
+    {
+      "year": 1988,
+      "patents": 98294,
+      "prev_year_patents": 89163.0,
+      "growth_pct": 10.24,
+      "rolling_5yr_avg": 84304.0
+    },
+    {
+      "year": 1989,
+      "patents": 104499,
+      "prev_year_patents": 98294.0,
+      "growth_pct": 6.31,
+      "rolling_5yr_avg": 90485.0
+    },
+    {
+      "year": 1990,
+      "patents": 108566,
+      "prev_year_patents": 104499.0,
+      "growth_pct": 3.89,
+      "rolling_5yr_avg": 96504.0
+    },
+    {
+      "year": 1991,
+      "patents": 109592,
+      "prev_year_patents": 108566.0,
+      "growth_pct": 0.95,
+      "rolling_5yr_avg": 102023.0
+    },
+    {
+      "year": 1992,
+      "patents": 113347,
+      "prev_year_patents": 109592.0,
+      "growth_pct": 3.43,
+      "rolling_5yr_avg": 106860.0
+    },
+    {
+      "year": 1993,
+      "patents": 118370,
+      "prev_year_patents": 113347.0,
+      "growth_pct": 4.43,
+      "rolling_5yr_avg": 110875.0
+    },
+    {
+      "year": 1994,
+      "patents": 135178,
+      "prev_year_patents": 118370.0,
+      "growth_pct": 14.2,
+      "rolling_5yr_avg": 117011.0
+    },
+    {
+      "year": 1995,
+      "patents": 157411,
+      "prev_year_patents": 135178.0,
+      "growth_pct": 16.45,
+      "rolling_5yr_avg": 126780.0
+    },
+    {
+      "year": 1996,
+      "patents": 158433,
+      "prev_year_patents": 157411.0,
+      "growth_pct": 0.65,
+      "rolling_5yr_avg": 136548.0
+    },
+    {
+      "year": 1997,
+      "patents": 184236,
+      "prev_year_patents": 158433.0,
+      "growth_pct": 16.29,
+      "rolling_5yr_avg": 150726.0
+    },
+    {
+      "year": 1998,
+      "patents": 183966,
+      "prev_year_patents": 184236.0,
+      "growth_pct": -0.15,
+      "rolling_5yr_avg": 163845.0
+    },
+    {
+      "year": 1999,
+      "patents": 197162,
+      "prev_year_patents": 183966.0,
+      "growth_pct": 7.17,
+      "rolling_5yr_avg": 176242.0
+    },
+    {
+      "year": 2000,
+      "patents": 214632,
+      "prev_year_patents": 197162.0,
+      "growth_pct": 8.86,
+      "rolling_5yr_avg": 187686.0
+    },
+    {
+      "year": 2001,
+      "patents": 228021,
+      "prev_year_patents": 214632.0,
+      "growth_pct": 6.24,
+      "rolling_5yr_avg": 201603.0
+    },
+    {
+      "year": 2002,
+      "patents": 228953,
+      "prev_year_patents": 228021.0,
+      "growth_pct": 0.41,
+      "rolling_5yr_avg": 210547.0
+    },
+    {
+      "year": 2003,
+      "patents": 220579,
+      "prev_year_patents": 228953.0,
+      "growth_pct": -3.66,
+      "rolling_5yr_avg": 217869.0
+    },
+    {
+      "year": 2004,
+      "patents": 221454,
+      "prev_year_patents": 220579.0,
+      "growth_pct": 0.4,
+      "rolling_5yr_avg": 222728.0
+    },
+    {
+      "year": 2005,
+      "patents": 226484,
+      "prev_year_patents": 221454.0,
+      "growth_pct": 2.27,
+      "rolling_5yr_avg": 225098.0
+    },
+    {
+      "year": 2006,
+      "patents": 231706,
+      "prev_year_patents": 226484.0,
+      "growth_pct": 2.31,
+      "rolling_5yr_avg": 225835.0
+    },
+    {
+      "year": 2007,
+      "patents": 240271,
+      "prev_year_patents": 231706.0,
+      "growth_pct": 3.7,
+      "rolling_5yr_avg": 228099.0
+    },
+    {
+      "year": 2008,
+      "patents": 241976,
+      "prev_year_patents": 240271.0,
+      "growth_pct": 0.71,
+      "rolling_5yr_avg": 232378.0
+    },
+    {
+      "year": 2009,
+      "patents": 233383,
+      "prev_year_patents": 241976.0,
+      "growth_pct": -3.55,
+      "rolling_5yr_avg": 234764.0
+    },
+    {
+      "year": 2010,
+      "patents": 248378,
+      "prev_year_patents": 233383.0,
+      "growth_pct": 6.43,
+      "rolling_5yr_avg": 239143.0
+    },
+    {
+      "year": 2011,
+      "patents": 268844,
+      "prev_year_patents": 248378.0,
+      "growth_pct": 8.24,
+      "rolling_5yr_avg": 246570.0
+    },
+    {
+      "year": 2012,
+      "patents": 294133,
+      "prev_year_patents": 268844.0,
+      "growth_pct": 9.41,
+      "rolling_5yr_avg": 257343.0
+    },
+    {
+      "year": 2013,
+      "patents": 313032,
+      "prev_year_patents": 294133.0,
+      "growth_pct": 6.43,
+      "rolling_5yr_avg": 271554.0
+    },
+    {
+      "year": 2014,
+      "patents": 322929,
+      "prev_year_patents": 313032.0,
+      "growth_pct": 3.16,
+      "rolling_5yr_avg": 289463.0
+    },
+    {
+      "year": 2015,
+      "patents": 335484,
+      "prev_year_patents": 322929.0,
+      "growth_pct": 3.89,
+      "rolling_5yr_avg": 306884.0
+    },
+    {
+      "year": 2016,
+      "patents": 347454,
+      "prev_year_patents": 335484.0,
+      "growth_pct": 3.57,
+      "rolling_5yr_avg": 322606.0
+    },
+    {
+      "year": 2017,
+      "patents": 362653,
+      "prev_year_patents": 347454.0,
+      "growth_pct": 4.37,
+      "rolling_5yr_avg": 336310.0
+    },
+    {
+      "year": 2018,
+      "patents": 367908,
+      "prev_year_patents": 362653.0,
+      "growth_pct": 1.45,
+      "rolling_5yr_avg": 347286.0
+    },
+    {
+      "year": 2019,
+      "patents": 388318,
+      "prev_year_patents": 367908.0,
+      "growth_pct": 5.55,
+      "rolling_5yr_avg": 360363.0
+    },
+    {
+      "year": 2020,
+      "patents": 361312,
+      "prev_year_patents": 388318.0,
+      "growth_pct": -6.95,
+      "rolling_5yr_avg": 365529.0
+    },
+    {
+      "year": 2021,
+      "patents": 318982,
+      "prev_year_patents": 361312.0,
+      "growth_pct": -11.72,
+      "rolling_5yr_avg": 359835.0
+    },
+    {
+      "year": 2022,
+      "patents": 250221,
+      "prev_year_patents": 318982.0,
+      "growth_pct": -21.56,
+      "rolling_5yr_avg": 337348.0
+    },
+    {
+      "year": 2023,
+      "patents": 155607,
+      "prev_year_patents": 250221.0,
+      "growth_pct": -37.81,
+      "rolling_5yr_avg": 294888.0
+    },
+    {
+      "year": 2024,
+      "patents": 54392,
+      "prev_year_patents": 155607.0,
+      "growth_pct": -65.05,
+      "rolling_5yr_avg": 228103.0
+    },
+    {
+      "year": 2025,
+      "patents": 4733,
+      "prev_year_patents": 54392.0,
+      "growth_pct": -91.3,
+      "rolling_5yr_avg": 156787.0
+    }
+  ],
+  "solo_vs_team": [
+    {
+      "inventor_type": "Small Team (2-4)",
+      "patents": 4541767,
+      "share_pct": 48.52
+    },
+    {
+      "inventor_type": "Solo",
+      "patents": 2663963,
+      "share_pct": 28.46
+    },
+    {
+      "inventor_type": "Large Team (5+)",
+      "patents": 1142451,
+      "share_pct": 12.2
+    }
+  ],
+  "top_company_per_decade": [
+    {
+      "decade": 1680,
+      "company_name": "Escher Wyss GmbH",
+      "patents": 3
+    },
+    {
+      "decade": 1860,
+      "company_name": "PPG Industries, Inc.",
+      "patents": 1
+    },
+    {
+      "decade": 1870,
+      "company_name": "Gulf Research & Development Company",
+      "patents": 4
+    },
+    {
+      "decade": 1900,
+      "company_name": "Alva Medical, Inc.",
+      "patents": 3
+    },
+    {
+      "decade": 1900,
+      "company_name": "Mosler, Inc.",
+      "patents": 3
+    },
+    {
+      "decade": 1900,
+      "company_name": "Pall Corporation",
+      "patents": 3
+    },
+    {
+      "decade": 1910,
+      "company_name": "The Procter & Gamble Company",
+      "patents": 3
+    },
+    {
+      "decade": 1920,
+      "company_name": "Calgon Corporation",
+      "patents": 2
+    },
+    {
+      "decade": 1930,
+      "company_name": "United States of America as represented by the Secretary of the Air Force",
+      "patents": 3
+    },
+    {
+      "decade": 1940,
+      "company_name": "United States of America as represented by the Secretary of the Air Force",
+      "patents": 27
+    },
+    {
+      "decade": 1950,
+      "company_name": "United States of America as represented by the Secretary of the Air Force",
+      "patents": 93
+    },
+    {
+      "decade": 1960,
+      "company_name": "United States of America as represented by the Secretary of the Air Force",
+      "patents": 603
+    },
+    {
+      "decade": 1970,
+      "company_name": "BAYER HEALTHCARE LLC",
+      "patents": 8548
+    },
+    {
+      "decade": 1980,
+      "company_name": "HITACHI, LTD.",
+      "patents": 30327
+    },
+    {
+      "decade": 1990,
+      "company_name": "International Business Machines Corporation",
+      "patents": 73800
+    },
+    {
+      "decade": 2000,
+      "company_name": "International Business Machines Corporation",
+      "patents": 159097
+    },
+    {
+      "decade": 2010,
+      "company_name": "SAMSUNG ELECTRONICS CO., LTD.",
+      "patents": 303592
+    },
+    {
+      "decade": 2020,
+      "company_name": "SAMSUNG ELECTRONICS CO., LTD.",
+      "patents": 138898
+    }
+  ],
+  "top_inventor_per_country": [
+    {
+      "country": "JP",
+      "inventor_name": "Shunpei Yamazaki",
+      "patents": 6749
+    },
+    {
+      "country": "AU",
+      "inventor_name": "Kia Silverbrook",
+      "patents": 4772
+    },
+    {
+      "country": "US",
+      "inventor_name": "Tao Luo",
+      "patents": 4274
+    },
+    {
+      "country": "CN",
+      "inventor_name": "Shou-Shan Fan",
+      "patents": 2621
+    },
+    {
+      "country": "TW",
+      "inventor_name": "Chen-Hua Yu",
+      "patents": 1958
+    },
+    {
+      "country": "KR",
+      "inventor_name": "Hanbyul Seo",
+      "patents": 1833
+    },
+    {
+      "country": "IN",
+      "inventor_name": "Sarbajit K. Rakshit",
+      "patents": 1466
+    },
+    {
+      "country": "SG",
+      "inventor_name": "Lei Wang",
+      "patents": 979
+    },
+    {
+      "country": "Unknown",
+      "inventor_name": "Ken-Ching Chen",
+      "patents": 815
+    },
+    {
+      "country": "FR",
+      "inventor_name": "Jean-Philippe Vasseur",
+      "patents": 747
+    },
+    {
+      "country": "CA",
+      "inventor_name": "Jianglei Ma",
+      "patents": 727
+    },
+    {
+      "country": "IL",
+      "inventor_name": "Assaf Govari",
+      "patents": 655
+    },
+    {
+      "country": "GB",
+      "inventor_name": "Gert Jan Van Lieshout",
+      "patents": 654
+    },
+    {
+      "country": "SE",
+      "inventor_name": "Muhammad Kazmi",
+      "patents": 648
+    },
+    {
+      "country": "DK",
+      "inventor_name": "Mogens Nyegaard Olesen",
+      "patents": 624
+    },
+    {
+      "country": "DE",
+      "inventor_name": "Hans-Joachim Schulze",
+      "patents": 612
+    },
+    {
+      "country": "BE",
+      "inventor_name": "Atsushi Nakamura",
+      "patents": 556
+    },
+    {
+      "country": "SA",
+      "inventor_name": "Omer Refa Koseoglu",
+      "patents": 474
+    },
+    {
+      "country": "RU",
+      "inventor_name": "Alexei Davydov",
+      "patents": 470
+    },
+    {
+      "country": "IT",
+      "inventor_name": "Pasquale Natuzzi",
+      "patents": 436
+    }
+  ],
+  "inventor_company_pairs": [
+    {
+      "inventor_name": "Shunpei Yamazaki",
+      "company_name": "Semiconductor Energy Laboratory Co., Ltd.",
+      "shared_patents": 6708,
+      "inventor_patents": 6749,
+      "company_patents": 47244
+    },
+    {
+      "inventor_name": "Kia Silverbrook",
+      "company_name": "Silverbrook Research Pty Ltd",
+      "shared_patents": 4386,
+      "inventor_patents": 4772,
+      "company_patents": 10512
+    },
+    {
+      "inventor_name": "Tao Luo",
+      "company_name": "QUALCOMM Incorporated",
+      "shared_patents": 4189,
+      "inventor_patents": 4274,
+      "company_patents": 152505
+    },
+    {
+      "inventor_name": "Jonathan P. Ive",
+      "company_name": "Apple Inc.",
+      "shared_patents": 2752,
+      "inventor_patents": 2871,
+      "company_patents": 191908
+    },
+    {
+      "inventor_name": "Junyi Li",
+      "company_name": "QUALCOMM Incorporated",
+      "shared_patents": 2691,
+      "inventor_patents": 2756,
+      "company_patents": 152505
+    },
+    {
+      "inventor_name": "Kangguo Cheng",
+      "company_name": "International Business Machines Corporation",
+      "shared_patents": 2575,
+      "inventor_patents": 2944,
+      "company_patents": 559837
+    },
+    {
+      "inventor_name": "Peter Gaal",
+      "company_name": "QUALCOMM Incorporated",
+      "shared_patents": 2481,
+      "inventor_patents": 2487,
+      "company_patents": 152505
+    },
+    {
+      "inventor_name": "Duncan Robert Kerr",
+      "company_name": "Apple Inc.",
+      "shared_patents": 2383,
+      "inventor_patents": 2462,
+      "company_patents": 191908
+    },
+    {
+      "inventor_name": "Bartley K. Andre",
+      "company_name": "Apple Inc.",
+      "shared_patents": 2298,
+      "inventor_patents": 2409,
+      "company_patents": 191908
+    },
+    {
+      "inventor_name": "Wanshi Chen",
+      "company_name": "QUALCOMM Incorporated",
+      "shared_patents": 2285,
+      "inventor_patents": 2299,
+      "company_patents": 152505
+    }
+  ],
+  "inventors_by_country": [
+    {
+      "country": "AD",
+      "inventor_name": "Bruno DeLean",
+      "patents": 12,
+      "country_rank": 1
+    },
+    {
+      "country": "AD",
+      "inventor_name": "Johnny De Viveiros Ortiz",
+      "patents": 9,
+      "country_rank": 2
+    },
+    {
+      "country": "AD",
+      "inventor_name": "Juan Eusebio Nomen Calvet",
+      "patents": 7,
+      "country_rank": 3
+    },
+    {
+      "country": "AE",
+      "inventor_name": "Cevat Yerli",
+      "patents": 101,
+      "country_rank": 1
+    },
+    {
+      "country": "AE",
+      "inventor_name": "Jaidev Rajnikant Shroff",
+      "patents": 69,
+      "country_rank": 2
+    },
+    {
+      "country": "AE",
+      "inventor_name": "Vikram Rajnikant Shroff",
+      "patents": 64,
+      "country_rank": 3
+    },
+    {
+      "country": "AF",
+      "inventor_name": "Cheok-Kei Lei",
+      "patents": 20,
+      "country_rank": 1
+    },
+    {
+      "country": "AF",
+      "inventor_name": "Tomas Mecklin",
+      "patents": 12,
+      "country_rank": 2
+    },
+    {
+      "country": "AF",
+      "inventor_name": "Ernst Neuhold",
+      "patents": 5,
+      "country_rank": 3
+    },
+    {
+      "country": "AF",
+      "inventor_name": "Mats S{dot over (a)}gfors",
+      "patents": 5,
+      "country_rank": 3
+    },
+    {
+      "country": "AF",
+      "inventor_name": "Richard W. Ward",
+      "patents": 5,
+      "country_rank": 3
+    },
+    {
+      "country": "AG",
+      "inventor_name": "Ronald Raymond Austríng",
+      "patents": 7,
+      "country_rank": 1
+    },
+    {
+      "country": "AG",
+      "inventor_name": "Walter Ruffner",
+      "patents": 5,
+      "country_rank": 2
+    },
+    {
+      "country": "AG",
+      "inventor_name": "Julie K. Randolph",
+      "patents": 1,
+      "country_rank": 3
+    },
+    {
+      "country": "AG",
+      "inventor_name": "Ronald Raymond Austr+e,acu i+ee ng",
+      "patents": 1,
+      "country_rank": 3
+    },
+    {
+      "country": "AI",
+      "inventor_name": "Sverre Dokken",
+      "patents": 8,
+      "country_rank": 1
+    },
+    {
+      "country": "AI",
+      "inventor_name": "Terry Earl Brady",
+      "patents": 4,
+      "country_rank": 2
+    },
+    {
+      "country": "AI",
+      "inventor_name": "Jacek Gruszka",
+      "patents": 2,
+      "country_rank": 3
+    },
+    {
+      "country": "AL",
+      "inventor_name": "Taulant Ramabaja",
+      "patents": 8,
+      "country_rank": 1
+    },
+    {
+      "country": "AL",
+      "inventor_name": "Valter Pasku",
+      "patents": 4,
+      "country_rank": 2
+    },
+    {
+      "country": "AL",
+      "inventor_name": "Betim Drenica",
+      "patents": 2,
+      "country_rank": 3
+    },
+    {
+      "country": "AL",
+      "inventor_name": "Sokol Hatellari",
+      "patents": 2,
+      "country_rank": 3
+    },
+    {
+      "country": "AM",
+      "inventor_name": "Avetik Markosyan",
+      "patents": 176,
+      "country_rank": 1
+    },
+    {
+      "country": "AM",
+      "inventor_name": "Ashot Nshan Harutyunyan",
+      "patents": 46,
+      "country_rank": 2
+    },
+    {
+      "country": "AM",
+      "inventor_name": "Arnak Poghosyan",
+      "patents": 45,
+      "country_rank": 3
+    },
+    {
+      "country": "AO",
+      "inventor_name": "Jose Arellano",
+      "patents": 10,
+      "country_rank": 1
+    },
+    {
+      "country": "AO",
+      "inventor_name": "Tana Canda",
+      "patents": 6,
+      "country_rank": 2
+    },
+    {
+      "country": "AO",
+      "inventor_name": "Chidi Eugene Nwafor",
+      "patents": 3,
+      "country_rank": 3
+    },
+    {
+      "country": "AR",
+      "inventor_name": "Jose A. Navia, Sr.",
+      "patents": 98,
+      "country_rank": 1
+    },
+    {
+      "country": "AR",
+      "inventor_name": "Mario Rafael Hueda",
+      "patents": 83,
+      "country_rank": 2
+    },
+    {
+      "country": "AR",
+      "inventor_name": "Hernán D. Romero",
+      "patents": 56,
+      "country_rank": 3
+    },
+    {
+      "country": "AT",
+      "inventor_name": "Josef Theurer",
+      "patents": 394,
+      "country_rank": 1
+    },
+    {
+      "country": "AT",
+      "inventor_name": "Sung-Ho Tan",
+      "patents": 270,
+      "country_rank": 2
+    },
+    {
+      "country": "AT",
+      "inventor_name": "Udo Ausserlechner",
+      "patents": 270,
+      "country_rank": 2
+    },
+    {
+      "country": "AT",
+      "inventor_name": "Dirk Hammerschmidt",
+      "patents": 263,
+      "country_rank": 3
+    },
+    {
+      "country": "AU",
+      "inventor_name": "Kia Silverbrook",
+      "patents": 4772,
+      "country_rank": 1
+    },
+    {
+      "country": "AU",
+      "inventor_name": "Paul Lapstun",
+      "patents": 1279,
+      "country_rank": 2
+    },
+    {
+      "country": "AU",
+      "inventor_name": "Simon Robert Walmsley",
+      "patents": 650,
+      "country_rank": 3
+    },
+    {
+      "country": "AZ",
+      "inventor_name": "Edouard Mamedov",
+      "patents": 10,
+      "country_rank": 1
+    },
+    {
+      "country": "AZ",
+      "inventor_name": "Elmira M. Ramazanova",
+      "patents": 6,
+      "country_rank": 2
+    },
+    {
+      "country": "AZ",
+      "inventor_name": "Alimamed L. Shabanov",
+      "patents": 5,
+      "country_rank": 3
+    },
+    {
+      "country": "BA",
+      "inventor_name": "Adnan Hadzialic",
+      "patents": 8,
+      "country_rank": 1
+    },
+    {
+      "country": "BA",
+      "inventor_name": "Izudin Dzafic",
+      "patents": 7,
+      "country_rank": 2
+    },
+    {
+      "country": "BA",
+      "inventor_name": "Kristina Blazanovic",
+      "patents": 5,
+      "country_rank": 3
+    },
+    {
+      "country": "BB",
+      "inventor_name": "Carl Wimmer",
+      "patents": 15,
+      "country_rank": 1
+    },
+    {
+      "country": "BB",
+      "inventor_name": "John Gordon Murphy",
+      "patents": 14,
+      "country_rank": 2
+    },
+    {
+      "country": "BB",
+      "inventor_name": "Michal Andrzej Rybak",
+      "patents": 9,
+      "country_rank": 3
+    },
+    {
+      "country": "BD",
+      "inventor_name": "Tusher Chakraborty",
+      "patents": 17,
+      "country_rank": 1
+    },
+    {
+      "country": "BD",
+      "inventor_name": "Tausif Husain",
+      "patents": 11,
+      "country_rank": 2
+    },
+    {
+      "country": "BD",
+      "inventor_name": "Asif Ali",
+      "patents": 7,
+      "country_rank": 3
+    },
+    {
+      "country": "BD",
+      "inventor_name": "Faisal Khan",
+      "patents": 7,
+      "country_rank": 3
+    },
+    {
+      "country": "BD",
+      "inventor_name": "Md. Enamul Haque",
+      "patents": 7,
+      "country_rank": 3
+    },
+    {
+      "country": "BD",
+      "inventor_name": "Mohammed S. Haque",
+      "patents": 7,
+      "country_rank": 3
+    },
+    {
+      "country": "BD",
+      "inventor_name": "Mohammed S. Islam",
+      "patents": 7,
+      "country_rank": 3
+    },
+    {
+      "country": "BE",
+      "inventor_name": "Atsushi Nakamura",
+      "patents": 556,
+      "country_rank": 1
+    },
+    {
+      "country": "BE",
+      "inventor_name": "Clarence Filsfils",
+      "patents": 271,
+      "country_rank": 2
+    },
+    {
+      "country": "BE",
+      "inventor_name": "Mark Thomas Johnson",
+      "patents": 246,
+      "country_rank": 3
+    },
+    {
+      "country": "BF",
+      "inventor_name": "Liang ZONG",
+      "patents": 4,
+      "country_rank": 1
+    },
+    {
+      "country": "BF",
+      "inventor_name": "Odile Germaine Nacoulma",
+      "patents": 3,
+      "country_rank": 2
+    },
+    {
+      "country": "BF",
+      "inventor_name": "Pierre Guissou",
+      "patents": 3,
+      "country_rank": 2
+    },
+    {
+      "country": "BF",
+      "inventor_name": "Drissa Sereme",
+      "patents": 2,
+      "country_rank": 3
+    },
+    {
+      "country": "BF",
+      "inventor_name": "Gnissa Konate",
+      "patents": 2,
+      "country_rank": 3
+    },
+    {
+      "country": "BF",
+      "inventor_name": "Mihajlo Marjanovic",
+      "patents": 2,
+      "country_rank": 3
+    },
+    {
+      "country": "BF",
+      "inventor_name": "Moumouni Konate",
+      "patents": 2,
+      "country_rank": 3
+    },
+    {
+      "country": "BG",
+      "inventor_name": "Ventsislav Yantchev",
+      "patents": 119,
+      "country_rank": 1
+    },
+    {
+      "country": "BG",
+      "inventor_name": "Luben Hristov",
+      "patents": 41,
+      "country_rank": 2
+    },
+    {
+      "country": "BG",
+      "inventor_name": "David A. Smith",
+      "patents": 37,
+      "country_rank": 3
+    },
+    {
+      "country": "BH",
+      "inventor_name": "Raheel Shafi",
+      "patents": 27,
+      "country_rank": 1
+    },
+    {
+      "country": "BH",
+      "inventor_name": "Manimeldura Janaka Mendis",
+      "patents": 14,
+      "country_rank": 2
+    },
+    {
+      "country": "BH",
+      "inventor_name": "Faisal Baksh",
+      "patents": 5,
+      "country_rank": 3
+    },
+    {
+      "country": "BH",
+      "inventor_name": "Hatem M. Selim",
+      "patents": 5,
+      "country_rank": 3
+    },
+    {
+      "country": "BM",
+      "inventor_name": "David Aubrey Plumptre",
+      "patents": 196,
+      "country_rank": 1
+    },
+    {
+      "country": "BM",
+      "inventor_name": "Matthew Meredith Jones",
+      "patents": 76,
+      "country_rank": 2
+    },
+    {
+      "country": "BM",
+      "inventor_name": "Peter Kay",
+      "patents": 57,
+      "country_rank": 3
+    },
+    {
+      "country": "BN",
+      "inventor_name": "David Robert Davies, III",
+      "patents": 24,
+      "country_rank": 1
+    },
+    {
+      "country": "BN",
+      "inventor_name": "Saiful A. Husain",
+      "patents": 10,
+      "country_rank": 2
+    },
+    {
+      "country": "BN",
+      "inventor_name": "Liyanage Chandratilak De Silva",
+      "patents": 8,
+      "country_rank": 3
+    },
+    {
+      "country": "BO",
+      "inventor_name": "Franz Freudenthal",
+      "patents": 22,
+      "country_rank": 1
+    },
+    {
+      "country": "BO",
+      "inventor_name": "Veli-Pekka Koljonen",
+      "patents": 6,
+      "country_rank": 2
+    },
+    {
+      "country": "BO",
+      "inventor_name": "Koichiro Ogushi",
+      "patents": 4,
+      "country_rank": 3
+    },
+    {
+      "country": "BR",
+      "inventor_name": "Dietmar Erich Bernhard Lilie",
+      "patents": 84,
+      "country_rank": 1
+    },
+    {
+      "country": "BR",
+      "inventor_name": "Satoshi Inouye",
+      "patents": 77,
+      "country_rank": 2
+    },
+    {
+      "country": "BR",
+      "inventor_name": "Vinicius Michel Gottin",
+      "patents": 75,
+      "country_rank": 3
+    },
+    {
+      "country": "BS",
+      "inventor_name": "Vittorio de Nora",
+      "patents": 122,
+      "country_rank": 1
+    },
+    {
+      "country": "BS",
+      "inventor_name": "George Goicoechea",
+      "patents": 21,
+      "country_rank": 2
+    },
+    {
+      "country": "BS",
+      "inventor_name": "Phillip J. Vasyli",
+      "patents": 21,
+      "country_rank": 2
+    },
+    {
+      "country": "BS",
+      "inventor_name": "Thomas C. Usher",
+      "patents": 14,
+      "country_rank": 3
+    },
+    {
+      "country": "BT",
+      "inventor_name": "David H. Birtwistle",
+      "patents": 12,
+      "country_rank": 1
+    },
+    {
+      "country": "BT",
+      "inventor_name": "Rolf Nordqvist",
+      "patents": 1,
+      "country_rank": 2
+    },
+    {
+      "country": "BW",
+      "inventor_name": "Pharoah Mosupi",
+      "patents": 2,
+      "country_rank": 1
+    },
+    {
+      "country": "BW",
+      "inventor_name": "Seja Gasenone Maphanyane",
+      "patents": 2,
+      "country_rank": 1
+    },
+    {
+      "country": "BW",
+      "inventor_name": "Stephen Majara Chite",
+      "patents": 2,
+      "country_rank": 1
+    },
+    {
+      "country": "BW",
+      "inventor_name": "Adamu Murtala Zungeru",
+      "patents": 1,
+      "country_rank": 2
+    },
+    {
+      "country": "BW",
+      "inventor_name": "Ernest Gomolemo Modise",
+      "patents": 1,
+      "country_rank": 2
+    },
+    {
+      "country": "BY",
+      "inventor_name": "Pavel Hanchar",
+      "patents": 28,
+      "country_rank": 1
+    },
+    {
+      "country": "BY",
+      "inventor_name": "Stepan Drozd",
+      "patents": 23,
+      "country_rank": 2
+    },
+    {
+      "country": "BY",
+      "inventor_name": "Vladimir N. Linev",
+      "patents": 23,
+      "country_rank": 2
+    },
+    {
+      "country": "BY",
+      "inventor_name": "Medvedev Andreji",
+      "patents": 22,
+      "country_rank": 3
+    },
+    {
+      "country": "BZ",
+      "inventor_name": "Italo Romani de Oliveira",
+      "patents": 5,
+      "country_rank": 1
+    },
+    {
+      "country": "BZ",
+      "inventor_name": "Douglas Spadotto",
+      "patents": 2,
+      "country_rank": 2
+    },
+    {
+      "country": "BZ",
+      "inventor_name": "Steven J. Lawson",
+      "patents": 2,
+      "country_rank": 2
+    },
+    {
+      "country": "BZ",
+      "inventor_name": "Brenno Caetano Troca Cabella",
+      "patents": 1,
+      "country_rank": 3
+    },
+    {
+      "country": "BZ",
+      "inventor_name": "Chiu-Ying Yu",
+      "patents": 1,
+      "country_rank": 3
+    },
+    {
+      "country": "BZ",
+      "inventor_name": "Paulo Marques Caldeira Junior",
+      "patents": 1,
+      "country_rank": 3
+    },
+    {
+      "country": "BZ",
+      "inventor_name": "Peter Gegg",
+      "patents": 1,
+      "country_rank": 3
+    },
+    {
+      "country": "BZ",
+      "inventor_name": "Eckert Lewis",
+      "patents": 1,
+      "country_rank": 3
+    },
+    {
+      "country": "CA",
+      "inventor_name": "Jianglei Ma",
+      "patents": 727,
+      "country_rank": 1
+    },
+    {
+      "country": "CA",
+      "inventor_name": "Wayne Ernest Conrad",
+      "patents": 699,
+      "country_rank": 2
+    },
+    {
+      "country": "CA",
+      "inventor_name": "Paul Marinier",
+      "patents": 613,
+      "country_rank": 3
+    },
+    {
+      "country": "CD",
+      "inventor_name": "Koichi Hirata",
+      "patents": 37,
+      "country_rank": 1
+    },
+    {
+      "country": "CD",
+      "inventor_name": "Jean-Jacques Muyembe-Tamfun",
+      "patents": 8,
+      "country_rank": 2
+    },
+    {
+      "country": "CD",
+      "inventor_name": "Elias Suokas",
+      "patents": 5,
+      "country_rank": 3
+    },
+    {
+      "country": "CF",
+      "inventor_name": "Norbert Varga",
+      "patents": 1,
+      "country_rank": 1
+    },
+    {
+      "country": "CF",
+      "inventor_name": "Silla Semballa",
+      "patents": 1,
+      "country_rank": 1
+    },
+    {
+      "country": "CG",
+      "inventor_name": "Damien Sha-Tshibey Tshibangu",
+      "patents": 1,
+      "country_rank": 1
+    },
+    {
+      "country": "CG",
+      "inventor_name": "Mathe Eliel Kasereka",
+      "patents": 1,
+      "country_rank": 1
+    },
+    {
+      "country": "CG",
+      "inventor_name": "Pius Tshimankinda Mpiana",
+      "patents": 1,
+      "country_rank": 1
+    },
+    {
+      "country": "CH",
+      "inventor_name": "Matthew Sharifi",
+      "patents": 303,
+      "country_rank": 1
+    },
+    {
+      "country": "CH",
+      "inventor_name": "Evangelos S. Eleftheriou",
+      "patents": 224,
+      "country_rank": 2
+    },
+    {
+      "country": "CH",
+      "inventor_name": "Jørgen Bodum",
+      "patents": 222,
+      "country_rank": 3
+    },
+    {
+      "country": "CI",
+      "inventor_name": "Csaba Antal",
+      "patents": 13,
+      "country_rank": 1
+    },
+    {
+      "country": "CI",
+      "inventor_name": "Laurent Aké Assi",
+      "patents": 3,
+      "country_rank": 2
+    },
+    {
+      "country": "CI",
+      "inventor_name": "Modibo Ouattara",
+      "patents": 2,
+      "country_rank": 3
+    },
+    {
+      "country": "CI",
+      "inventor_name": "Wanus Prommate",
+      "patents": 2,
+      "country_rank": 3
+    },
+    {
+      "country": "CL",
+      "inventor_name": "Fernando Benjamin Fischmann",
+      "patents": 46,
+      "country_rank": 1
+    },
+    {
+      "country": "CL",
+      "inventor_name": "Yukio Horiuchi",
+      "patents": 43,
+      "country_rank": 2
+    },
+    {
+      "country": "CL",
+      "inventor_name": "Rudolf O. Ernst",
+      "patents": 38,
+      "country_rank": 3
+    },
+    {
+      "country": "CM",
+      "inventor_name": "Masaaki Tabata",
+      "patents": 328,
+      "country_rank": 1
+    },
+    {
+      "country": "CM",
+      "inventor_name": "Yasuo Omori",
+      "patents": 298,
+      "country_rank": 2
+    },
+    {
+      "country": "CM",
+      "inventor_name": "Osamu Nakayama",
+      "patents": 284,
+      "country_rank": 3
+    },
+    {
+      "country": "CN",
+      "inventor_name": "Shou-Shan Fan",
+      "patents": 2621,
+      "country_rank": 1
+    },
+    {
+      "country": "CN",
+      "inventor_name": "Kai Zhang",
+      "patents": 2269,
+      "country_rank": 2
+    },
+    {
+      "country": "CN",
+      "inventor_name": "Hongbin Liu",
+      "patents": 1653,
+      "country_rank": 3
+    },
+    {
+      "country": "CO",
+      "inventor_name": "Jorge Uribe",
+      "patents": 16,
+      "country_rank": 1
+    },
+    {
+      "country": "CO",
+      "inventor_name": "Daniel Acevedo",
+      "patents": 14,
+      "country_rank": 2
+    },
+    {
+      "country": "CO",
+      "inventor_name": "Jose Edgar Patiño",
+      "patents": 12,
+      "country_rank": 3
+    },
+    {
+      "country": "CO",
+      "inventor_name": "Juliana Londoño Murillo",
+      "patents": 12,
+      "country_rank": 3
+    },
+    {
+      "country": "CR",
+      "inventor_name": "Cesar Augusto Rodriguez Bravo",
+      "patents": 119,
+      "country_rank": 1
+    },
+    {
+      "country": "CR",
+      "inventor_name": "Edgar A. Zamora Duran",
+      "patents": 65,
+      "country_rank": 2
+    },
+    {
+      "country": "CR",
+      "inventor_name": "Claude Hope",
+      "patents": 39,
+      "country_rank": 3
+    },
+    {
+      "country": "CU",
+      "inventor_name": "Gerardo Enrique Guillen Nieto",
+      "patents": 22,
+      "country_rank": 1
+    },
+    {
+      "country": "CU",
+      "inventor_name": "Rolando Perez Rodriguez",
+      "patents": 21,
+      "country_rank": 2
+    },
+    {
+      "country": "CU",
+      "inventor_name": "Jose Enrique Montero Casimiro",
+      "patents": 13,
+      "country_rank": 3
+    },
+    {
+      "country": "CU",
+      "inventor_name": "Josefa Lombardero Valladares",
+      "patents": 13,
+      "country_rank": 3
+    },
+    {
+      "country": "CY",
+      "inventor_name": "Dimitris Koulakiotis",
+      "patents": 31,
+      "country_rank": 1
+    },
+    {
+      "country": "CY",
+      "inventor_name": "Michalakis Averkiou",
+      "patents": 29,
+      "country_rank": 2
+    },
+    {
+      "country": "CY",
+      "inventor_name": "Nikita Kotlov",
+      "patents": 16,
+      "country_rank": 3
+    },
+    {
+      "country": "CZ",
+      "inventor_name": "Josef Valchar",
+      "patents": 82,
+      "country_rank": 1
+    },
+    {
+      "country": "CZ",
+      "inventor_name": "Filip Nguyen",
+      "patents": 81,
+      "country_rank": 2
+    },
+    {
+      "country": "CZ",
+      "inventor_name": "Jan Petrzilek",
+      "patents": 75,
+      "country_rank": 3
+    },
+    {
+      "country": "DE",
+      "inventor_name": "Hans-Joachim Schulze",
+      "patents": 612,
+      "country_rank": 1
+    },
+    {
+      "country": "DE",
+      "inventor_name": "Toni Weinschenk",
+      "patents": 604,
+      "country_rank": 2
+    },
+    {
+      "country": "DE",
+      "inventor_name": "Jens Fritsche",
+      "patents": 563,
+      "country_rank": 3
+    },
+    {
+      "country": "DJ",
+      "inventor_name": "Moussa Mahdi Ahmed",
+      "patents": 2,
+      "country_rank": 1
+    },
+    {
+      "country": "DK",
+      "inventor_name": "Mogens Nyegaard Olesen",
+      "patents": 624,
+      "country_rank": 1
+    },
+    {
+      "country": "DK",
+      "inventor_name": "Allan Svendsen",
+      "patents": 212,
+      "country_rank": 2
+    },
+    {
+      "country": "DK",
+      "inventor_name": "Michael Syskind PEDERSEN",
+      "patents": 198,
+      "country_rank": 3
+    },
+    {
+      "country": "DM",
+      "inventor_name": "Michal Kazimir",
+      "patents": 3,
+      "country_rank": 1
+    },
+    {
+      "country": "DM",
+      "inventor_name": "Ashton J. Delauney",
+      "patents": 2,
+      "country_rank": 2
+    },
+    {
+      "country": "DM",
+      "inventor_name": "Trenton Hinds",
+      "patents": 2,
+      "country_rank": 2
+    },
+    {
+      "country": "DO",
+      "inventor_name": "Hisham E. Elshishiny",
+      "patents": 19,
+      "country_rank": 1
+    },
+    {
+      "country": "DO",
+      "inventor_name": "Jesús R. Armenteros",
+      "patents": 12,
+      "country_rank": 2
+    },
+    {
+      "country": "DO",
+      "inventor_name": "Luis Enrique Betances Sansur",
+      "patents": 7,
+      "country_rank": 3
+    },
+    {
+      "country": "DO",
+      "inventor_name": "Pedro Almonte",
+      "patents": 7,
+      "country_rank": 3
+    },
+    {
+      "country": "DZ",
+      "inventor_name": "Günter Steinert",
+      "patents": 11,
+      "country_rank": 1
+    },
+    {
+      "country": "DZ",
+      "inventor_name": "Mohammed Boudjatit",
+      "patents": 9,
+      "country_rank": 2
+    },
+    {
+      "country": "DZ",
+      "inventor_name": "Samuel J. Paton",
+      "patents": 6,
+      "country_rank": 3
+    },
+    {
+      "country": "EC",
+      "inventor_name": "Omar Malagon",
+      "patents": 9,
+      "country_rank": 1
+    },
+    {
+      "country": "EC",
+      "inventor_name": "Clarisse Ullrich",
+      "patents": 8,
+      "country_rank": 2
+    },
+    {
+      "country": "EC",
+      "inventor_name": "Fernando Del Pino",
+      "patents": 7,
+      "country_rank": 3
+    },
+    {
+      "country": "EC",
+      "inventor_name": "Masato Tsutsumi",
+      "patents": 7,
+      "country_rank": 3
+    },
+    {
+      "country": "EC",
+      "inventor_name": "Paola E. Ordonez",
+      "patents": 7,
+      "country_rank": 3
+    },
+    {
+      "country": "EC",
+      "inventor_name": "Stefano Berti",
+      "patents": 7,
+      "country_rank": 3
+    },
+    {
+      "country": "EE",
+      "inventor_name": "Ahti Heinla",
+      "patents": 41,
+      "country_rank": 1
+    },
+    {
+      "country": "EE",
+      "inventor_name": "Renat Vafin",
+      "patents": 34,
+      "country_rank": 2
+    },
+    {
+      "country": "EE",
+      "inventor_name": "Madis Kaal",
+      "patents": 27,
+      "country_rank": 3
+    },
+    {
+      "country": "EE",
+      "inventor_name": "Mika Lokkinen",
+      "patents": 27,
+      "country_rank": 3
+    },
+    {
+      "country": "EG",
+      "inventor_name": "Antar Ahmed Abdelhamid Ahmed",
+      "patents": 242,
+      "country_rank": 1
+    },
+    {
+      "country": "EG",
+      "inventor_name": "Amer A. Amer",
+      "patents": 179,
+      "country_rank": 2
+    },
+    {
+      "country": "EG",
+      "inventor_name": "Antar Ahmed Abdelhamid Ahmed",
+      "patents": 46,
+      "country_rank": 3
+    },
+    {
+      "country": "ER",
+      "inventor_name": "Temesghen Tekeste Habte",
+      "patents": 3,
+      "country_rank": 1
+    },
+    {
+      "country": "ER",
+      "inventor_name": "Catherine Gallou",
+      "patents": 1,
+      "country_rank": 2
+    },
+    {
+      "country": "ER",
+      "inventor_name": "Franco Tommasini",
+      "patents": 1,
+      "country_rank": 2
+    },
+    {
+      "country": "ER",
+      "inventor_name": "Roza Azatovna Magazova",
+      "patents": 1,
+      "country_rank": 2
+    },
+    {
+      "country": "ES",
+      "inventor_name": "Francesc Guim Bernat",
+      "patents": 251,
+      "country_rank": 1
+    },
+    {
+      "country": "ES",
+      "inventor_name": "Peter Morovic",
+      "patents": 142,
+      "country_rank": 2
+    },
+    {
+      "country": "ES",
+      "inventor_name": "Miguel Lopez",
+      "patents": 138,
+      "country_rank": 3
+    },
+    {
+      "country": "ET",
+      "inventor_name": "Kirubel Z. Seifu",
+      "patents": 14,
+      "country_rank": 1
+    },
+    {
+      "country": "ET",
+      "inventor_name": "Girum Teklemariam",
+      "patents": 9,
+      "country_rank": 2
+    },
+    {
+      "country": "ET",
+      "inventor_name": "Getachew Ayenew",
+      "patents": 2,
+      "country_rank": 3
+    },
+    {
+      "country": "FI",
+      "inventor_name": "Esa Tapani Tiirola",
+      "patents": 341,
+      "country_rank": 1
+    },
+    {
+      "country": "FI",
+      "inventor_name": "Miska Hannuksela",
+      "patents": 265,
+      "country_rank": 2
+    },
+    {
+      "country": "FI",
+      "inventor_name": "Antti Eronen",
+      "patents": 238,
+      "country_rank": 3
+    },
+    {
+      "country": "FJ",
+      "inventor_name": "Raveen Goundar",
+      "patents": 1,
+      "country_rank": 1
+    },
+    {
+      "country": "FJ",
+      "inventor_name": "Risaburo Takahashi",
+      "patents": 1,
+      "country_rank": 1
+    },
+    {
+      "country": "FM",
+      "inventor_name": "Krisztián Niesz",
+      "patents": 1,
+      "country_rank": 1
+    },
+    {
+      "country": "FO",
+      "inventor_name": "Courtney Hede",
+      "patents": 5,
+      "country_rank": 1
+    },
+    {
+      "country": "FO",
+      "inventor_name": "Hans Carlsson",
+      "patents": 5,
+      "country_rank": 1
+    },
+    {
+      "country": "FO",
+      "inventor_name": "Bergur Vinther",
+      "patents": 2,
+      "country_rank": 2
+    },
+    {
+      "country": "FO",
+      "inventor_name": "Idar Beck",
+      "patents": 1,
+      "country_rank": 3
+    },
+    {
+      "country": "FO",
+      "inventor_name": "Jóannes Debess",
+      "patents": 1,
+      "country_rank": 3
+    },
+    {
+      "country": "FO",
+      "inventor_name": "Kaj Joensen",
+      "patents": 1,
+      "country_rank": 3
+    },
+    {
+      "country": "FO",
+      "inventor_name": "Marner Joensen",
+      "patents": 1,
+      "country_rank": 3
+    },
+    {
+      "country": "FO",
+      "inventor_name": "Tummas Justinussen",
+      "patents": 1,
+      "country_rank": 3
+    },
+    {
+      "country": "FO",
+      "inventor_name": "Uni Debes",
+      "patents": 1,
+      "country_rank": 3
+    },
+    {
+      "country": "FR",
+      "inventor_name": "Jean-Philippe Vasseur",
+      "patents": 747,
+      "country_rank": 1
+    },
+    {
+      "country": "FR",
+      "inventor_name": "Nadim Khlat",
+      "patents": 506,
+      "country_rank": 2
+    },
+    {
+      "country": "FR",
+      "inventor_name": "Pascal Thubert",
+      "patents": 425,
+      "country_rank": 3
+    },
+    {
+      "country": "GA",
+      "inventor_name": "Venkata Satya Srikalyan Bhamidipati",
+      "patents": 5,
+      "country_rank": 1
+    },
+    {
+      "country": "GA",
+      "inventor_name": "Gino Boussiengui-Boussiengui",
+      "patents": 2,
+      "country_rank": 2
+    },
+    {
+      "country": "GA",
+      "inventor_name": "Maryvonne Kombila",
+      "patents": 2,
+      "country_rank": 2
+    },
+    {
+      "country": "GA",
+      "inventor_name": "Claude Cazal",
+      "patents": 1,
+      "country_rank": 3
+    },
+    {
+      "country": "GA",
+      "inventor_name": "Dany Jonas Mubamu Mombo",
+      "patents": 1,
+      "country_rank": 3
+    },
+    {
+      "country": "GA",
+      "inventor_name": "Dave Stephen",
+      "patents": 1,
+      "country_rank": 3
+    },
+    {
+      "country": "GA",
+      "inventor_name": "Jacques Lebibi",
+      "patents": 1,
+      "country_rank": 3
+    },
+    {
+      "country": "GB",
+      "inventor_name": "Gert Jan Van Lieshout",
+      "patents": 654,
+      "country_rank": 1
+    },
+    {
+      "country": "GB",
+      "inventor_name": "Christopher Brian Locke",
+      "patents": 541,
+      "country_rank": 2
+    },
+    {
+      "country": "GB",
+      "inventor_name": "Hideji WAKABAYASHI",
+      "patents": 402,
+      "country_rank": 3
+    },
+    {
+      "country": "GD",
+      "inventor_name": "Spencer Holover",
+      "patents": 1,
+      "country_rank": 1
+    },
+    {
+      "country": "GD",
+      "inventor_name": "Fereshteh Abbasi",
+      "patents": 1,
+      "country_rank": 1
+    },
+    {
+      "country": "GE",
+      "inventor_name": "Avto Tavkhelidze",
+      "patents": 30,
+      "country_rank": 1
+    },
+    {
+      "country": "GE",
+      "inventor_name": "Ramaz Katsarava",
+      "patents": 16,
+      "country_rank": 2
+    },
+    {
+      "country": "GE",
+      "inventor_name": "Matthias Fertig",
+      "patents": 10,
+      "country_rank": 3
+    },
+    {
+      "country": "GG",
+      "inventor_name": "Charles Peter Hedley Sheldrake",
+      "patents": 1,
+      "country_rank": 1
+    },
+    {
+      "country": "GG",
+      "inventor_name": "Geoffrey Hector James Munro",
+      "patents": 1,
+      "country_rank": 1
+    },
+    {
+      "country": "GG",
+      "inventor_name": "Timothy BLAKE",
+      "patents": 1,
+      "country_rank": 1
+    },
+    {
+      "country": "GH",
+      "inventor_name": "Yoshihisa Suzuki",
+      "patents": 106,
+      "country_rank": 1
+    },
+    {
+      "country": "GH",
+      "inventor_name": "Manabu Yoshida",
+      "patents": 39,
+      "country_rank": 2
+    },
+    {
+      "country": "GH",
+      "inventor_name": "Yoshiteru Hattori",
+      "patents": 34,
+      "country_rank": 3
+    },
+    {
+      "country": "GI",
+      "inventor_name": "Martin Moshal",
+      "patents": 26,
+      "country_rank": 1
+    },
+    {
+      "country": "GI",
+      "inventor_name": "Robert James Mark Hain",
+      "patents": 8,
+      "country_rank": 2
+    },
+    {
+      "country": "GI",
+      "inventor_name": "Gavin C. O'Reilly",
+      "patents": 7,
+      "country_rank": 3
+    },
+    {
+      "country": "GL",
+      "inventor_name": "Biljana Ilievska",
+      "patents": 3,
+      "country_rank": 1
+    },
+    {
+      "country": "GL",
+      "inventor_name": "Bjarni Gudmundsson",
+      "patents": 1,
+      "country_rank": 2
+    },
+    {
+      "country": "GL",
+      "inventor_name": "Christoffer Junker Elmelund",
+      "patents": 1,
+      "country_rank": 2
+    },
+    {
+      "country": "GL",
+      "inventor_name": "Dora Hlin GISLADOTTIR",
+      "patents": 1,
+      "country_rank": 2
+    },
+    {
+      "country": "GL",
+      "inventor_name": "Steingrimur Einarsson",
+      "patents": 1,
+      "country_rank": 2
+    },
+    {
+      "country": "GL",
+      "inventor_name": "Suni À Dalbø",
+      "patents": 1,
+      "country_rank": 2
+    },
+    {
+      "country": "GM",
+      "inventor_name": "Jayne Suzanne Sutherland",
+      "patents": 5,
+      "country_rank": 1
+    },
+    {
+      "country": "GM",
+      "inventor_name": "Tom Blanchard",
+      "patents": 3,
+      "country_rank": 2
+    },
+    {
+      "country": "GM",
+      "inventor_name": "Matt Cotten",
+      "patents": 2,
+      "country_rank": 3
+    },
+    {
+      "country": "GN",
+      "inventor_name": "Aliou Mamadou Balde",
+      "patents": 1,
+      "country_rank": 1
+    },
+    {
+      "country": "GR",
+      "inventor_name": "Apostolis Salkintzis",
+      "patents": 144,
+      "country_rank": 1
+    },
+    {
+      "country": "GR",
+      "inventor_name": "Ioannis Bozikis",
+      "patents": 72,
+      "country_rank": 2
+    },
+    {
+      "country": "GR",
+      "inventor_name": "Marina Bulgari",
+      "patents": 62,
+      "country_rank": 3
+    },
+    {
+      "country": "GT",
+      "inventor_name": "Carlton B. Brown",
+      "patents": 15,
+      "country_rank": 1
+    },
+    {
+      "country": "GT",
+      "inventor_name": "Armando Araujo",
+      "patents": 11,
+      "country_rank": 2
+    },
+    {
+      "country": "GT",
+      "inventor_name": "Joseph Christian Rossell",
+      "patents": 9,
+      "country_rank": 3
+    },
+    {
+      "country": "GW",
+      "inventor_name": "Wolfgang Scheyer",
+      "patents": 12,
+      "country_rank": 1
+    },
+    {
+      "country": "GW",
+      "inventor_name": "Kurt Ellensohn",
+      "patents": 6,
+      "country_rank": 2
+    },
+    {
+      "country": "GW",
+      "inventor_name": "Arnold Federer",
+      "patents": 4,
+      "country_rank": 3
+    },
+    {
+      "country": "GY",
+      "inventor_name": "Olivier Sorg",
+      "patents": 6,
+      "country_rank": 1
+    },
+    {
+      "country": "GY",
+      "inventor_name": "Billy Summer",
+      "patents": 3,
+      "country_rank": 2
+    },
+    {
+      "country": "GY",
+      "inventor_name": "Dawn I. Fox",
+      "patents": 2,
+      "country_rank": 3
+    },
+    {
+      "country": "GY",
+      "inventor_name": "Eldon Marks",
+      "patents": 2,
+      "country_rank": 3
+    },
+    {
+      "country": "HN",
+      "inventor_name": "Edwin A. Hernandez-Mondragon",
+      "patents": 8,
+      "country_rank": 1
+    },
+    {
+      "country": "HN",
+      "inventor_name": "Juan Fernando Aguilar Morán",
+      "patents": 7,
+      "country_rank": 2
+    },
+    {
+      "country": "HN",
+      "inventor_name": "Elena Nunez",
+      "patents": 4,
+      "country_rank": 3
+    },
+    {
+      "country": "HN",
+      "inventor_name": "Helena Leppäkoski",
+      "patents": 4,
+      "country_rank": 3
+    },
+    {
+      "country": "HN",
+      "inventor_name": "Phillip Ray Rowe",
+      "patents": 4,
+      "country_rank": 3
+    },
+    {
+      "country": "HR",
+      "inventor_name": "Thomas Leiber",
+      "patents": 61,
+      "country_rank": 1
+    },
+    {
+      "country": "HR",
+      "inventor_name": "Gorjana Lazarevski",
+      "patents": 20,
+      "country_rank": 2
+    },
+    {
+      "country": "HR",
+      "inventor_name": "Slobodan Vukicevic",
+      "patents": 20,
+      "country_rank": 2
+    },
+    {
+      "country": "HR",
+      "inventor_name": "Milan Mesic",
+      "patents": 19,
+      "country_rank": 3
+    },
+    {
+      "country": "HT",
+      "inventor_name": "Julius Tomar",
+      "patents": 5,
+      "country_rank": 1
+    },
+    {
+      "country": "HT",
+      "inventor_name": "Alexander von Lignau",
+      "patents": 1,
+      "country_rank": 2
+    },
+    {
+      "country": "HT",
+      "inventor_name": "Iliyan Nenov",
+      "patents": 1,
+      "country_rank": 2
+    },
+    {
+      "country": "HT",
+      "inventor_name": "IIiyan N. Nenov",
+      "patents": 1,
+      "country_rank": 2
+    },
+    {
+      "country": "HU",
+      "inventor_name": "Laszlo Szporny",
+      "patents": 151,
+      "country_rank": 1
+    },
+    {
+      "country": "HU",
+      "inventor_name": "János Farkas",
+      "patents": 113,
+      "country_rank": 2
+    },
+    {
+      "country": "HU",
+      "inventor_name": "Neil Sondhi",
+      "patents": 94,
+      "country_rank": 3
+    },
+    {
+      "country": "ID",
+      "inventor_name": "Tomoaki Ikeda",
+      "patents": 78,
+      "country_rank": 1
+    },
+    {
+      "country": "ID",
+      "inventor_name": "Andi Syaputra Hasibuan",
+      "patents": 60,
+      "country_rank": 2
+    },
+    {
+      "country": "ID",
+      "inventor_name": "Rizky Wanaldi",
+      "patents": 60,
+      "country_rank": 2
+    },
+    {
+      "country": "ID",
+      "inventor_name": "Satryo Soemantri Brodjonegoro",
+      "patents": 60,
+      "country_rank": 2
+    },
+    {
+      "country": "ID",
+      "inventor_name": "Tegar Mukti Aji",
+      "patents": 60,
+      "country_rank": 2
+    },
+    {
+      "country": "ID",
+      "inventor_name": "Takeshi Yasui",
+      "patents": 47,
+      "country_rank": 3
+    },
+    {
+      "country": "IE",
+      "inventor_name": "Patrick J. O'Sullivan",
+      "patents": 417,
+      "country_rank": 1
+    },
+    {
+      "country": "IE",
+      "inventor_name": "Liam Harpur",
+      "patents": 414,
+      "country_rank": 2
+    },
+    {
+      "country": "IE",
+      "inventor_name": "Jonathan Dunne",
+      "patents": 353,
+      "country_rank": 3
+    },
+    {
+      "country": "IL",
+      "inventor_name": "Assaf Govari",
+      "patents": 655,
+      "country_rank": 1
+    },
+    {
+      "country": "IL",
+      "inventor_name": "Michael Tsirkin",
+      "patents": 634,
+      "country_rank": 2
+    },
+    {
+      "country": "IL",
+      "inventor_name": "Assaf Natanzon",
+      "patents": 527,
+      "country_rank": 3
+    },
+    {
+      "country": "IM",
+      "inventor_name": "Robert William Stimpson",
+      "patents": 37,
+      "country_rank": 1
+    },
+    {
+      "country": "IM",
+      "inventor_name": "Ian Felmeri",
+      "patents": 11,
+      "country_rank": 2
+    },
+    {
+      "country": "IM",
+      "inventor_name": "Mark Shuttleworth",
+      "patents": 11,
+      "country_rank": 2
+    },
+    {
+      "country": "IM",
+      "inventor_name": "Ivanka Majic",
+      "patents": 9,
+      "country_rank": 3
+    },
+    {
+      "country": "IM",
+      "inventor_name": "Ivo Weevers",
+      "patents": 9,
+      "country_rank": 3
+    },
+    {
+      "country": "IM",
+      "inventor_name": "Mika Meskanen",
+      "patents": 9,
+      "country_rank": 3
+    },
+    {
+      "country": "IN",
+      "inventor_name": "Sarbajit K. Rakshit",
+      "patents": 1466,
+      "country_rank": 1
+    },
+    {
+      "country": "IN",
+      "inventor_name": "Srinivas Yerramalli",
+      "patents": 537,
+      "country_rank": 2
+    },
+    {
+      "country": "IN",
+      "inventor_name": "Shelesh Chopra",
+      "patents": 389,
+      "country_rank": 3
+    },
+    {
+      "country": "IQ",
+      "inventor_name": "Seth-Olov Thorberg",
+      "patents": 37,
+      "country_rank": 1
+    },
+    {
+      "country": "IQ",
+      "inventor_name": "Minoru Oshio",
+      "patents": 12,
+      "country_rank": 2
+    },
+    {
+      "country": "IQ",
+      "inventor_name": "Ahmed A. Al-Karmalawy",
+      "patents": 11,
+      "country_rank": 3
+    },
+    {
+      "country": "IR",
+      "inventor_name": "Ali S. Sadri",
+      "patents": 101,
+      "country_rank": 1
+    },
+    {
+      "country": "IR",
+      "inventor_name": "Atsushi Tomizawa",
+      "patents": 61,
+      "country_rank": 2
+    },
+    {
+      "country": "IR",
+      "inventor_name": "Motonobu Kubo",
+      "patents": 53,
+      "country_rank": 3
+    },
+    {
+      "country": "IS",
+      "inventor_name": "Arinbjörn Viggo Clausen",
+      "patents": 80,
+      "country_rank": 1
+    },
+    {
+      "country": "IS",
+      "inventor_name": "Sverrir Olafsson",
+      "patents": 65,
+      "country_rank": 2
+    },
+    {
+      "country": "IS",
+      "inventor_name": "Bjorn Omarsson",
+      "patents": 52,
+      "country_rank": 3
+    },
+    {
+      "country": "IT",
+      "inventor_name": "Pasquale Natuzzi",
+      "patents": 436,
+      "country_rank": 1
+    },
+    {
+      "country": "IT",
+      "inventor_name": "Ferdinando Bedeschi",
+      "patents": 215,
+      "country_rank": 2
+    },
+    {
+      "country": "IT",
+      "inventor_name": "Fiorenzo Draghetti",
+      "patents": 212,
+      "country_rank": 3
+    },
+    {
+      "country": "JE",
+      "inventor_name": "James Roberts",
+      "patents": 67,
+      "country_rank": 1
+    },
+    {
+      "country": "JE",
+      "inventor_name": "Lawrence D. Woolf",
+      "patents": 27,
+      "country_rank": 2
+    },
+    {
+      "country": "JE",
+      "inventor_name": "David K. Fox",
+      "patents": 23,
+      "country_rank": 3
+    },
+    {
+      "country": "JM",
+      "inventor_name": "Howard Chin",
+      "patents": 22,
+      "country_rank": 1
+    },
+    {
+      "country": "JM",
+      "inventor_name": "Chester R. Willis",
+      "patents": 15,
+      "country_rank": 2
+    },
+    {
+      "country": "JM",
+      "inventor_name": "Paul Campbell",
+      "patents": 11,
+      "country_rank": 3
+    },
+    {
+      "country": "JO",
+      "inventor_name": "Mohammed Sammour",
+      "patents": 122,
+      "country_rank": 1
+    },
+    {
+      "country": "JO",
+      "inventor_name": "Masaki Fujikane",
+      "patents": 33,
+      "country_rank": 2
+    },
+    {
+      "country": "JO",
+      "inventor_name": "Abdulla M. Bataineh",
+      "patents": 26,
+      "country_rank": 3
+    },
+    {
+      "country": "JP",
+      "inventor_name": "Shunpei Yamazaki",
+      "patents": 6749,
+      "country_rank": 1
+    },
+    {
+      "country": "JP",
+      "inventor_name": "Jun Koyama",
+      "patents": 1573,
+      "country_rank": 2
+    },
+    {
+      "country": "JP",
+      "inventor_name": "Takashi Suzuki",
+      "patents": 1401,
+      "country_rank": 3
+    },
+    {
+      "country": "KE",
+      "inventor_name": "Komminist Weldemariam",
+      "patents": 153,
+      "country_rank": 1
+    },
+    {
+      "country": "KE",
+      "inventor_name": "Mitchell Medina",
+      "patents": 29,
+      "country_rank": 2
+    },
+    {
+      "country": "KE",
+      "inventor_name": "Kamal Bhattacharya",
+      "patents": 25,
+      "country_rank": 3
+    },
+    {
+      "country": "KG",
+      "inventor_name": "Jury I. Sakharov",
+      "patents": 5,
+      "country_rank": 1
+    },
+    {
+      "country": "KG",
+      "inventor_name": "Nikolai V. Kudashov",
+      "patents": 4,
+      "country_rank": 2
+    },
+    {
+      "country": "KG",
+      "inventor_name": "Anatoly N. Ezhov",
+      "patents": 2,
+      "country_rank": 3
+    },
+    {
+      "country": "KG",
+      "inventor_name": "Ita N. Kodnir",
+      "patents": 2,
+      "country_rank": 3
+    },
+    {
+      "country": "KG",
+      "inventor_name": "Mikhall P. Kozin",
+      "patents": 2,
+      "country_rank": 3
+    },
+    {
+      "country": "KG",
+      "inventor_name": "Nikolai A. Bezborodov",
+      "patents": 2,
+      "country_rank": 3
+    },
+    {
+      "country": "KG",
+      "inventor_name": "Igor B. Pokrovsky",
+      "patents": 2,
+      "country_rank": 3
+    },
+    {
+      "country": "KG",
+      "inventor_name": "Jury I. Baiborodov",
+      "patents": 2,
+      "country_rank": 3
+    },
+    {
+      "country": "KG",
+      "inventor_name": "Dimitrij B. Izosimov",
+      "patents": 2,
+      "country_rank": 3
+    },
+    {
+      "country": "KH",
+      "inventor_name": "Nimol Khim",
+      "patents": 9,
+      "country_rank": 1
+    },
+    {
+      "country": "KH",
+      "inventor_name": "Fumimasa Azuma",
+      "patents": 4,
+      "country_rank": 2
+    },
+    {
+      "country": "KH",
+      "inventor_name": "Su Io Lam",
+      "patents": 4,
+      "country_rank": 2
+    },
+    {
+      "country": "KH",
+      "inventor_name": "Bunika San",
+      "patents": 2,
+      "country_rank": 3
+    },
+    {
+      "country": "KN",
+      "inventor_name": "Gary A. Rogers",
+      "patents": 20,
+      "country_rank": 1
+    },
+    {
+      "country": "KN",
+      "inventor_name": "Chase Revel",
+      "patents": 2,
+      "country_rank": 2
+    },
+    {
+      "country": "KN",
+      "inventor_name": "Douglas Jeffrey Geiger",
+      "patents": 1,
+      "country_rank": 3
+    },
+    {
+      "country": "KN",
+      "inventor_name": "Elliott Paul Smithson",
+      "patents": 1,
+      "country_rank": 3
+    },
+    {
+      "country": "KN",
+      "inventor_name": "Esteban Soto",
+      "patents": 1,
+      "country_rank": 3
+    },
+    {
+      "country": "KP",
+      "inventor_name": "Kyong Min Shin",
+      "patents": 55,
+      "country_rank": 1
+    },
+    {
+      "country": "KP",
+      "inventor_name": "Dai Nakajima",
+      "patents": 44,
+      "country_rank": 2
+    },
+    {
+      "country": "KP",
+      "inventor_name": "Kwon Hyoung Choi",
+      "patents": 21,
+      "country_rank": 3
+    },
+    {
+      "country": "KR",
+      "inventor_name": "Hanbyul Seo",
+      "patents": 1833,
+      "country_rank": 1
+    },
+    {
+      "country": "KR",
+      "inventor_name": "Yunjung Yi",
+      "patents": 1402,
+      "country_rank": 2
+    },
+    {
+      "country": "KR",
+      "inventor_name": "Suckchel Yang",
+      "patents": 1291,
+      "country_rank": 3
+    },
+    {
+      "country": "KW",
+      "inventor_name": "Bader Shafaqa Al-Anzi",
+      "patents": 12,
+      "country_rank": 1
+    },
+    {
+      "country": "KW",
+      "inventor_name": "Fahd Al-Mulla",
+      "patents": 7,
+      "country_rank": 2
+    },
+    {
+      "country": "KW",
+      "inventor_name": "Mohan Singh Rana",
+      "patents": 7,
+      "country_rank": 2
+    },
+    {
+      "country": "KW",
+      "inventor_name": "Tareq Abduljalil Albahri",
+      "patents": 7,
+      "country_rank": 2
+    },
+    {
+      "country": "KW",
+      "inventor_name": "Milad S. Bitar",
+      "patents": 6,
+      "country_rank": 3
+    },
+    {
+      "country": "KY",
+      "inventor_name": "Jens Ole Sorensen",
+      "patents": 84,
+      "country_rank": 1
+    },
+    {
+      "country": "KY",
+      "inventor_name": "Chih-Wei Hsiung",
+      "patents": 33,
+      "country_rank": 2
+    },
+    {
+      "country": "KY",
+      "inventor_name": "Frank Schilling",
+      "patents": 29,
+      "country_rank": 3
+    },
+    {
+      "country": "KY",
+      "inventor_name": "Joram Agar",
+      "patents": 29,
+      "country_rank": 3
+    },
+    {
+      "country": "KZ",
+      "inventor_name": "Oleg Tischenko",
+      "patents": 18,
+      "country_rank": 1
+    },
+    {
+      "country": "KZ",
+      "inventor_name": "Huseyin Atakan Varol",
+      "patents": 16,
+      "country_rank": 2
+    },
+    {
+      "country": "KZ",
+      "inventor_name": "Sergazy M. Adekenov",
+      "patents": 10,
+      "country_rank": 3
+    },
+    {
+      "country": "LA",
+      "inventor_name": "Toshiaki Yamanaka",
+      "patents": 78,
+      "country_rank": 1
+    },
+    {
+      "country": "LA",
+      "inventor_name": "Tsuyoshi Aoyama",
+      "patents": 27,
+      "country_rank": 2
+    },
+    {
+      "country": "LA",
+      "inventor_name": "Shizuo Shimizu",
+      "patents": 17,
+      "country_rank": 3
+    },
+    {
+      "country": "LB",
+      "inventor_name": "Samer Salam",
+      "patents": 90,
+      "country_rank": 1
+    },
+    {
+      "country": "LB",
+      "inventor_name": "Nizar Youssef Mehio",
+      "patents": 29,
+      "country_rank": 2
+    },
+    {
+      "country": "LB",
+      "inventor_name": "Badawi Yamine",
+      "patents": 19,
+      "country_rank": 3
+    },
+    {
+      "country": "LC",
+      "inventor_name": "Francis S. Leonce",
+      "patents": 3,
+      "country_rank": 1
+    },
+    {
+      "country": "LC",
+      "inventor_name": "Colin A. Borton",
+      "patents": 3,
+      "country_rank": 1
+    },
+    {
+      "country": "LC",
+      "inventor_name": "Johanan Jeffrey Dujon",
+      "patents": 1,
+      "country_rank": 2
+    },
+    {
+      "country": "LI",
+      "inventor_name": "Volker Rheinberger",
+      "patents": 186,
+      "country_rank": 1
+    },
+    {
+      "country": "LI",
+      "inventor_name": "Norbert Moszner",
+      "patents": 119,
+      "country_rank": 2
+    },
+    {
+      "country": "LI",
+      "inventor_name": "Wolfram Höland",
+      "patents": 91,
+      "country_rank": 3
+    },
+    {
+      "country": "LK",
+      "inventor_name": "Hettiyakandage Piyal Lalindra Fernando",
+      "patents": 14,
+      "country_rank": 1
+    },
+    {
+      "country": "LK",
+      "inventor_name": "Koenraad Pringiers",
+      "patents": 14,
+      "country_rank": 1
+    },
+    {
+      "country": "LK",
+      "inventor_name": "Mikko Kallio",
+      "patents": 13,
+      "country_rank": 2
+    },
+    {
+      "country": "LK",
+      "inventor_name": "Jacob Pringiers",
+      "patents": 12,
+      "country_rank": 3
+    },
+    {
+      "country": "LR",
+      "inventor_name": "Fredrik Bergling",
+      "patents": 7,
+      "country_rank": 1
+    },
+    {
+      "country": "LR",
+      "inventor_name": "Sebastien Hannedouche",
+      "patents": 7,
+      "country_rank": 1
+    },
+    {
+      "country": "LR",
+      "inventor_name": "Raymond Richard Bomford",
+      "patents": 4,
+      "country_rank": 2
+    },
+    {
+      "country": "LR",
+      "inventor_name": "David P. Kosow",
+      "patents": 2,
+      "country_rank": 3
+    },
+    {
+      "country": "LR",
+      "inventor_name": "Hideyuki Kametani",
+      "patents": 2,
+      "country_rank": 3
+    },
+    {
+      "country": "LR",
+      "inventor_name": "Sven-Anders Nilsson",
+      "patents": 2,
+      "country_rank": 3
+    },
+    {
+      "country": "LS",
+      "inventor_name": "William M. Spangler",
+      "patents": 3,
+      "country_rank": 1
+    },
+    {
+      "country": "LS",
+      "inventor_name": "Takeshi Tomisawa",
+      "patents": 2,
+      "country_rank": 2
+    },
+    {
+      "country": "LT",
+      "inventor_name": "Mindaugas Valkaitis",
+      "patents": 84,
+      "country_rank": 1
+    },
+    {
+      "country": "LT",
+      "inventor_name": "Karolis Pabijanskas",
+      "patents": 48,
+      "country_rank": 2
+    },
+    {
+      "country": "LT",
+      "inventor_name": "Vytautas Getautis",
+      "patents": 45,
+      "country_rank": 3
+    },
+    {
+      "country": "LU",
+      "inventor_name": "Sebastien Willy Fontaine",
+      "patents": 155,
+      "country_rank": 1
+    },
+    {
+      "country": "LU",
+      "inventor_name": "Maurice Graas",
+      "patents": 153,
+      "country_rank": 2
+    },
+    {
+      "country": "LU",
+      "inventor_name": "Emile Lonardi",
+      "patents": 117,
+      "country_rank": 3
+    },
+    {
+      "country": "LV",
+      "inventor_name": "Ivars Kalvinsh",
+      "patents": 35,
+      "country_rank": 1
+    },
+    {
+      "country": "LV",
+      "inventor_name": "Einars Loza",
+      "patents": 18,
+      "country_rank": 2
+    },
+    {
+      "country": "LV",
+      "inventor_name": "Ilja Nevdahs",
+      "patents": 15,
+      "country_rank": 3
+    },
+    {
+      "country": "LV",
+      "inventor_name": "Ilmars Osmanis",
+      "patents": 15,
+      "country_rank": 3
+    },
+    {
+      "country": "LV",
+      "inventor_name": "Ivars Kalvins",
+      "patents": 15,
+      "country_rank": 3
+    },
+    {
+      "country": "LY",
+      "inventor_name": "Mohamed Tarek El-Rayes",
+      "patents": 3,
+      "country_rank": 1
+    },
+    {
+      "country": "LY",
+      "inventor_name": "Nuri A. Zreiba",
+      "patents": 3,
+      "country_rank": 1
+    },
+    {
+      "country": "LY",
+      "inventor_name": "Stanislaw Bednarski",
+      "patents": 2,
+      "country_rank": 2
+    },
+    {
+      "country": "LY",
+      "inventor_name": "Jamaleddin Esalah",
+      "patents": 1,
+      "country_rank": 3
+    },
+    {
+      "country": "LY",
+      "inventor_name": "Ahmed Elbakush",
+      "patents": 1,
+      "country_rank": 3
+    },
+    {
+      "country": "LY",
+      "inventor_name": "Mustafa O. M. Sharrad",
+      "patents": 1,
+      "country_rank": 3
+    },
+    {
+      "country": "MA",
+      "inventor_name": "Jean Vincent",
+      "patents": 13,
+      "country_rank": 1
+    },
+    {
+      "country": "MA",
+      "inventor_name": "Driss Dhiba",
+      "patents": 12,
+      "country_rank": 2
+    },
+    {
+      "country": "MA",
+      "inventor_name": "Ka Tiek Lim",
+      "patents": 10,
+      "country_rank": 3
+    },
+    {
+      "country": "MC",
+      "inventor_name": "Leonhard Zastrow",
+      "patents": 52,
+      "country_rank": 1
+    },
+    {
+      "country": "MC",
+      "inventor_name": "Karin Golz-Berner",
+      "patents": 34,
+      "country_rank": 2
+    },
+    {
+      "country": "MC",
+      "inventor_name": "Walter Divisi",
+      "patents": 25,
+      "country_rank": 3
+    },
+    {
+      "country": "MD",
+      "inventor_name": "Elmer R. Csanady",
+      "patents": 5,
+      "country_rank": 1
+    },
+    {
+      "country": "MD",
+      "inventor_name": "Maxim Basunov",
+      "patents": 5,
+      "country_rank": 1
+    },
+    {
+      "country": "MD",
+      "inventor_name": "Sergiu Vrabie",
+      "patents": 4,
+      "country_rank": 2
+    },
+    {
+      "country": "MD",
+      "inventor_name": "Victor Diaconu",
+      "patents": 4,
+      "country_rank": 2
+    },
+    {
+      "country": "MD",
+      "inventor_name": "Maxim Gusarev",
+      "patents": 3,
+      "country_rank": 3
+    },
+    {
+      "country": "MD",
+      "inventor_name": "Serghei Sepelevici",
+      "patents": 3,
+      "country_rank": 3
+    },
+    {
+      "country": "ME",
+      "inventor_name": "Ognjen Nikolic",
+      "patents": 6,
+      "country_rank": 1
+    },
+    {
+      "country": "ME",
+      "inventor_name": "Jose Formoso",
+      "patents": 4,
+      "country_rank": 2
+    },
+    {
+      "country": "ME",
+      "inventor_name": "Asif Sabanovic",
+      "patents": 2,
+      "country_rank": 3
+    },
+    {
+      "country": "ME",
+      "inventor_name": "Aleksandra Dukic",
+      "patents": 2,
+      "country_rank": 3
+    },
+    {
+      "country": "ME",
+      "inventor_name": "Alexander Kolosov",
+      "patents": 2,
+      "country_rank": 3
+    },
+    {
+      "country": "ME",
+      "inventor_name": "Bozo Memed",
+      "patents": 2,
+      "country_rank": 3
+    },
+    {
+      "country": "ME",
+      "inventor_name": "Carlo Rupnik",
+      "patents": 2,
+      "country_rank": 3
+    },
+    {
+      "country": "MG",
+      "inventor_name": "Marie Georgine Rakotoson",
+      "patents": 8,
+      "country_rank": 1
+    },
+    {
+      "country": "MG",
+      "inventor_name": "Philippe Rasoanaivo",
+      "patents": 6,
+      "country_rank": 2
+    },
+    {
+      "country": "MG",
+      "inventor_name": "Albert Rakoto Ratsimamanga",
+      "patents": 4,
+      "country_rank": 3
+    },
+    {
+      "country": "MG",
+      "inventor_name": "Phillippe Rasoanaivo",
+      "patents": 4,
+      "country_rank": 3
+    },
+    {
+      "country": "MG",
+      "inventor_name": "Suzanne Rakoto Ratsimamanga",
+      "patents": 4,
+      "country_rank": 3
+    },
+    {
+      "country": "MK",
+      "inventor_name": "Filip Shteriev",
+      "patents": 2,
+      "country_rank": 1
+    },
+    {
+      "country": "MK",
+      "inventor_name": "Mirko Todorovski",
+      "patents": 2,
+      "country_rank": 1
+    },
+    {
+      "country": "MK",
+      "inventor_name": "Risto Saari",
+      "patents": 2,
+      "country_rank": 1
+    },
+    {
+      "country": "MK",
+      "inventor_name": "Saso Koceski",
+      "patents": 2,
+      "country_rank": 1
+    },
+    {
+      "country": "MK",
+      "inventor_name": "Tasko Smileski",
+      "patents": 2,
+      "country_rank": 1
+    },
+    {
+      "country": "MK",
+      "inventor_name": "Vladimir Zdraveski",
+      "patents": 2,
+      "country_rank": 1
+    },
+    {
+      "country": "MK",
+      "inventor_name": "Zoran Sekulovski",
+      "patents": 2,
+      "country_rank": 1
+    },
+    {
+      "country": "MK",
+      "inventor_name": "Olga Nikodijevic",
+      "patents": 1,
+      "country_rank": 2
+    },
+    {
+      "country": "MK",
+      "inventor_name": "Aleksandar Dimitrov",
+      "patents": 1,
+      "country_rank": 2
+    },
+    {
+      "country": "MK",
+      "inventor_name": "Andrej Gajduk",
+      "patents": 1,
+      "country_rank": 2
+    },
+    {
+      "country": "MK",
+      "inventor_name": "Anka T Petkoska",
+      "patents": 1,
+      "country_rank": 2
+    },
+    {
+      "country": "MK",
+      "inventor_name": "Filip Popovski",
+      "patents": 1,
+      "country_rank": 2
+    },
+    {
+      "country": "MK",
+      "inventor_name": "Filimena Radonjanin-Stojmirova",
+      "patents": 1,
+      "country_rank": 2
+    },
+    {
+      "country": "MK",
+      "inventor_name": "Goran Kungulovski",
+      "patents": 1,
+      "country_rank": 2
+    },
+    {
+      "country": "MK",
+      "inventor_name": "Lasko Basnarkov",
+      "patents": 1,
+      "country_rank": 2
+    },
+    {
+      "country": "MK",
+      "inventor_name": "Marko Naseki",
+      "patents": 1,
+      "country_rank": 2
+    },
+    {
+      "country": "MK",
+      "inventor_name": "Marjan Savevski",
+      "patents": 1,
+      "country_rank": 2
+    },
+    {
+      "country": "MK",
+      "inventor_name": "Mirza Maznikar",
+      "patents": 1,
+      "country_rank": 2
+    },
+    {
+      "country": "MK",
+      "inventor_name": "Nedin Ametovski",
+      "patents": 1,
+      "country_rank": 2
+    },
+    {
+      "country": "MK",
+      "inventor_name": "Nikolai G. Schekin",
+      "patents": 1,
+      "country_rank": 2
+    },
+    {
+      "country": "MK",
+      "inventor_name": "Smile Markovski",
+      "patents": 1,
+      "country_rank": 2
+    },
+    {
+      "country": "MK",
+      "inventor_name": "Stojche Smileski",
+      "patents": 1,
+      "country_rank": 2
+    },
+    {
+      "country": "MK",
+      "inventor_name": "Stojce Smileski",
+      "patents": 1,
+      "country_rank": 2
+    },
+    {
+      "country": "MK",
+      "inventor_name": "Tashko Ritzov",
+      "patents": 1,
+      "country_rank": 2
+    },
+    {
+      "country": "MK",
+      "inventor_name": "Vasil Argirovski",
+      "patents": 1,
+      "country_rank": 2
+    },
+    {
+      "country": "MK",
+      "inventor_name": "Vancho Stoev",
+      "patents": 1,
+      "country_rank": 2
+    },
+    {
+      "country": "MK",
+      "inventor_name": "Sonja Jovan Ugarkovic",
+      "patents": 1,
+      "country_rank": 2
+    },
+    {
+      "country": "ML",
+      "inventor_name": "Salime Sylla",
+      "patents": 12,
+      "country_rank": 1
+    },
+    {
+      "country": "ML",
+      "inventor_name": "Michael C. Leventhal",
+      "patents": 7,
+      "country_rank": 2
+    },
+    {
+      "country": "ML",
+      "inventor_name": "Esther Chee Hsiang Cheng",
+      "patents": 5,
+      "country_rank": 3
+    },
+    {
+      "country": "MM",
+      "inventor_name": "Lukas Werner",
+      "patents": 19,
+      "country_rank": 1
+    },
+    {
+      "country": "MM",
+      "inventor_name": "Norman O. Clark",
+      "patents": 6,
+      "country_rank": 2
+    },
+    {
+      "country": "MM",
+      "inventor_name": "Moon-Gone Kim",
+      "patents": 5,
+      "country_rank": 3
+    },
+    {
+      "country": "MN",
+      "inventor_name": "C. Peter deCler",
+      "patents": 4,
+      "country_rank": 1
+    },
+    {
+      "country": "MN",
+      "inventor_name": "Mishig Davaadorj",
+      "patents": 3,
+      "country_rank": 2
+    },
+    {
+      "country": "MN",
+      "inventor_name": "Chuluun Enkhbold",
+      "patents": 2,
+      "country_rank": 3
+    },
+    {
+      "country": "MN",
+      "inventor_name": "Marty Ma",
+      "patents": 2,
+      "country_rank": 3
+    },
+    {
+      "country": "MT",
+      "inventor_name": "Angelo DALLI",
+      "patents": 21,
+      "country_rank": 1
+    },
+    {
+      "country": "MT",
+      "inventor_name": "Mauro PIRRONE",
+      "patents": 21,
+      "country_rank": 1
+    },
+    {
+      "country": "MT",
+      "inventor_name": "Paul Gafa",
+      "patents": 19,
+      "country_rank": 2
+    },
+    {
+      "country": "MT",
+      "inventor_name": "Kevin Formosa",
+      "patents": 17,
+      "country_rank": 3
+    },
+    {
+      "country": "MU",
+      "inventor_name": "Tadashi Okamoto",
+      "patents": 102,
+      "country_rank": 1
+    },
+    {
+      "country": "MU",
+      "inventor_name": "Sho Sato",
+      "patents": 96,
+      "country_rank": 2
+    },
+    {
+      "country": "MU",
+      "inventor_name": "Kenichi Sakai",
+      "patents": 53,
+      "country_rank": 3
+    },
+    {
+      "country": "MW",
+      "inventor_name": "Antonius H. J. Reuvekamp",
+      "patents": 2,
+      "country_rank": 1
+    },
+    {
+      "country": "MW",
+      "inventor_name": "Charlotte Van Der Veer",
+      "patents": 2,
+      "country_rank": 1
+    },
+    {
+      "country": "MW",
+      "inventor_name": "Elizabeth Molyneux",
+      "patents": 1,
+      "country_rank": 2
+    },
+    {
+      "country": "MX",
+      "inventor_name": "Joseph M. Muchowski",
+      "patents": 63,
+      "country_rank": 1
+    },
+    {
+      "country": "MX",
+      "inventor_name": "Emmanuel Barajas Gonzalez",
+      "patents": 54,
+      "country_rank": 2
+    },
+    {
+      "country": "MX",
+      "inventor_name": "Eduardo Coronado",
+      "patents": 39,
+      "country_rank": 3
+    },
+    {
+      "country": "MY",
+      "inventor_name": "Bok Eng Cheah",
+      "patents": 138,
+      "country_rank": 1
+    },
+    {
+      "country": "MY",
+      "inventor_name": "Jackson Chung Peng Kong",
+      "patents": 116,
+      "country_rank": 2
+    },
+    {
+      "country": "MY",
+      "inventor_name": "Wolfgang Neuberger",
+      "patents": 111,
+      "country_rank": 3
+    },
+    {
+      "country": "MZ",
+      "inventor_name": "Dayn Amade",
+      "patents": 1,
+      "country_rank": 1
+    },
+    {
+      "country": "MZ",
+      "inventor_name": "Syota Motomura",
+      "patents": 1,
+      "country_rank": 1
+    },
+    {
+      "country": "NE",
+      "inventor_name": "Jean-Francois Gregoire",
+      "patents": 7,
+      "country_rank": 1
+    },
+    {
+      "country": "NE",
+      "inventor_name": "Okafuji Masaharu",
+      "patents": 3,
+      "country_rank": 2
+    },
+    {
+      "country": "NE",
+      "inventor_name": "Wolfgang Kauschke",
+      "patents": 3,
+      "country_rank": 2
+    },
+    {
+      "country": "NE",
+      "inventor_name": "Yoshiaki Meguro",
+      "patents": 3,
+      "country_rank": 2
+    },
+    {
+      "country": "NE",
+      "inventor_name": "Takeoka Tatsuo",
+      "patents": 2,
+      "country_rank": 3
+    },
+    {
+      "country": "NE",
+      "inventor_name": "Arie Niemantsverdriet",
+      "patents": 2,
+      "country_rank": 3
+    },
+    {
+      "country": "NE",
+      "inventor_name": "Paul Jullien",
+      "patents": 2,
+      "country_rank": 3
+    },
+    {
+      "country": "NE",
+      "inventor_name": "Ichinose Nagayoshi",
+      "patents": 2,
+      "country_rank": 3
+    },
+    {
+      "country": "NG",
+      "inventor_name": "Toshihiro Takahashi",
+      "patents": 52,
+      "country_rank": 1
+    },
+    {
+      "country": "NG",
+      "inventor_name": "Takayoshi Ohtsu",
+      "patents": 30,
+      "country_rank": 2
+    },
+    {
+      "country": "NG",
+      "inventor_name": "Kenji Shibata",
+      "patents": 21,
+      "country_rank": 3
+    },
+    {
+      "country": "NI",
+      "inventor_name": "Roderick A. Flinn",
+      "patents": 1,
+      "country_rank": 1
+    },
+    {
+      "country": "NI",
+      "inventor_name": "Tomer LIVNEH",
+      "patents": 1,
+      "country_rank": 1
+    },
+    {
+      "country": "NI",
+      "inventor_name": "Hugo J. Espinal",
+      "patents": 1,
+      "country_rank": 1
+    },
+    {
+      "country": "NL",
+      "inventor_name": "Erik Roelof Loopstra",
+      "patents": 358,
+      "country_rank": 1
+    },
+    {
+      "country": "NL",
+      "inventor_name": "Rifat Ata Mustafa Hikmet",
+      "patents": 307,
+      "country_rank": 2
+    },
+    {
+      "country": "NL",
+      "inventor_name": "Arie Jeffrey Den Boef",
+      "patents": 262,
+      "country_rank": 3
+    },
+    {
+      "country": "NO",
+      "inventor_name": "Bjørn Dag Johnsen",
+      "patents": 231,
+      "country_rank": 1
+    },
+    {
+      "country": "NO",
+      "inventor_name": "Trond Austrheim",
+      "patents": 139,
+      "country_rank": 2
+    },
+    {
+      "country": "NO",
+      "inventor_name": "Jo Klaveness",
+      "patents": 120,
+      "country_rank": 3
+    },
+    {
+      "country": "NP",
+      "inventor_name": "Hans Hede",
+      "patents": 19,
+      "country_rank": 1
+    },
+    {
+      "country": "NP",
+      "inventor_name": "Kristian Englund",
+      "patents": 3,
+      "country_rank": 2
+    },
+    {
+      "country": "NP",
+      "inventor_name": "Rabin Shrestha",
+      "patents": 3,
+      "country_rank": 2
+    },
+    {
+      "country": "NP",
+      "inventor_name": "Theera Yaemglin",
+      "patents": 3,
+      "country_rank": 2
+    },
+    {
+      "country": "NP",
+      "inventor_name": "Anirudh Saria",
+      "patents": 2,
+      "country_rank": 3
+    },
+    {
+      "country": "NP",
+      "inventor_name": "Gaurav Suwal",
+      "patents": 2,
+      "country_rank": 3
+    },
+    {
+      "country": "NP",
+      "inventor_name": "Rohan Poudel",
+      "patents": 2,
+      "country_rank": 3
+    },
+    {
+      "country": "NP",
+      "inventor_name": "Sabina Pokhrel",
+      "patents": 2,
+      "country_rank": 3
+    },
+    {
+      "country": "NP",
+      "inventor_name": "Shubham Jaiswal",
+      "patents": 2,
+      "country_rank": 3
+    },
+    {
+      "country": "NZ",
+      "inventor_name": "Masahiro Kimura",
+      "patents": 172,
+      "country_rank": 1
+    },
+    {
+      "country": "NZ",
+      "inventor_name": "Andrew Paul Maxwell Salmon",
+      "patents": 117,
+      "country_rank": 2
+    },
+    {
+      "country": "NZ",
+      "inventor_name": "Craig Robert Prentice",
+      "patents": 102,
+      "country_rank": 3
+    },
+    {
+      "country": "OM",
+      "inventor_name": "Mohammadali Shahriari",
+      "patents": 29,
+      "country_rank": 1
+    },
+    {
+      "country": "OM",
+      "inventor_name": "Daniel Palmer",
+      "patents": 12,
+      "country_rank": 2
+    },
+    {
+      "country": "OM",
+      "inventor_name": "Riadh Zaier",
+      "patents": 6,
+      "country_rank": 3
+    },
+    {
+      "country": "PA",
+      "inventor_name": "Roberto Villa",
+      "patents": 34,
+      "country_rank": 1
+    },
+    {
+      "country": "PA",
+      "inventor_name": "Gustavo Nunez",
+      "patents": 22,
+      "country_rank": 2
+    },
+    {
+      "country": "PA",
+      "inventor_name": "Julio Toro Silva",
+      "patents": 14,
+      "country_rank": 3
+    },
+    {
+      "country": "PE",
+      "inventor_name": "Arto Lehtiniemi",
+      "patents": 290,
+      "country_rank": 1
+    },
+    {
+      "country": "PE",
+      "inventor_name": "Jari Vikberg",
+      "patents": 248,
+      "country_rank": 2
+    },
+    {
+      "country": "PE",
+      "inventor_name": "Hiroshi Fujimoto",
+      "patents": 207,
+      "country_rank": 3
+    },
+    {
+      "country": "PG",
+      "inventor_name": "Nicholas A. Rounds",
+      "patents": 5,
+      "country_rank": 1
+    },
+    {
+      "country": "PG",
+      "inventor_name": "Saif Uddin",
+      "patents": 2,
+      "country_rank": 2
+    },
+    {
+      "country": "PG",
+      "inventor_name": "Alan R. McNeill",
+      "patents": 1,
+      "country_rank": 3
+    },
+    {
+      "country": "PG",
+      "inventor_name": "Carol Jenkins",
+      "patents": 1,
+      "country_rank": 3
+    },
+    {
+      "country": "PG",
+      "inventor_name": "Clements Waine",
+      "patents": 1,
+      "country_rank": 3
+    },
+    {
+      "country": "PG",
+      "inventor_name": "Johan Hallendorf",
+      "patents": 1,
+      "country_rank": 3
+    },
+    {
+      "country": "PH",
+      "inventor_name": "Jonathan Almeria Noquil",
+      "patents": 66,
+      "country_rank": 1
+    },
+    {
+      "country": "PH",
+      "inventor_name": "Jefferson Talledo",
+      "patents": 55,
+      "country_rank": 2
+    },
+    {
+      "country": "PH",
+      "inventor_name": "Vijay Phadke",
+      "patents": 52,
+      "country_rank": 3
+    },
+    {
+      "country": "PK",
+      "inventor_name": "Muhammad Hassan",
+      "patents": 36,
+      "country_rank": 1
+    },
+    {
+      "country": "PK",
+      "inventor_name": "Ahmad Hassan",
+      "patents": 31,
+      "country_rank": 2
+    },
+    {
+      "country": "PK",
+      "inventor_name": "Muhammad Faisal",
+      "patents": 19,
+      "country_rank": 3
+    },
+    {
+      "country": "PL",
+      "inventor_name": "Rafal R. Sicinski",
+      "patents": 98,
+      "country_rank": 1
+    },
+    {
+      "country": "PL",
+      "inventor_name": "Jerzy Tyszer",
+      "patents": 53,
+      "country_rank": 2
+    },
+    {
+      "country": "PL",
+      "inventor_name": "Konrad K. Skibski",
+      "patents": 46,
+      "country_rank": 3
+    },
+    {
+      "country": "PN",
+      "inventor_name": "Herbert R. Appell",
+      "patents": 2,
+      "country_rank": 1
+    },
+    {
+      "country": "PS",
+      "inventor_name": "Ismail Khalil Warad",
+      "patents": 4,
+      "country_rank": 1
+    },
+    {
+      "country": "PS",
+      "inventor_name": "Moshe Koppel",
+      "patents": 3,
+      "country_rank": 2
+    },
+    {
+      "country": "PS",
+      "inventor_name": "Anas Al-Ali",
+      "patents": 2,
+      "country_rank": 3
+    },
+    {
+      "country": "PS",
+      "inventor_name": "Anas ALALI",
+      "patents": 2,
+      "country_rank": 3
+    },
+    {
+      "country": "PT",
+      "inventor_name": "Tomas Nylander",
+      "patents": 143,
+      "country_rank": 1
+    },
+    {
+      "country": "PT",
+      "inventor_name": "Hugo Miguel Rodrigues Marques",
+      "patents": 52,
+      "country_rank": 2
+    },
+    {
+      "country": "PT",
+      "inventor_name": "Carlos Aguiar",
+      "patents": 50,
+      "country_rank": 3
+    },
+    {
+      "country": "PY",
+      "inventor_name": "Teodor Atroshenko",
+      "patents": 4,
+      "country_rank": 1
+    },
+    {
+      "country": "PY",
+      "inventor_name": "Hazael Fabrizio Montanaro Ochoa",
+      "patents": 3,
+      "country_rank": 2
+    },
+    {
+      "country": "PY",
+      "inventor_name": "Aldo Mario Higinio Acosta Ayala",
+      "patents": 2,
+      "country_rank": 3
+    },
+    {
+      "country": "PY",
+      "inventor_name": "Andres Anastacio Barrios Maciel",
+      "patents": 2,
+      "country_rank": 3
+    },
+    {
+      "country": "PY",
+      "inventor_name": "Antonieta Rojas De Arias",
+      "patents": 2,
+      "country_rank": 3
+    },
+    {
+      "country": "PY",
+      "inventor_name": "Cinthia Tatiana Prendeski Stolaruk",
+      "patents": 2,
+      "country_rank": 3
+    },
+    {
+      "country": "PY",
+      "inventor_name": "Dieter Peter Petry",
+      "patents": 2,
+      "country_rank": 3
+    },
+    {
+      "country": "PY",
+      "inventor_name": "Edgar Ramon Alvarez Britos",
+      "patents": 2,
+      "country_rank": 3
+    },
+    {
+      "country": "PY",
+      "inventor_name": "Eugenio Jose Cano Coscia",
+      "patents": 2,
+      "country_rank": 3
+    },
+    {
+      "country": "PY",
+      "inventor_name": "Julian Marcelo Lischuk Baran",
+      "patents": 2,
+      "country_rank": 3
+    },
+    {
+      "country": "PY",
+      "inventor_name": "Leon Isaac Vera Vera",
+      "patents": 2,
+      "country_rank": 3
+    },
+    {
+      "country": "PY",
+      "inventor_name": "Maria Elena Ferreira",
+      "patents": 2,
+      "country_rank": 3
+    },
+    {
+      "country": "PY",
+      "inventor_name": "Martin Abente Lahaye",
+      "patents": 2,
+      "country_rank": 3
+    },
+    {
+      "country": "PY",
+      "inventor_name": "Valeria Maria Elizabeth Cuadra Fensterseifer",
+      "patents": 2,
+      "country_rank": 3
+    },
+    {
+      "country": "QA",
+      "inventor_name": "Mohamed Hefeeda",
+      "patents": 25,
+      "country_rank": 1
+    },
+    {
+      "country": "QA",
+      "inventor_name": "Marco Stura",
+      "patents": 18,
+      "country_rank": 2
+    },
+    {
+      "country": "QA",
+      "inventor_name": "Gordon McKay",
+      "patents": 17,
+      "country_rank": 3
+    },
+    {
+      "country": "QA",
+      "inventor_name": "Hadi M. Yassine",
+      "patents": 17,
+      "country_rank": 3
+    },
+    {
+      "country": "QA",
+      "inventor_name": "Junaid Saleem",
+      "patents": 17,
+      "country_rank": 3
+    },
+    {
+      "country": "RO",
+      "inventor_name": "Florin Nanu",
+      "patents": 66,
+      "country_rank": 1
+    },
+    {
+      "country": "RO",
+      "inventor_name": "Adrian Zamfir",
+      "patents": 63,
+      "country_rank": 2
+    },
+    {
+      "country": "RO",
+      "inventor_name": "Bogdan-Catalin Serban",
+      "patents": 63,
+      "country_rank": 2
+    },
+    {
+      "country": "RO",
+      "inventor_name": "Mihai Ciuc",
+      "patents": 61,
+      "country_rank": 3
+    },
+    {
+      "country": "RS",
+      "inventor_name": "Aleksandar Uzelac",
+      "patents": 28,
+      "country_rank": 1
+    },
+    {
+      "country": "RS",
+      "inventor_name": "Goran Predovic",
+      "patents": 20,
+      "country_rank": 2
+    },
+    {
+      "country": "RS",
+      "inventor_name": "Ljupco Hadzievski",
+      "patents": 16,
+      "country_rank": 3
+    },
+    {
+      "country": "RS",
+      "inventor_name": "Milos R. Popovic",
+      "patents": 16,
+      "country_rank": 3
+    },
+    {
+      "country": "RU",
+      "inventor_name": "Alexei Davydov",
+      "patents": 470,
+      "country_rank": 1
+    },
+    {
+      "country": "RU",
+      "inventor_name": "Alexander Maltsev",
+      "patents": 250,
+      "country_rank": 2
+    },
+    {
+      "country": "RU",
+      "inventor_name": "Nikolay Dobrovolskiy",
+      "patents": 248,
+      "country_rank": 3
+    },
+    {
+      "country": "RW",
+      "inventor_name": "Gilles Richard Mulihano",
+      "patents": 1,
+      "country_rank": 1
+    },
+    {
+      "country": "RW",
+      "inventor_name": "Stephen Rulisa",
+      "patents": 1,
+      "country_rank": 1
+    },
+    {
+      "country": "SA",
+      "inventor_name": "Omer Refa Koseoglu",
+      "patents": 474,
+      "country_rank": 1
+    },
+    {
+      "country": "SA",
+      "inventor_name": "Mai Mostafa Khalaf Ali",
+      "patents": 319,
+      "country_rank": 2
+    },
+    {
+      "country": "SA",
+      "inventor_name": "Hany Mohamed Abd El-Lateef Ahmed",
+      "patents": 301,
+      "country_rank": 3
+    },
+    {
+      "country": "SC",
+      "inventor_name": "Mark Clifton Tolley",
+      "patents": 5,
+      "country_rank": 1
+    },
+    {
+      "country": "SC",
+      "inventor_name": "James Andrew Gulliver",
+      "patents": 4,
+      "country_rank": 2
+    },
+    {
+      "country": "SC",
+      "inventor_name": "David H. Guest",
+      "patents": 3,
+      "country_rank": 3
+    },
+    {
+      "country": "SD",
+      "inventor_name": "Mohammed Abdeen Mohammed Hassan",
+      "patents": 4,
+      "country_rank": 1
+    },
+    {
+      "country": "SD",
+      "inventor_name": "Mohamed Khalifa",
+      "patents": 2,
+      "country_rank": 2
+    },
+    {
+      "country": "SD",
+      "inventor_name": "Abdallah A. Abdallah",
+      "patents": 1,
+      "country_rank": 3
+    },
+    {
+      "country": "SD",
+      "inventor_name": "Mohanad Ahmed Mohammed Elhassan Ahmed",
+      "patents": 1,
+      "country_rank": 3
+    },
+    {
+      "country": "SD",
+      "inventor_name": "Munir Abdalla Mohamed",
+      "patents": 1,
+      "country_rank": 3
+    },
+    {
+      "country": "SD",
+      "inventor_name": "Muhana Magboul Ali Muslam",
+      "patents": 1,
+      "country_rank": 3
+    },
+    {
+      "country": "SD",
+      "inventor_name": "Yasir Osama Atabani",
+      "patents": 1,
+      "country_rank": 3
+    },
+    {
+      "country": "SD",
+      "inventor_name": "Sakina Yagia",
+      "patents": 1,
+      "country_rank": 3
+    },
+    {
+      "country": "SD",
+      "inventor_name": "Khansa Alshambatya",
+      "patents": 1,
+      "country_rank": 3
+    },
+    {
+      "country": "SE",
+      "inventor_name": "Muhammad Kazmi",
+      "patents": 648,
+      "country_rank": 1
+    },
+    {
+      "country": "SE",
+      "inventor_name": "Robert Baldemair",
+      "patents": 631,
+      "country_rank": 2
+    },
+    {
+      "country": "SE",
+      "inventor_name": "Stefan Parkvall",
+      "patents": 557,
+      "country_rank": 3
+    },
+    {
+      "country": "SG",
+      "inventor_name": "Lei Wang",
+      "patents": 979,
+      "country_rank": 1
+    },
+    {
+      "country": "SG",
+      "inventor_name": "Serguei M. Beloussov",
+      "patents": 412,
+      "country_rank": 2
+    },
+    {
+      "country": "SG",
+      "inventor_name": "Chong Soon Lim",
+      "patents": 374,
+      "country_rank": 3
+    },
+    {
+      "country": "SI",
+      "inventor_name": "Joze Pececnik",
+      "patents": 35,
+      "country_rank": 1
+    },
+    {
+      "country": "SI",
+      "inventor_name": "Marko Mlinar",
+      "patents": 32,
+      "country_rank": 2
+    },
+    {
+      "country": "SI",
+      "inventor_name": "Kosta Kovacic",
+      "patents": 30,
+      "country_rank": 3
+    },
+    {
+      "country": "SK",
+      "inventor_name": "Jaromir Pastorek",
+      "patents": 38,
+      "country_rank": 1
+    },
+    {
+      "country": "SK",
+      "inventor_name": "Silvia Pastorekova",
+      "patents": 38,
+      "country_rank": 1
+    },
+    {
+      "country": "SK",
+      "inventor_name": "Peter Psenak",
+      "patents": 35,
+      "country_rank": 2
+    },
+    {
+      "country": "SK",
+      "inventor_name": "Marek HUSTAVA",
+      "patents": 33,
+      "country_rank": 3
+    },
+    {
+      "country": "SL",
+      "inventor_name": "Carl-Gustav Berg",
+      "patents": 3,
+      "country_rank": 1
+    },
+    {
+      "country": "SL",
+      "inventor_name": "Abdulla Firag",
+      "patents": 2,
+      "country_rank": 2
+    },
+    {
+      "country": "SL",
+      "inventor_name": "Donald L. Vargo",
+      "patents": 2,
+      "country_rank": 2
+    },
+    {
+      "country": "SL",
+      "inventor_name": "Luis Poma",
+      "patents": 2,
+      "country_rank": 2
+    },
+    {
+      "country": "SL",
+      "inventor_name": "Uolevi Eerikki Virtanen",
+      "patents": 1,
+      "country_rank": 3
+    },
+    {
+      "country": "SL",
+      "inventor_name": "Dinuth de Zoysa",
+      "patents": 1,
+      "country_rank": 3
+    },
+    {
+      "country": "SL",
+      "inventor_name": "Dilan Weerakkody",
+      "patents": 1,
+      "country_rank": 3
+    },
+    {
+      "country": "SL",
+      "inventor_name": "Ján Kereste{haeck over (s)}, Jr.",
+      "patents": 1,
+      "country_rank": 3
+    },
+    {
+      "country": "SL",
+      "inventor_name": "Ljubov Andrejevna Venger",
+      "patents": 1,
+      "country_rank": 3
+    },
+    {
+      "country": "SM",
+      "inventor_name": "Cristiano Casale",
+      "patents": 11,
+      "country_rank": 1
+    },
+    {
+      "country": "SM",
+      "inventor_name": "Emanuel Conti",
+      "patents": 7,
+      "country_rank": 2
+    },
+    {
+      "country": "SM",
+      "inventor_name": "Marco Pepe",
+      "patents": 5,
+      "country_rank": 3
+    },
+    {
+      "country": "SN",
+      "inventor_name": "Brett Holaway",
+      "patents": 10,
+      "country_rank": 1
+    },
+    {
+      "country": "SN",
+      "inventor_name": "Cheikh Ndiaye Ndime",
+      "patents": 3,
+      "country_rank": 2
+    },
+    {
+      "country": "SN",
+      "inventor_name": "Erick Vidjin' Agnih Gbodossou",
+      "patents": 3,
+      "country_rank": 2
+    },
+    {
+      "country": "SN",
+      "inventor_name": "Erick Vidjin′ Agnih Gbodossou",
+      "patents": 2,
+      "country_rank": 3
+    },
+    {
+      "country": "SN",
+      "inventor_name": "Oumar Ba",
+      "patents": 2,
+      "country_rank": 3
+    },
+    {
+      "country": "SO",
+      "inventor_name": "Sakharov B. Aleksandrovic",
+      "patents": 2,
+      "country_rank": 1
+    },
+    {
+      "country": "SO",
+      "inventor_name": "Gunnar Cyren",
+      "patents": 1,
+      "country_rank": 2
+    },
+    {
+      "country": "SR",
+      "inventor_name": "Trond Eidsnes",
+      "patents": 2,
+      "country_rank": 1
+    },
+    {
+      "country": "SR",
+      "inventor_name": "Richard Mendes",
+      "patents": 1,
+      "country_rank": 2
+    },
+    {
+      "country": "SS",
+      "inventor_name": "Boris A. Trofimov",
+      "patents": 2,
+      "country_rank": 1
+    },
+    {
+      "country": "SS",
+      "inventor_name": "Bohumir Mrva",
+      "patents": 1,
+      "country_rank": 2
+    },
+    {
+      "country": "SS",
+      "inventor_name": "Eiko Sairenji",
+      "patents": 1,
+      "country_rank": 2
+    },
+    {
+      "country": "SS",
+      "inventor_name": "Evgeny Berezin",
+      "patents": 1,
+      "country_rank": 2
+    },
+    {
+      "country": "SS",
+      "inventor_name": "Jeremy J. Booen",
+      "patents": 1,
+      "country_rank": 2
+    },
+    {
+      "country": "ST",
+      "inventor_name": "Anders Lassus",
+      "patents": 2,
+      "country_rank": 1
+    },
+    {
+      "country": "SV",
+      "inventor_name": "Jorge Manuel Garcia",
+      "patents": 5,
+      "country_rank": 1
+    },
+    {
+      "country": "SV",
+      "inventor_name": "William W. Sullivan",
+      "patents": 4,
+      "country_rank": 2
+    },
+    {
+      "country": "SV",
+      "inventor_name": "Carmen Elena Arias",
+      "patents": 3,
+      "country_rank": 3
+    },
+    {
+      "country": "SV",
+      "inventor_name": "Erlinda Handal Vega",
+      "patents": 3,
+      "country_rank": 3
+    },
+    {
+      "country": "SY",
+      "inventor_name": "Mazhar Abdulwahed",
+      "patents": 9,
+      "country_rank": 1
+    },
+    {
+      "country": "SY",
+      "inventor_name": "Mansour Ahmed",
+      "patents": 9,
+      "country_rank": 1
+    },
+    {
+      "country": "SY",
+      "inventor_name": "Jibu Pallickel Thomas",
+      "patents": 6,
+      "country_rank": 2
+    },
+    {
+      "country": "SY",
+      "inventor_name": "Rajesha Kumar",
+      "patents": 6,
+      "country_rank": 2
+    },
+    {
+      "country": "SY",
+      "inventor_name": "Abdullah Ramadhan Alkandary",
+      "patents": 5,
+      "country_rank": 3
+    },
+    {
+      "country": "SY",
+      "inventor_name": "Feras Ghazi Alzubi",
+      "patents": 5,
+      "country_rank": 3
+    },
+    {
+      "country": "SY",
+      "inventor_name": "Ivan O. Edafiogho",
+      "patents": 5,
+      "country_rank": 3
+    },
+    {
+      "country": "SY",
+      "inventor_name": "Patrik Boström",
+      "patents": 5,
+      "country_rank": 3
+    },
+    {
+      "country": "SZ",
+      "inventor_name": "Denis S. Fogo",
+      "patents": 1,
+      "country_rank": 1
+    },
+    {
+      "country": "TC",
+      "inventor_name": "Glen H. Erikson",
+      "patents": 18,
+      "country_rank": 1
+    },
+    {
+      "country": "TC",
+      "inventor_name": "Richard Wachter",
+      "patents": 7,
+      "country_rank": 2
+    },
+    {
+      "country": "TC",
+      "inventor_name": "David Douglas",
+      "patents": 2,
+      "country_rank": 3
+    },
+    {
+      "country": "TD",
+      "inventor_name": "Eric Westberg",
+      "patents": 14,
+      "country_rank": 1
+    },
+    {
+      "country": "TD",
+      "inventor_name": "Peter Ekberg",
+      "patents": 10,
+      "country_rank": 2
+    },
+    {
+      "country": "TD",
+      "inventor_name": "Yngve Hassler",
+      "patents": 4,
+      "country_rank": 3
+    },
+    {
+      "country": "TG",
+      "inventor_name": "Ayite Herve Gaba Atti",
+      "patents": 1,
+      "country_rank": 1
+    },
+    {
+      "country": "TH",
+      "inventor_name": "Peter Hahn",
+      "patents": 87,
+      "country_rank": 1
+    },
+    {
+      "country": "TH",
+      "inventor_name": "Thumrong Suphachadiwong",
+      "patents": 84,
+      "country_rank": 2
+    },
+    {
+      "country": "TH",
+      "inventor_name": "Saravuth Sirinorakul",
+      "patents": 76,
+      "country_rank": 3
+    },
+    {
+      "country": "TJ",
+      "inventor_name": "Anatolij V. Beljakov",
+      "patents": 3,
+      "country_rank": 1
+    },
+    {
+      "country": "TJ",
+      "inventor_name": "Ivan M. Vlasov",
+      "patents": 3,
+      "country_rank": 1
+    },
+    {
+      "country": "TJ",
+      "inventor_name": "Vladimir G. Nedospasov",
+      "patents": 1,
+      "country_rank": 2
+    },
+    {
+      "country": "TJ",
+      "inventor_name": "Alexei I. Ivanov",
+      "patents": 1,
+      "country_rank": 2
+    },
+    {
+      "country": "TJ",
+      "inventor_name": "Alexandr G. Mukhometzyanov",
+      "patents": 1,
+      "country_rank": 2
+    },
+    {
+      "country": "TJ",
+      "inventor_name": "Mukim M. Khasanov",
+      "patents": 1,
+      "country_rank": 2
+    },
+    {
+      "country": "TJ",
+      "inventor_name": "Savely A. Zhizhilev",
+      "patents": 1,
+      "country_rank": 2
+    },
+    {
+      "country": "TJ",
+      "inventor_name": "Tatyana I. Nikitina",
+      "patents": 1,
+      "country_rank": 2
+    },
+    {
+      "country": "TJ",
+      "inventor_name": "Valery A. Peshkov",
+      "patents": 1,
+      "country_rank": 2
+    },
+    {
+      "country": "TJ",
+      "inventor_name": "Vladimir A. Nikiforov",
+      "patents": 1,
+      "country_rank": 2
+    },
+    {
+      "country": "TJ",
+      "inventor_name": "Dmitry U. Spisarenko",
+      "patents": 1,
+      "country_rank": 2
+    },
+    {
+      "country": "TL",
+      "inventor_name": "Chun Man Chen",
+      "patents": 1,
+      "country_rank": 1
+    },
+    {
+      "country": "TM",
+      "inventor_name": "Yusub Ishangulyyev",
+      "patents": 8,
+      "country_rank": 1
+    },
+    {
+      "country": "TM",
+      "inventor_name": "Magdalena Povstyanova",
+      "patents": 1,
+      "country_rank": 2
+    },
+    {
+      "country": "TM",
+      "inventor_name": "Marat Purliyev",
+      "patents": 1,
+      "country_rank": 2
+    },
+    {
+      "country": "TN",
+      "inventor_name": "Kais Gzara",
+      "patents": 15,
+      "country_rank": 1
+    },
+    {
+      "country": "TN",
+      "inventor_name": "Habib Fathallah",
+      "patents": 8,
+      "country_rank": 2
+    },
+    {
+      "country": "TN",
+      "inventor_name": "Hechmi Louzir",
+      "patents": 8,
+      "country_rank": 2
+    },
+    {
+      "country": "TN",
+      "inventor_name": "Koussay Dellagi",
+      "patents": 8,
+      "country_rank": 2
+    },
+    {
+      "country": "TN",
+      "inventor_name": "Mehdi Chenik",
+      "patents": 8,
+      "country_rank": 2
+    },
+    {
+      "country": "TN",
+      "inventor_name": "Mustapha Amara",
+      "patents": 5,
+      "country_rank": 3
+    },
+    {
+      "country": "TN",
+      "inventor_name": "Nabil SAFI",
+      "patents": 5,
+      "country_rank": 3
+    },
+    {
+      "country": "TO",
+      "inventor_name": "Ladislav Sedlak, deceased",
+      "patents": 1,
+      "country_rank": 1
+    },
+    {
+      "country": "TR",
+      "inventor_name": "Seyhan Civanlar",
+      "patents": 58,
+      "country_rank": 1
+    },
+    {
+      "country": "TR",
+      "inventor_name": "Bugra Gedik",
+      "patents": 52,
+      "country_rank": 2
+    },
+    {
+      "country": "TR",
+      "inventor_name": "Hakan Urey",
+      "patents": 52,
+      "country_rank": 2
+    },
+    {
+      "country": "TR",
+      "inventor_name": "Ali C. Begen",
+      "patents": 42,
+      "country_rank": 3
+    },
+    {
+      "country": "TT",
+      "inventor_name": "Gurdial Singh",
+      "patents": 16,
+      "country_rank": 1
+    },
+    {
+      "country": "TT",
+      "inventor_name": "Bassel de Graff",
+      "patents": 14,
+      "country_rank": 2
+    },
+    {
+      "country": "TT",
+      "inventor_name": "John D. Downer",
+      "patents": 7,
+      "country_rank": 3
+    },
+    {
+      "country": "TW",
+      "inventor_name": "Chen-Hua Yu",
+      "patents": 1958,
+      "country_rank": 1
+    },
+    {
+      "country": "TW",
+      "inventor_name": "Chih-Hao Wang",
+      "patents": 937,
+      "country_rank": 2
+    },
+    {
+      "country": "TW",
+      "inventor_name": "Hsien-Wei Chen",
+      "patents": 859,
+      "country_rank": 3
+    },
+    {
+      "country": "TZ",
+      "inventor_name": "William M. Henderson",
+      "patents": 5,
+      "country_rank": 1
+    },
+    {
+      "country": "TZ",
+      "inventor_name": "Theonest K. Mutabingwa",
+      "patents": 4,
+      "country_rank": 2
+    },
+    {
+      "country": "TZ",
+      "inventor_name": "Jorg Mentzen",
+      "patents": 2,
+      "country_rank": 3
+    },
+    {
+      "country": "TZ",
+      "inventor_name": "Jovin K. Mugula",
+      "patents": 2,
+      "country_rank": 3
+    },
+    {
+      "country": "UA",
+      "inventor_name": "Andriy Maharyta",
+      "patents": 76,
+      "country_rank": 1
+    },
+    {
+      "country": "UA",
+      "inventor_name": "Oleg Yaroshchuk",
+      "patents": 54,
+      "country_rank": 2
+    },
+    {
+      "country": "UA",
+      "inventor_name": "Oleksandr Karpin",
+      "patents": 46,
+      "country_rank": 3
+    },
+    {
+      "country": "UG",
+      "inventor_name": "Hiroshi Shibata",
+      "patents": 249,
+      "country_rank": 1
+    },
+    {
+      "country": "UG",
+      "inventor_name": "Kiyoshi Kimura",
+      "patents": 187,
+      "country_rank": 2
+    },
+    {
+      "country": "UG",
+      "inventor_name": "Makoto Taniguchi",
+      "patents": 175,
+      "country_rank": 3
+    },
+    {
+      "country": "US",
+      "inventor_name": "Tao Luo",
+      "patents": 4274,
+      "country_rank": 1
+    },
+    {
+      "country": "US",
+      "inventor_name": "Kangguo Cheng",
+      "patents": 2944,
+      "country_rank": 2
+    },
+    {
+      "country": "US",
+      "inventor_name": "Jonathan P. Ive",
+      "patents": 2871,
+      "country_rank": 3
+    },
+    {
+      "country": "UY",
+      "inventor_name": "Jesus A. Carbajales Santa-Eulalia",
+      "patents": 53,
+      "country_rank": 1
+    },
+    {
+      "country": "UY",
+      "inventor_name": "Javier B. Carbajales Santa-Eulalia",
+      "patents": 51,
+      "country_rank": 2
+    },
+    {
+      "country": "UY",
+      "inventor_name": "Alberto Fernandez",
+      "patents": 15,
+      "country_rank": 3
+    },
+    {
+      "country": "UZ",
+      "inventor_name": "Vitold M. Bakhir",
+      "patents": 9,
+      "country_rank": 1
+    },
+    {
+      "country": "UZ",
+      "inventor_name": "Boris I. Nudelman",
+      "patents": 7,
+      "country_rank": 2
+    },
+    {
+      "country": "UZ",
+      "inventor_name": "Nariman Gulyamov",
+      "patents": 6,
+      "country_rank": 3
+    },
+    {
+      "country": "Unknown",
+      "inventor_name": "Ken-Ching Chen",
+      "patents": 815,
+      "country_rank": 1
+    },
+    {
+      "country": "Unknown",
+      "inventor_name": "Alex Horng",
+      "patents": 390,
+      "country_rank": 2
+    },
+    {
+      "country": "Unknown",
+      "inventor_name": "Kiyoshi Inoue",
+      "patents": 386,
+      "country_rank": 3
+    },
+    {
+      "country": "VE",
+      "inventor_name": "Roberto Galiasso",
+      "patents": 34,
+      "country_rank": 1
+    },
+    {
+      "country": "VE",
+      "inventor_name": "Hazim H. Abass",
+      "patents": 26,
+      "country_rank": 2
+    },
+    {
+      "country": "VE",
+      "inventor_name": "Hercilio Rivas",
+      "patents": 22,
+      "country_rank": 3
+    },
+    {
+      "country": "VG",
+      "inventor_name": "Minghao Shen",
+      "patents": 25,
+      "country_rank": 1
+    },
+    {
+      "country": "VG",
+      "inventor_name": "Charles S. Tobias",
+      "patents": 9,
+      "country_rank": 2
+    },
+    {
+      "country": "VG",
+      "inventor_name": "Dimitry Streshinskiy",
+      "patents": 7,
+      "country_rank": 3
+    },
+    {
+      "country": "VN",
+      "inventor_name": "Fei Chen",
+      "patents": 53,
+      "country_rank": 1
+    },
+    {
+      "country": "VN",
+      "inventor_name": "Cuong Tran",
+      "patents": 46,
+      "country_rank": 2
+    },
+    {
+      "country": "VN",
+      "inventor_name": "My T. Nguyen",
+      "patents": 46,
+      "country_rank": 2
+    },
+    {
+      "country": "VN",
+      "inventor_name": "Phong Sy Nguyen",
+      "patents": 30,
+      "country_rank": 3
+    },
+    {
+      "country": "VU",
+      "inventor_name": "Charles W. Kraut",
+      "patents": 2,
+      "country_rank": 1
+    },
+    {
+      "country": "VU",
+      "inventor_name": "George A. R. McKendrick",
+      "patents": 2,
+      "country_rank": 1
+    },
+    {
+      "country": "VU",
+      "inventor_name": "Milton C. Kintzley",
+      "patents": 1,
+      "country_rank": 2
+    },
+    {
+      "country": "VU",
+      "inventor_name": "Chung Chi Cheung",
+      "patents": 1,
+      "country_rank": 2
+    },
+    {
+      "country": "WS",
+      "inventor_name": "Yu-Lin Li",
+      "patents": 23,
+      "country_rank": 1
+    },
+    {
+      "country": "WS",
+      "inventor_name": "Ming-Sheng Kuo",
+      "patents": 13,
+      "country_rank": 2
+    },
+    {
+      "country": "WS",
+      "inventor_name": "Johnny Yang",
+      "patents": 7,
+      "country_rank": 3
+    },
+    {
+      "country": "YE",
+      "inventor_name": "Mahmood M. S. Abdullah",
+      "patents": 6,
+      "country_rank": 1
+    },
+    {
+      "country": "YE",
+      "inventor_name": "Michiyoshi Iwata",
+      "patents": 5,
+      "country_rank": 2
+    },
+    {
+      "country": "YE",
+      "inventor_name": "Yasuhira Takeuchi",
+      "patents": 4,
+      "country_rank": 3
+    },
+    {
+      "country": "ZA",
+      "inventor_name": "Eric W. Singleton",
+      "patents": 81,
+      "country_rank": 1
+    },
+    {
+      "country": "ZA",
+      "inventor_name": "Malan de Villiers",
+      "patents": 74,
+      "country_rank": 2
+    },
+    {
+      "country": "ZA",
+      "inventor_name": "Michael M. Thackeray",
+      "patents": 65,
+      "country_rank": 3
+    },
+    {
+      "country": "ZM",
+      "inventor_name": "William A. Bauson",
+      "patents": 3,
+      "country_rank": 1
+    },
+    {
+      "country": "ZM",
+      "inventor_name": "Kazuyuki Nanaumi",
+      "patents": 2,
+      "country_rank": 2
+    },
+    {
+      "country": "ZM",
+      "inventor_name": "Agripa Hamweendo",
+      "patents": 1,
+      "country_rank": 3
+    },
+    {
+      "country": "ZM",
+      "inventor_name": "Lubinda Mbundi",
+      "patents": 1,
+      "country_rank": 3
+    },
+    {
+      "country": "ZM",
+      "inventor_name": "Melanie Evans-Dickson",
+      "patents": 1,
+      "country_rank": 3
+    },
+    {
+      "country": "ZM",
+      "inventor_name": "Tomohiko Ushiyama",
+      "patents": 1,
+      "country_rank": 3
+    },
+    {
+      "country": "ZM",
+      "inventor_name": "Yuko Koguchi",
+      "patents": 1,
+      "country_rank": 3
+    },
+    {
+      "country": "ZW",
+      "inventor_name": "Steven David Cochrane",
+      "patents": 6,
+      "country_rank": 1
+    },
+    {
+      "country": "ZW",
+      "inventor_name": "Kevin Gordon Peacocke",
+      "patents": 4,
+      "country_rank": 2
+    },
+    {
+      "country": "ZW",
+      "inventor_name": "Mark A. Coleman",
+      "patents": 3,
+      "country_rank": 3
+    },
+    {
+      "country": "ZW",
+      "inventor_name": "Pete Simpson",
+      "patents": 3,
+      "country_rank": 3
+    }
+  ],
+  "cpc_sections": [
+    {
+      "cpc_section": "G",
+      "patents": 2866684
+    },
+    {
+      "cpc_section": "H",
+      "patents": 2668268
+    },
+    {
+      "cpc_section": "B",
+      "patents": 1668340
+    },
+    {
+      "cpc_section": "A",
+      "patents": 1449067
+    },
+    {
+      "cpc_section": "C",
+      "patents": 1187487
+    },
+    {
+      "cpc_section": "F",
+      "patents": 831452
+    },
+    {
+      "cpc_section": "E",
+      "patents": 295997
+    },
+    {
+      "cpc_section": "D",
+      "patents": 111342
+    },
+    {
+      "cpc_section": "Y",
+      "patents": 2
+    }
+  ],
+  "cpc_growth_by_decade": [
+    {
+      "cpc_section": "G",
+      "decade": 1900,
+      "patents": 4
+    },
+    {
+      "cpc_section": "C",
+      "decade": 1900,
+      "patents": 3
+    },
+    {
+      "cpc_section": "H",
+      "decade": 1900,
+      "patents": 3
+    },
+    {
+      "cpc_section": "A",
+      "decade": 1900,
+      "patents": 2
+    },
+    {
+      "cpc_section": "B",
+      "decade": 1900,
+      "patents": 2
+    },
+    {
+      "cpc_section": "D",
+      "decade": 1900,
+      "patents": 1
+    },
+    {
+      "cpc_section": "F",
+      "decade": 1900,
+      "patents": 1
+    },
+    {
+      "cpc_section": "A",
+      "decade": 1910,
+      "patents": 1
+    },
+    {
+      "cpc_section": "C",
+      "decade": 1910,
+      "patents": 1
+    },
+    {
+      "cpc_section": "B",
+      "decade": 1920,
+      "patents": 1
+    },
+    {
+      "cpc_section": "C",
+      "decade": 1920,
+      "patents": 1
+    },
+    {
+      "cpc_section": "D",
+      "decade": 1920,
+      "patents": 1
+    },
+    {
+      "cpc_section": "F",
+      "decade": 1920,
+      "patents": 1
+    },
+    {
+      "cpc_section": "G",
+      "decade": 1930,
+      "patents": 4
+    },
+    {
+      "cpc_section": "A",
+      "decade": 1930,
+      "patents": 2
+    },
+    {
+      "cpc_section": "B",
+      "decade": 1930,
+      "patents": 2
+    },
+    {
+      "cpc_section": "H",
+      "decade": 1930,
+      "patents": 2
+    },
+    {
+      "cpc_section": "H",
+      "decade": 1940,
+      "patents": 39
+    },
+    {
+      "cpc_section": "F",
+      "decade": 1940,
+      "patents": 16
+    },
+    {
+      "cpc_section": "G",
+      "decade": 1940,
+      "patents": 14
+    },
+    {
+      "cpc_section": "B",
+      "decade": 1940,
+      "patents": 12
+    },
+    {
+      "cpc_section": "A",
+      "decade": 1940,
+      "patents": 4
+    },
+    {
+      "cpc_section": "C",
+      "decade": 1940,
+      "patents": 4
+    },
+    {
+      "cpc_section": "E",
+      "decade": 1940,
+      "patents": 1
+    },
+    {
+      "cpc_section": "G",
+      "decade": 1950,
+      "patents": 88
+    },
+    {
+      "cpc_section": "F",
+      "decade": 1950,
+      "patents": 61
+    },
+    {
+      "cpc_section": "H",
+      "decade": 1950,
+      "patents": 52
+    },
+    {
+      "cpc_section": "B",
+      "decade": 1950,
+      "patents": 20
+    },
+    {
+      "cpc_section": "C",
+      "decade": 1950,
+      "patents": 19
+    },
+    {
+      "cpc_section": "G",
+      "decade": 1960,
+      "patents": 406
+    },
+    {
+      "cpc_section": "C",
+      "decade": 1960,
+      "patents": 368
+    },
+    {
+      "cpc_section": "F",
+      "decade": 1960,
+      "patents": 293
+    },
+    {
+      "cpc_section": "H",
+      "decade": 1960,
+      "patents": 254
+    },
+    {
+      "cpc_section": "B",
+      "decade": 1960,
+      "patents": 151
+    },
+    {
+      "cpc_section": "A",
+      "decade": 1960,
+      "patents": 59
+    },
+    {
+      "cpc_section": "D",
+      "decade": 1960,
+      "patents": 22
+    },
+    {
+      "cpc_section": "E",
+      "decade": 1960,
+      "patents": 6
+    },
+    {
+      "cpc_section": "B",
+      "decade": 1970,
+      "patents": 99964
+    },
+    {
+      "cpc_section": "C",
+      "decade": 1970,
+      "patents": 86909
+    },
+    {
+      "cpc_section": "G",
+      "decade": 1970,
+      "patents": 70262
+    },
+    {
+      "cpc_section": "A",
+      "decade": 1970,
+      "patents": 59054
+    },
+    {
+      "cpc_section": "H",
+      "decade": 1970,
+      "patents": 55498
+    },
+    {
+      "cpc_section": "F",
+      "decade": 1970,
+      "patents": 53860
+    },
+    {
+      "cpc_section": "E",
+      "decade": 1970,
+      "patents": 20825
+    },
+    {
+      "cpc_section": "D",
+      "decade": 1970,
+      "patents": 12672
+    },
+    {
+      "cpc_section": "B",
+      "decade": 1980,
+      "patents": 186771
+    },
+    {
+      "cpc_section": "G",
+      "decade": 1980,
+      "patents": 159752
+    },
+    {
+      "cpc_section": "C",
+      "decade": 1980,
+      "patents": 152220
+    },
+    {
+      "cpc_section": "H",
+      "decade": 1980,
+      "patents": 126768
+    },
+    {
+      "cpc_section": "A",
+      "decade": 1980,
+      "patents": 124101
+    },
+    {
+      "cpc_section": "F",
+      "decade": 1980,
+      "patents": 97930
+    },
+    {
+      "cpc_section": "E",
+      "decade": 1980,
+      "patents": 36214
+    },
+    {
+      "cpc_section": "D",
+      "decade": 1980,
+      "patents": 19650
+    },
+    {
+      "cpc_section": "G",
+      "decade": 1990,
+      "patents": 365468
+    },
+    {
+      "cpc_section": "H",
+      "decade": 1990,
+      "patents": 318733
+    },
+    {
+      "cpc_section": "B",
+      "decade": 1990,
+      "patents": 293986
+    },
+    {
+      "cpc_section": "A",
+      "decade": 1990,
+      "patents": 248994
+    },
+    {
+      "cpc_section": "C",
+      "decade": 1990,
+      "patents": 234186
+    },
+    {
+      "cpc_section": "F",
+      "decade": 1990,
+      "patents": 133097
+    },
+    {
+      "cpc_section": "E",
+      "decade": 1990,
+      "patents": 48870
+    },
+    {
+      "cpc_section": "D",
+      "decade": 1990,
+      "patents": 25737
+    },
+    {
+      "cpc_section": "G",
+      "decade": 2000,
+      "patents": 701982
+    },
+    {
+      "cpc_section": "H",
+      "decade": 2000,
+      "patents": 662483
+    },
+    {
+      "cpc_section": "B",
+      "decade": 2000,
+      "patents": 368762
+    },
+    {
+      "cpc_section": "A",
+      "decade": 2000,
+      "patents": 331962
+    },
+    {
+      "cpc_section": "C",
+      "decade": 2000,
+      "patents": 269840
+    },
+    {
+      "cpc_section": "F",
+      "decade": 2000,
+      "patents": 179212
+    },
+    {
+      "cpc_section": "E",
+      "decade": 2000,
+      "patents": 58272
+    },
+    {
+      "cpc_section": "D",
+      "decade": 2000,
+      "patents": 21663
+    },
+    {
+      "cpc_section": "Y",
+      "decade": 2000,
+      "patents": 1
+    },
+    {
+      "cpc_section": "G",
+      "decade": 2010,
+      "patents": 1141749
+    },
+    {
+      "cpc_section": "H",
+      "decade": 2010,
+      "patents": 1105190
+    },
+    {
+      "cpc_section": "B",
+      "decade": 2010,
+      "patents": 543125
+    },
+    {
+      "cpc_section": "A",
+      "decade": 2010,
+      "patents": 525775
+    },
+    {
+      "cpc_section": "C",
+      "decade": 2010,
+      "patents": 360333
+    },
+    {
+      "cpc_section": "F",
+      "decade": 2010,
+      "patents": 279703
+    },
+    {
+      "cpc_section": "E",
+      "decade": 2010,
+      "patents": 98185
+    },
+    {
+      "cpc_section": "D",
+      "decade": 2010,
+      "patents": 24524
+    },
+    {
+      "cpc_section": "Y",
+      "decade": 2010,
+      "patents": 1
+    },
+    {
+      "cpc_section": "G",
+      "decade": 2020,
+      "patents": 426939
+    },
+    {
+      "cpc_section": "H",
+      "decade": 2020,
+      "patents": 399241
+    },
+    {
+      "cpc_section": "B",
+      "decade": 2020,
+      "patents": 175533
+    },
+    {
+      "cpc_section": "A",
+      "decade": 2020,
+      "patents": 159108
+    },
+    {
+      "cpc_section": "F",
+      "decade": 2020,
+      "patents": 87272
+    },
+    {
+      "cpc_section": "C",
+      "decade": 2020,
+      "patents": 83597
+    },
+    {
+      "cpc_section": "E",
+      "decade": 2020,
+      "patents": 33623
+    },
+    {
+      "cpc_section": "D",
+      "decade": 2020,
+      "patents": 7071
+    }
+  ],
+  "cpc_top_companies": [
+    {
+      "cpc_section": "G",
+      "company_name": "International Business Machines Corporation",
+      "patents": 115523
+    },
+    {
+      "cpc_section": "H",
+      "company_name": "SAMSUNG ELECTRONICS CO., LTD.",
+      "patents": 101532
+    },
+    {
+      "cpc_section": "B",
+      "company_name": "TOYOTA JIDOSHA KABUSHIKI KAISHA",
+      "patents": 18226
+    },
+    {
+      "cpc_section": "F",
+      "company_name": "General Electric Company",
+      "patents": 16416
+    },
+    {
+      "cpc_section": "C",
+      "company_name": "BASF SE",
+      "patents": 15158
+    },
+    {
+      "cpc_section": "E",
+      "company_name": "Halliburton Energy Services, Inc.",
+      "patents": 8723
+    },
+    {
+      "cpc_section": "A",
+      "company_name": "Medtronic, Inc.",
+      "patents": 8044
+    },
+    {
+      "cpc_section": "D",
+      "company_name": "LG ELECTRONICS INC.",
+      "patents": 2373
+    },
+    {
+      "cpc_section": "Y",
+      "company_name": "SAMSUNG ELECTRONICS CO., LTD.",
+      "patents": 1
+    },
+    {
+      "cpc_section": "Y",
+      "company_name": "CARNEGIE MELLON UNIVERSITY",
+      "patents": 1
+    }
+  ]
+}

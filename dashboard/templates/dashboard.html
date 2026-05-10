@@ -1,0 +1,451 @@
+{% extends 'base.html' %}
+
+{% block title %}Patent Dashboard{% endblock %}
+
+{% block content %}
+  <div class="row g-3 align-items-stretch">
+    <div class="col-12">
+      <div class="card shadow-sm">
+        <div class="card-body">
+          <div class="d-flex flex-wrap gap-3 align-items-end justify-content-between">
+            <div>
+              <h1 class="h4 mb-1">Dashboard</h1>
+              <div class="text-muted">KPIs and trends</div>
+              <div class="note-callout mt-3">
+                <span class="note-label">Note</span>
+                <span>The sharp decline following 2019 is a direct artifact of the 18-month publication lag and also effect of COVID-19 , most recent filings are legally hidden from public data until the secrecy period expires and often take 2 to 3 years to be granted.</span>
+              </div>
+            </div>
+
+            <form class="row gx-2 gy-2 align-items-end" method="get" action="/">
+              <div class="col-auto">
+                <label class="form-label small text-muted" for="start_year">Start year</label>
+                <input
+                  class="form-control"
+                  id="start_year"
+                  name="start_year"
+                  type="number"
+                  min="{{ year_min }}"
+                  max="{{ year_max }}"
+                  value="{{ filters.start_year }}"
+                />
+              </div>
+              <div class="col-auto">
+                <label class="form-label small text-muted" for="end_year">End year</label>
+                <input
+                  class="form-control"
+                  id="end_year"
+                  name="end_year"
+                  type="number"
+                  min="{{ year_min }}"
+                  max="{{ year_max }}"
+                  value="{{ filters.end_year }}"
+                />
+              </div>
+              <div class="col-auto">
+                <button class="btn btn-primary" type="submit">Apply</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12">
+      <div class="dashboard-tabs">
+        <ul class="nav nav-tabs" id="dashboardTabs" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="tab-overview-tab" data-bs-toggle="tab" data-bs-target="#tab-overview" type="button" role="tab" aria-controls="tab-overview" aria-selected="true">Overview</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="tab-countries-tab" data-bs-toggle="tab" data-bs-target="#tab-countries" type="button" role="tab" aria-controls="tab-countries" aria-selected="false">Countries</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="tab-companies-tab" data-bs-toggle="tab" data-bs-target="#tab-companies" type="button" role="tab" aria-controls="tab-companies" aria-selected="false">Companies</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="tab-inventors-tab" data-bs-toggle="tab" data-bs-target="#tab-inventors" type="button" role="tab" aria-controls="tab-inventors" aria-selected="false">Inventors</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="tab-trends-tab" data-bs-toggle="tab" data-bs-target="#tab-trends" type="button" role="tab" aria-controls="tab-trends" aria-selected="false">Trends</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="col-12">
+      <div class="tab-content" id="dashboardTabsContent">
+        <div class="tab-pane fade show active" id="tab-overview" role="tabpanel" aria-labelledby="tab-overview-tab">
+          <div class="row g-3 align-items-stretch">
+            <div class="col-12 col-md-6 col-xl-3">
+              <div class="card shadow-sm h-100">
+                <div class="card-body">
+                  <div class="text-muted small">Total patents</div>
+                  <div class="display-6 fw-semibold">
+                    {% if kpis.total_patents is not none %}{{ "{:,.0f}".format(kpis.total_patents) }}{% else %}N/A{% endif %}
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-xl-3">
+              <div class="card shadow-sm h-100">
+                <div class="card-body">
+                  <div class="text-muted small">Peak year</div>
+                  <div class="display-6 fw-semibold">
+                    {% if kpis.peak_year is not none %}{{ kpis.peak_year }}{% else %}N/A{% endif %}
+                  </div>
+                  <div class="text-muted">
+                    {% if kpis.peak_year_patents is not none %}{{ "{:,.0f}".format(kpis.peak_year_patents) }} patents{% endif %}
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-xl-3">
+              <div class="card shadow-sm h-100">
+                <div class="card-body">
+                  <div class="text-muted small">Latest year (filtered)</div>
+                  <div class="display-6 fw-semibold">
+                    {% if kpis.latest_year is not none %}{{ kpis.latest_year }}{% else %}N/A{% endif %}
+                  </div>
+                  <div class="text-muted">
+                    {% if kpis.latest_year_patents is not none %}{{ "{:,.0f}".format(kpis.latest_year_patents) }} patents{% endif %}
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-xl-3">
+              <div class="card shadow-sm h-100">
+                <div class="card-body">
+                  <div class="text-muted small">5-year rolling avg (latest)</div>
+                  <div class="display-6 fw-semibold">
+                    {% if kpis.latest_rolling_5yr_avg is not none %}{{ "{:,.0f}".format(kpis.latest_rolling_5yr_avg) }}{% else %}N/A{% endif %}
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12">
+              <div class="card shadow-sm">
+                <div class="card-body">
+                  {{ charts.trend | safe }}
+                  <div class="text-muted small mt-2">
+                    Patent activity grew rapidly in the 70s and 80s with globalization and industrial expansion, for example the rise of East Asian tigers with China also opening up to the world, then peaked during COVID-19 before slowing as the global economy and international trade weakened afterward.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade" id="tab-countries" role="tabpanel" aria-labelledby="tab-countries-tab">
+          <div class="row g-3 align-items-stretch">
+            <div class="col-12">
+              <div class="card shadow-sm">
+                <div class="card-body">
+                  {{ charts.top_countries | safe }}
+                  <div class="text-muted small mt-2">
+                    Leading countries such as the US dominate patent activity due to their large economies and massive R&amp;D investment, while countries like Japan and Germany remain highly competitive through specialized industrial strengths in sectors such as precision manufacturing, automotive engineering, and advanced electronics.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12">
+              <div class="card shadow-sm">
+                <div class="card-header bg-white">
+                  <div class="fw-semibold">Geopolitical trends</div>
+                </div>
+                <div class="card-body">
+                  <div class="row g-3">
+                    <div class="col-12 col-lg-6">
+                      {{ charts.geo_us_vs_china_overall | safe }}
+                      <div class="text-muted small mt-2">
+                        The United States maintained dominant patent activity from 1990 through 2018, reflecting decades of accumulated R&amp;D infrastructure, corporate innovation pipelines, and strong intellectual property incentives. China's steady upward trajectory from near-zero in 1990 to over 100,000 patents by 2022 reflects the deliberate transformation of its economy from manufacturing-led growth toward technology-intensive innovation, accelerated by state policy initiatives including WTO accession in 2001 and the Made in China 2025 strategy launched in 2015.
+                      </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                      {{ charts.geo_korea_vs_japan_h01l | safe }}
+                      <div class="text-muted small mt-2">
+                        Japan held a commanding lead in semiconductor patents through the 1980s and 1990s, driven by its dominance in memory chip manufacturing and consumer electronics. Korea's steady rise from the mid-1990s onwards reflects the strategic investments of Samsung and SK Hynix in DRAM and NAND flash technologies, which progressively displaced Japanese firms from global market leadership.
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      {{ charts.geo_trade_war_semiconductors | safe }}
+                      <div class="text-muted small mt-2">
+                        Within the reliable data range of 2010 to 2019, the United States maintained the largest share of semiconductor patents, reflecting the concentration of fabless chip design firms including Qualcomm, Intel, and Nvidia. Taiwan's sustained growth reflects TSMC's expanding role as the dominant global contract manufacturer. China's gradual increase through 2018 followed by apparent flattening aligns with the imposition of US export controls and entity list designations beginning in 2018, which restricted Chinese firms access to advanced semiconductor tooling and design software, a geopolitical intervention whose full effect on Chinese domestic patent strategy extends beyond this dataset's reliable range.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade" id="tab-companies" role="tabpanel" aria-labelledby="tab-companies-tab">
+          <div class="row g-3 align-items-stretch">
+            <div class="col-12">
+              <div class="card shadow-sm">
+                <div class="card-header bg-white">
+                  <div class="fw-semibold">Company rankings</div>
+                </div>
+                <div class="card-body">
+                  <div class="row g-3">
+                    <div class="col-12 col-lg-6">
+                      {{ charts.top_companies_raw | safe }}
+                      <div class="text-muted small mt-2">
+                        <strong>Top Companies (Raw Count):</strong> Companies like Samsung, IBM, and Canon dominate patent volume because large multinational firms sustain continuous R&amp;D pipelines across multiple technologies, allowing them to accumulate patents at industrial scale.
+                      </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                      {{ charts.top_companies_weighted | safe }}
+                      <div class="text-muted small mt-2">
+                        <strong>Top Companies (Avg Citations per Patent):</strong> Citation-weighted rankings highlight firms whose patents are referenced more frequently by later inventions, suggesting stronger technological influence and more foundational innovations rather than just high output volume.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12">
+              <div class="card shadow-sm">
+                <div class="card-header bg-white">
+                  <div class="fw-semibold">Evolution of Patent Activity: IBM and Samsung</div>
+                </div>
+                <div class="card-body">
+                  {{ charts.ibm_vs_samsung | safe }}
+                  <div class="text-muted small mt-2">
+                    The trends indicate that IBM initially dominated patent filings due to its strong focus on enterprise computing and research-driven innovation, but its decline after the late 2000s suggests a strategic shift toward software, cloud services, and selective high-value patents. In contrast, Samsung experienced rapid patent growth as a result of heavy investment in smartphones, semiconductors, and consumer electronics, overtaking IBM during the peak mobile technology expansion period before both companies experienced declining filings due to market maturity and more optimized patent strategies.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12">
+              <div class="card shadow-sm">
+                <div class="card-header bg-white">
+                  <div class="fw-semibold">Patent categories (CPC)</div>
+                  <div class="text-muted small">High-level CPC section distribution and growth since 1900</div>
+                </div>
+                <div class="card-body">
+                  <div class="row g-3">
+                    <div class="col-12">
+                      {{ charts.cpc_sections | safe }}
+                      <div class="text-muted small mt-2">
+                        Why: Shifts in category mix often track real technology transitions as investment and product demand move across sectors.
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="table-responsive">
+                        <table class="table table-sm mb-0">
+                          <thead>
+                            <tr>
+                              <th>Category</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            {% for row in cpc_legend %}
+                              <tr>
+                                <td class="text-muted">{{ row.meaning }}</td>
+                              </tr>
+                            {% endfor %}
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12">
+              <div class="card shadow-sm">
+                <div class="card-header bg-white">
+                  <div class="fw-semibold">Top company per CPC section</div>
+                  <div class="text-muted small">Leaders by section</div>
+                </div>
+                <div class="card-body">
+                  <div class="table-responsive dashboard-table">
+                    <table class="table table-sm align-middle">
+                      <thead>
+                        <tr>
+                          <th>Section</th>
+                          <th>Company</th>
+                          <th class="text-end">Patents</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {% for row in tables.cpc_top_companies %}
+                          <tr>
+                            <td class="text-muted">{{ row.cpc_section_label }}</td>
+                            <td>{{ row.company_name }}</td>
+                            <td class="text-end">{{ "{:,.0f}".format(row.patents) }}</td>
+                          </tr>
+                        {% endfor %}
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="text-muted small mt-2">
+                    Why: Section leaders are usually incumbents with scale and supply-chain position inside that niche, not across all tech.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade" id="tab-inventors" role="tabpanel" aria-labelledby="tab-inventors-tab">
+          <div class="row g-3 align-items-stretch">
+            <div class="col-12">
+              <div class="card shadow-sm">
+                <div class="card-header bg-white">
+                  <div class="fw-semibold">Inventor rankings</div>
+                </div>
+                <div class="card-body">
+                  <div class="row g-3">
+                    <div class="col-12 col-lg-6">
+                      {{ charts.top_inventors_raw | safe }}
+                      <div class="text-muted small mt-2">
+                        <strong>Top Inventors (Raw Count):</strong> Inventors with extremely high patent totals are often embedded in long-term corporate research ecosystems where continuous product iteration and collaborative industrial research drive sustained patent production.
+                      </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                      {{ charts.top_inventors_weighted | safe }}
+                      <div class="text-muted small mt-2">
+                        <strong>Top Inventors (H-Index):</strong> The H-index balances patent quantity with citation impact, meaning inventors ranked highly here produced inventions that were not only numerous but repeatedly influential across future technologies and research. <a href="https://help.researchgate.net/hc/en-us/articles/14295647367697-h-index" target="_blank" rel="noreferrer">H-index reference</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-xl-6">
+              <div class="card shadow-sm h-100">
+                <div class="card-header bg-white">
+                  <div class="fw-semibold">Top inventor-company pairs</div>
+                  <div class="text-muted small">Most frequent collaborations</div>
+                </div>
+                <div class="card-body">
+                  <div class="table-responsive dashboard-table">
+                    <table class="table table-sm align-middle">
+                      <thead>
+                        <tr>
+                          <th>Inventor</th>
+                          <th>Company</th>
+                          <th class="text-end">Shared</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {% for row in tables.inventor_company_pairs %}
+                          <tr>
+                            <td>{{ row.inventor_name }}</td>
+                            <td>{{ row.company_name }}</td>
+                            <td class="text-end">{{ "{:,.0f}".format(row.shared_patents) }}</td>
+                          </tr>
+                        {% endfor %}
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="text-muted small mt-2">
+                    Why: Repeated pairs often come from stable corporate labs and long-running research teams.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-xl-6">
+              <div class="card shadow-sm h-100">
+                <div class="card-header bg-white">
+                  <div class="fw-semibold">Top inventor per country</div>
+                  <div class="text-muted small">Top 20 countries by inventor dominance</div>
+                </div>
+                <div class="card-body">
+                  <div class="table-responsive dashboard-table">
+                    <table class="table table-sm align-middle">
+                      <thead>
+                        <tr>
+                          <th>Country</th>
+                          <th>Inventor</th>
+                          <th class="text-end">Patents</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {% for row in tables.top_inventor_per_country %}
+                          <tr>
+                            <td class="text-muted">{{ row.country }}</td>
+                            <td>{{ row.inventor_name }}</td>
+                            <td class="text-end">{{ "{:,.0f}".format(row.patents) }}</td>
+                          </tr>
+                        {% endfor %}
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="text-muted small mt-2">
+                    Why: Higher dominance often happens where the inventor pool is small or activity is concentrated in a few large labs.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade" id="tab-trends" role="tabpanel" aria-labelledby="tab-trends-tab">
+          <div class="row g-3 align-items-stretch">
+            <div class="col-12">
+              <div class="card shadow-sm">
+                <div class="card-header bg-white">
+                  <div class="fw-semibold">Technology trends</div>
+                </div>
+                <div class="card-body">
+                  <div class="row g-3">
+                    <div class="col-12 col-lg-6">
+                      {{ charts.diag_smartphones_vs_telephony | safe }}
+                      <div class="text-muted small mt-2">
+                        Wireless communication patents rapidly overtook traditional telephony after the smartphone era began, reflecting the global shift from fixed voice infrastructure toward mobile internet, apps, and data-driven communication ecosystems.
+                      </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                      {{ charts.diag_ev_vs_combustion | safe }}
+                      <div class="text-muted small mt-2">
+                        Combustion engine patents dominated for decades due to established automotive infrastructure, but EV patents surged after 2010 as environmental regulation, battery advances, and electrification reshaped the automotive industry.
+                      </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                      {{ charts.diag_ai_vs_software | safe }}
+                      <div class="text-muted small mt-2">
+                        Traditional software patents remained dominant because conventional computing underpinned the digital economy for decades, but AI patents accelerated sharply as machine learning became commercially viable through advances in data, computing power, and automation demand.
+                      </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                      {{ charts.trend_streaming_vs_optical | safe }}
+                      <div class="text-muted small mt-2">
+                        Optical disc patents peaked around 2008, the same year Netflix launched streaming, and never recovered. Streaming patents then rode a decade of growth fueled by codec innovation, CDN infrastructure and DRM development before dipping post-2020 as the market consolidated and fewer new players meant fewer filings. A textbook disruption curve where the incumbent peaks exactly as the challenger reaches escape velocity.
+                      </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                      {{ charts.trend_renewables_vs_fossil | safe }}
+                      <div class="text-muted small mt-2">
+                        Fossil fuel patents grew through the shale and deepwater drilling boom then fell sharply when oil prices crashed in 2014 and gutted R&amp;D budgets. Renewables grew slowly but never stopped, kept alive by policy incentives even through cheap oil periods. The gap is still large but fossil fuels are declining and renewables are the only category still climbing. Patent counts also lag real investment by a few years so the renewable momentum is even stronger than the chart suggests.
+                      </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                      {{ charts.trend_battery_vs_oil | safe }}
+                      <div class="text-muted small mt-2">
+                        Battery patents exploded through 2018 as EV makers and grid storage companies raced to lock down cell chemistry and pack architecture, then dropped sharply. That spike and crash is a classic sign of a technology crossing from lab to mass production where the key claims get filed fast and then the thicket matures. Oil patents declined on the same post-2014 trajectory as fossil fuel extraction. The two curves are now converging, meaning both industries are innovating at roughly the same intensity for the first time.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}

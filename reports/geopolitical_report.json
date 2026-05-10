@@ -1,0 +1,780 @@
+{
+    "geo_us_vs_china_overall": [
+        {
+            "year": 1990,
+            "us_patents": 90579,
+            "cn_patents": 471,
+            "jp_patents": 65392,
+            "kr_patents": 892,
+            "de_patents": 17052,
+            "total": 174386,
+            "us_share_pct": 51.94,
+            "cn_share_pct": 0.27
+        },
+        {
+            "year": 1991,
+            "us_patents": 96370,
+            "cn_patents": 463,
+            "jp_patents": 66954,
+            "kr_patents": 1373,
+            "de_patents": 16122,
+            "total": 181282,
+            "us_share_pct": 53.16,
+            "cn_share_pct": 0.26
+        },
+        {
+            "year": 1992,
+            "us_patents": 106356,
+            "cn_patents": 565,
+            "jp_patents": 67935,
+            "kr_patents": 1600,
+            "de_patents": 16973,
+            "total": 193429,
+            "us_share_pct": 54.98,
+            "cn_share_pct": 0.29
+        },
+        {
+            "year": 1993,
+            "us_patents": 115133,
+            "cn_patents": 788,
+            "jp_patents": 68473,
+            "kr_patents": 2021,
+            "de_patents": 16980,
+            "total": 203395,
+            "us_share_pct": 56.61,
+            "cn_share_pct": 0.39
+        },
+        {
+            "year": 1994,
+            "us_patents": 135268,
+            "cn_patents": 857,
+            "jp_patents": 79663,
+            "kr_patents": 3238,
+            "de_patents": 19385,
+            "total": 238411,
+            "us_share_pct": 56.74,
+            "cn_share_pct": 0.36
+        },
+        {
+            "year": 1995,
+            "us_patents": 176192,
+            "cn_patents": 1182,
+            "jp_patents": 91250,
+            "kr_patents": 4227,
+            "de_patents": 22870,
+            "total": 295721,
+            "us_share_pct": 59.58,
+            "cn_share_pct": 0.4
+        },
+        {
+            "year": 1996,
+            "us_patents": 163362,
+            "cn_patents": 1447,
+            "jp_patents": 92194,
+            "kr_patents": 6431,
+            "de_patents": 22351,
+            "total": 285785,
+            "us_share_pct": 57.16,
+            "cn_share_pct": 0.51
+        },
+        {
+            "year": 1997,
+            "us_patents": 200062,
+            "cn_patents": 1857,
+            "jp_patents": 106039,
+            "kr_patents": 7104,
+            "de_patents": 26656,
+            "total": 341718,
+            "us_share_pct": 58.55,
+            "cn_share_pct": 0.54
+        },
+        {
+            "year": 1998,
+            "us_patents": 203146,
+            "cn_patents": 2284,
+            "jp_patents": 96682,
+            "kr_patents": 8138,
+            "de_patents": 27869,
+            "total": 338119,
+            "us_share_pct": 60.08,
+            "cn_share_pct": 0.68
+        },
+        {
+            "year": 1999,
+            "us_patents": 223014,
+            "cn_patents": 3035,
+            "jp_patents": 100566,
+            "kr_patents": 8455,
+            "de_patents": 32951,
+            "total": 368021,
+            "us_share_pct": 60.6,
+            "cn_share_pct": 0.82
+        },
+        {
+            "year": 2000,
+            "us_patents": 247420,
+            "cn_patents": 3767,
+            "jp_patents": 117612,
+            "kr_patents": 10345,
+            "de_patents": 35730,
+            "total": 414874,
+            "us_share_pct": 59.64,
+            "cn_share_pct": 0.91
+        },
+        {
+            "year": 2001,
+            "us_patents": 258435,
+            "cn_patents": 4981,
+            "jp_patents": 132850,
+            "kr_patents": 12470,
+            "de_patents": 42473,
+            "total": 451209,
+            "us_share_pct": 57.28,
+            "cn_share_pct": 1.1
+        },
+        {
+            "year": 2002,
+            "us_patents": 262631,
+            "cn_patents": 5614,
+            "jp_patents": 128669,
+            "kr_patents": 15894,
+            "de_patents": 42383,
+            "total": 455191,
+            "us_share_pct": 57.7,
+            "cn_share_pct": 1.23
+        },
+        {
+            "year": 2003,
+            "us_patents": 262901,
+            "cn_patents": 6193,
+            "jp_patents": 120963,
+            "kr_patents": 19061,
+            "de_patents": 34960,
+            "total": 444078,
+            "us_share_pct": 59.2,
+            "cn_share_pct": 1.39
+        },
+        {
+            "year": 2004,
+            "us_patents": 261706,
+            "cn_patents": 8019,
+            "jp_patents": 124176,
+            "kr_patents": 24426,
+            "de_patents": 34320,
+            "total": 452647,
+            "us_share_pct": 57.82,
+            "cn_share_pct": 1.77
+        },
+        {
+            "year": 2005,
+            "us_patents": 267989,
+            "cn_patents": 9183,
+            "jp_patents": 128955,
+            "kr_patents": 29463,
+            "de_patents": 34669,
+            "total": 470259,
+            "us_share_pct": 56.99,
+            "cn_share_pct": 1.95
+        },
+        {
+            "year": 2006,
+            "us_patents": 273685,
+            "cn_patents": 12142,
+            "jp_patents": 126670,
+            "kr_patents": 36894,
+            "de_patents": 35928,
+            "total": 485319,
+            "us_share_pct": 56.39,
+            "cn_share_pct": 2.5
+        },
+        {
+            "year": 2007,
+            "us_patents": 295973,
+            "cn_patents": 14824,
+            "jp_patents": 127385,
+            "kr_patents": 38976,
+            "de_patents": 37228,
+            "total": 514386,
+            "us_share_pct": 57.54,
+            "cn_share_pct": 2.88
+        },
+        {
+            "year": 2008,
+            "us_patents": 288676,
+            "cn_patents": 17881,
+            "jp_patents": 127187,
+            "kr_patents": 41424,
+            "de_patents": 38492,
+            "total": 513660,
+            "us_share_pct": 56.2,
+            "cn_share_pct": 3.48
+        },
+        {
+            "year": 2009,
+            "us_patents": 278666,
+            "cn_patents": 19945,
+            "jp_patents": 119579,
+            "kr_patents": 42217,
+            "de_patents": 36426,
+            "total": 496833,
+            "us_share_pct": 56.09,
+            "cn_share_pct": 4.01
+        },
+        {
+            "year": 2010,
+            "us_patents": 302512,
+            "cn_patents": 24083,
+            "jp_patents": 122100,
+            "kr_patents": 46471,
+            "de_patents": 40154,
+            "total": 535320,
+            "us_share_pct": 56.51,
+            "cn_share_pct": 4.5
+        },
+        {
+            "year": 2011,
+            "us_patents": 333706,
+            "cn_patents": 28995,
+            "jp_patents": 133597,
+            "kr_patents": 51703,
+            "de_patents": 41978,
+            "total": 589979,
+            "us_share_pct": 56.56,
+            "cn_share_pct": 4.91
+        },
+        {
+            "year": 2012,
+            "us_patents": 381340,
+            "cn_patents": 34006,
+            "jp_patents": 137115,
+            "kr_patents": 53792,
+            "de_patents": 44738,
+            "total": 650991,
+            "us_share_pct": 58.58,
+            "cn_share_pct": 5.22
+        },
+        {
+            "year": 2013,
+            "us_patents": 414940,
+            "cn_patents": 39489,
+            "jp_patents": 134667,
+            "kr_patents": 68264,
+            "de_patents": 46287,
+            "total": 703647,
+            "us_share_pct": 58.97,
+            "cn_share_pct": 5.61
+        },
+        {
+            "year": 2014,
+            "us_patents": 422611,
+            "cn_patents": 48189,
+            "jp_patents": 136079,
+            "kr_patents": 76183,
+            "de_patents": 47357,
+            "total": 730419,
+            "us_share_pct": 57.86,
+            "cn_share_pct": 6.6
+        },
+        {
+            "year": 2015,
+            "us_patents": 439942,
+            "cn_patents": 54997,
+            "jp_patents": 142872,
+            "kr_patents": 82807,
+            "de_patents": 49326,
+            "total": 769944,
+            "us_share_pct": 57.14,
+            "cn_share_pct": 7.14
+        },
+        {
+            "year": 2016,
+            "us_patents": 462243,
+            "cn_patents": 66528,
+            "jp_patents": 145242,
+            "kr_patents": 83600,
+            "de_patents": 51586,
+            "total": 809199,
+            "us_share_pct": 57.12,
+            "cn_share_pct": 8.22
+        },
+        {
+            "year": 2017,
+            "us_patents": 487949,
+            "cn_patents": 79839,
+            "jp_patents": 148578,
+            "kr_patents": 85400,
+            "de_patents": 53944,
+            "total": 855710,
+            "us_share_pct": 57.02,
+            "cn_share_pct": 9.33
+        },
+        {
+            "year": 2018,
+            "us_patents": 491208,
+            "cn_patents": 94166,
+            "jp_patents": 148824,
+            "kr_patents": 86437,
+            "de_patents": 54724,
+            "total": 875359,
+            "us_share_pct": 56.12,
+            "cn_share_pct": 10.76
+        },
+        {
+            "year": 2019,
+            "us_patents": 520675,
+            "cn_patents": 108126,
+            "jp_patents": 150628,
+            "kr_patents": 100553,
+            "de_patents": 53723,
+            "total": 933705,
+            "us_share_pct": 55.76,
+            "cn_share_pct": 11.58
+        },
+        {
+            "year": 2020,
+            "us_patents": 486964,
+            "cn_patents": 113234,
+            "jp_patents": 130368,
+            "kr_patents": 100876,
+            "de_patents": 48210,
+            "total": 879652,
+            "us_share_pct": 55.36,
+            "cn_share_pct": 12.87
+        },
+        {
+            "year": 2021,
+            "us_patents": 443223,
+            "cn_patents": 114458,
+            "jp_patents": 98331,
+            "kr_patents": 85582,
+            "de_patents": 37048,
+            "total": 778642,
+            "us_share_pct": 56.92,
+            "cn_share_pct": 14.7
+        },
+        {
+            "year": 2022,
+            "us_patents": 341954,
+            "cn_patents": 86141,
+            "jp_patents": 73043,
+            "kr_patents": 72041,
+            "de_patents": 25146,
+            "total": 598325,
+            "us_share_pct": 57.15,
+            "cn_share_pct": 14.4
+        }
+    ],
+    "geo_trade_war_semiconductors": [
+        {
+            "year": 2010,
+            "us_h01l": 8883,
+            "cn_h01l": 745,
+            "kr_h01l": 2536,
+            "tw_h01l": 2610,
+            "jp_h01l": 7133
+        },
+        {
+            "year": 2011,
+            "us_h01l": 10075,
+            "cn_h01l": 1029,
+            "kr_h01l": 3193,
+            "tw_h01l": 3711,
+            "jp_h01l": 7897
+        },
+        {
+            "year": 2012,
+            "us_h01l": 11821,
+            "cn_h01l": 1293,
+            "kr_h01l": 2977,
+            "tw_h01l": 3822,
+            "jp_h01l": 7482
+        },
+        {
+            "year": 2013,
+            "us_h01l": 13529,
+            "cn_h01l": 1394,
+            "kr_h01l": 3655,
+            "tw_h01l": 5955,
+            "jp_h01l": 8041
+        },
+        {
+            "year": 2014,
+            "us_h01l": 14787,
+            "cn_h01l": 1746,
+            "kr_h01l": 4361,
+            "tw_h01l": 6341,
+            "jp_h01l": 8294
+        },
+        {
+            "year": 2015,
+            "us_h01l": 16257,
+            "cn_h01l": 2113,
+            "kr_h01l": 4547,
+            "tw_h01l": 6929,
+            "jp_h01l": 9405
+        },
+        {
+            "year": 2016,
+            "us_h01l": 17891,
+            "cn_h01l": 2626,
+            "kr_h01l": 5167,
+            "tw_h01l": 7712,
+            "jp_h01l": 9246
+        },
+        {
+            "year": 2017,
+            "us_h01l": 18914,
+            "cn_h01l": 3271,
+            "kr_h01l": 5314,
+            "tw_h01l": 8749,
+            "jp_h01l": 10149
+        },
+        {
+            "year": 2018,
+            "us_h01l": 17417,
+            "cn_h01l": 3665,
+            "kr_h01l": 5658,
+            "tw_h01l": 10897,
+            "jp_h01l": 9729
+        },
+        {
+            "year": 2019,
+            "us_h01l": 17359,
+            "cn_h01l": 3866,
+            "kr_h01l": 6877,
+            "tw_h01l": 11858,
+            "jp_h01l": 9730
+        },
+        {
+            "year": 2020,
+            "us_h01l": 14759,
+            "cn_h01l": 4308,
+            "kr_h01l": 7615,
+            "tw_h01l": 12148,
+            "jp_h01l": 8651
+        },
+        {
+            "year": 2021,
+            "us_h01l": 11702,
+            "cn_h01l": 4820,
+            "kr_h01l": 8002,
+            "tw_h01l": 11889,
+            "jp_h01l": 6553
+        },
+        {
+            "year": 2022,
+            "us_h01l": 7801,
+            "cn_h01l": 2384,
+            "kr_h01l": 5167,
+            "tw_h01l": 10510,
+            "jp_h01l": 4124
+        }
+    ],
+    "geo_korea_vs_japan_h01l": [
+        {
+            "year": 1985,
+            "jp_h01l": 861,
+            "kr_h01l": 2,
+            "total_h01l": 310,
+            "jp_share_pct": 277.74,
+            "kr_share_pct": 0.65
+        },
+        {
+            "year": 1986,
+            "jp_h01l": 1015,
+            "kr_h01l": 5,
+            "total_h01l": 359,
+            "jp_share_pct": 282.73,
+            "kr_share_pct": 1.39
+        },
+        {
+            "year": 1987,
+            "jp_h01l": 1144,
+            "kr_h01l": 3,
+            "total_h01l": 403,
+            "jp_share_pct": 283.87,
+            "kr_share_pct": 0.74
+        },
+        {
+            "year": 1988,
+            "jp_h01l": 1662,
+            "kr_h01l": 28,
+            "total_h01l": 586,
+            "jp_share_pct": 283.62,
+            "kr_share_pct": 4.78
+        },
+        {
+            "year": 1989,
+            "jp_h01l": 1873,
+            "kr_h01l": 51,
+            "total_h01l": 638,
+            "jp_share_pct": 293.57,
+            "kr_share_pct": 7.99
+        },
+        {
+            "year": 1990,
+            "jp_h01l": 2131,
+            "kr_h01l": 43,
+            "total_h01l": 761,
+            "jp_share_pct": 280.03,
+            "kr_share_pct": 5.65
+        },
+        {
+            "year": 1991,
+            "jp_h01l": 2691,
+            "kr_h01l": 116,
+            "total_h01l": 1005,
+            "jp_share_pct": 267.76,
+            "kr_share_pct": 11.54
+        },
+        {
+            "year": 1992,
+            "jp_h01l": 3010,
+            "kr_h01l": 146,
+            "total_h01l": 1129,
+            "jp_share_pct": 266.61,
+            "kr_share_pct": 12.93
+        },
+        {
+            "year": 1993,
+            "jp_h01l": 2955,
+            "kr_h01l": 160,
+            "total_h01l": 1055,
+            "jp_share_pct": 280.09,
+            "kr_share_pct": 15.17
+        },
+        {
+            "year": 1994,
+            "jp_h01l": 3439,
+            "kr_h01l": 226,
+            "total_h01l": 1283,
+            "jp_share_pct": 268.04,
+            "kr_share_pct": 17.61
+        },
+        {
+            "year": 1995,
+            "jp_h01l": 4636,
+            "kr_h01l": 305,
+            "total_h01l": 1578,
+            "jp_share_pct": 293.79,
+            "kr_share_pct": 19.33
+        },
+        {
+            "year": 1996,
+            "jp_h01l": 4548,
+            "kr_h01l": 643,
+            "total_h01l": 1868,
+            "jp_share_pct": 243.47,
+            "kr_share_pct": 34.42
+        },
+        {
+            "year": 1997,
+            "jp_h01l": 5701,
+            "kr_h01l": 641,
+            "total_h01l": 2248,
+            "jp_share_pct": 253.6,
+            "kr_share_pct": 28.51
+        },
+        {
+            "year": 1998,
+            "jp_h01l": 5830,
+            "kr_h01l": 782,
+            "total_h01l": 2345,
+            "jp_share_pct": 248.61,
+            "kr_share_pct": 33.35
+        },
+        {
+            "year": 1999,
+            "jp_h01l": 5932,
+            "kr_h01l": 847,
+            "total_h01l": 2412,
+            "jp_share_pct": 245.94,
+            "kr_share_pct": 35.12
+        },
+        {
+            "year": 2000,
+            "jp_h01l": 7416,
+            "kr_h01l": 904,
+            "total_h01l": 2939,
+            "jp_share_pct": 252.33,
+            "kr_share_pct": 30.76
+        },
+        {
+            "year": 2001,
+            "jp_h01l": 8846,
+            "kr_h01l": 1200,
+            "total_h01l": 3296,
+            "jp_share_pct": 268.39,
+            "kr_share_pct": 36.41
+        },
+        {
+            "year": 2002,
+            "jp_h01l": 8899,
+            "kr_h01l": 1519,
+            "total_h01l": 3503,
+            "jp_share_pct": 254.04,
+            "kr_share_pct": 43.36
+        },
+        {
+            "year": 2003,
+            "jp_h01l": 8404,
+            "kr_h01l": 1766,
+            "total_h01l": 3389,
+            "jp_share_pct": 247.98,
+            "kr_share_pct": 52.11
+        },
+        {
+            "year": 2004,
+            "jp_h01l": 7827,
+            "kr_h01l": 1981,
+            "total_h01l": 3409,
+            "jp_share_pct": 229.6,
+            "kr_share_pct": 58.11
+        },
+        {
+            "year": 2005,
+            "jp_h01l": 7799,
+            "kr_h01l": 2016,
+            "total_h01l": 3337,
+            "jp_share_pct": 233.71,
+            "kr_share_pct": 60.41
+        },
+        {
+            "year": 2006,
+            "jp_h01l": 7371,
+            "kr_h01l": 2393,
+            "total_h01l": 3491,
+            "jp_share_pct": 211.14,
+            "kr_share_pct": 68.55
+        },
+        {
+            "year": 2007,
+            "jp_h01l": 7142,
+            "kr_h01l": 2377,
+            "total_h01l": 3315,
+            "jp_share_pct": 215.44,
+            "kr_share_pct": 71.7
+        },
+        {
+            "year": 2008,
+            "jp_h01l": 7292,
+            "kr_h01l": 2397,
+            "total_h01l": 3486,
+            "jp_share_pct": 209.18,
+            "kr_share_pct": 68.76
+        },
+        {
+            "year": 2009,
+            "jp_h01l": 6406,
+            "kr_h01l": 2347,
+            "total_h01l": 3078,
+            "jp_share_pct": 208.12,
+            "kr_share_pct": 76.25
+        },
+        {
+            "year": 2010,
+            "jp_h01l": 7133,
+            "kr_h01l": 2536,
+            "total_h01l": 3268,
+            "jp_share_pct": 218.27,
+            "kr_share_pct": 77.6
+        },
+        {
+            "year": 2011,
+            "jp_h01l": 7897,
+            "kr_h01l": 3193,
+            "total_h01l": 3665,
+            "jp_share_pct": 215.47,
+            "kr_share_pct": 87.12
+        },
+        {
+            "year": 2012,
+            "jp_h01l": 7482,
+            "kr_h01l": 2977,
+            "total_h01l": 3560,
+            "jp_share_pct": 210.17,
+            "kr_share_pct": 83.62
+        },
+        {
+            "year": 2013,
+            "jp_h01l": 8041,
+            "kr_h01l": 3655,
+            "total_h01l": 3818,
+            "jp_share_pct": 210.61,
+            "kr_share_pct": 95.73
+        },
+        {
+            "year": 2014,
+            "jp_h01l": 8294,
+            "kr_h01l": 4361,
+            "total_h01l": 4204,
+            "jp_share_pct": 197.29,
+            "kr_share_pct": 103.73
+        },
+        {
+            "year": 2015,
+            "jp_h01l": 9405,
+            "kr_h01l": 4547,
+            "total_h01l": 4682,
+            "jp_share_pct": 200.88,
+            "kr_share_pct": 97.12
+        },
+        {
+            "year": 2016,
+            "jp_h01l": 9246,
+            "kr_h01l": 5167,
+            "total_h01l": 4791,
+            "jp_share_pct": 192.99,
+            "kr_share_pct": 107.85
+        },
+        {
+            "year": 2017,
+            "jp_h01l": 10149,
+            "kr_h01l": 5314,
+            "total_h01l": 5280,
+            "jp_share_pct": 192.22,
+            "kr_share_pct": 100.64
+        },
+        {
+            "year": 2018,
+            "jp_h01l": 9729,
+            "kr_h01l": 5658,
+            "total_h01l": 5111,
+            "jp_share_pct": 190.35,
+            "kr_share_pct": 110.7
+        },
+        {
+            "year": 2019,
+            "jp_h01l": 9730,
+            "kr_h01l": 6877,
+            "total_h01l": 5583,
+            "jp_share_pct": 174.28,
+            "kr_share_pct": 123.18
+        },
+        {
+            "year": 2020,
+            "jp_h01l": 8651,
+            "kr_h01l": 7615,
+            "total_h01l": 5354,
+            "jp_share_pct": 161.58,
+            "kr_share_pct": 142.23
+        },
+        {
+            "year": 2021,
+            "jp_h01l": 6553,
+            "kr_h01l": 8002,
+            "total_h01l": 4767,
+            "jp_share_pct": 137.47,
+            "kr_share_pct": 167.86
+        },
+        {
+            "year": 2022,
+            "jp_h01l": 4124,
+            "kr_h01l": 5167,
+            "total_h01l": 2998,
+            "jp_share_pct": 137.56,
+            "kr_share_pct": 172.35
+        }
+    ],
+    "geo_korea_japan_correlation": -0.9799
+}

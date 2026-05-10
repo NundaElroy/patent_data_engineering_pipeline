@@ -1,0 +1,262 @@
+{
+    "weighted_inventors_hindex": [
+        {
+            "name": "Frederick E. Shelton, IV",
+            "h_index": 768,
+            "cited_patents": 768,
+            "total_citations": 1066670,
+            "avg_citations": 1388.89
+        },
+        {
+            "name": "Jason L. Harris",
+            "h_index": 358,
+            "cited_patents": 358,
+            "total_citations": 272853,
+            "avg_citations": 762.16
+        },
+        {
+            "name": "Jerome R. Morgan",
+            "h_index": 346,
+            "cited_patents": 346,
+            "total_citations": 387761,
+            "avg_citations": 1120.7
+        },
+        {
+            "name": "Ammar Al-Ali",
+            "h_index": 306,
+            "cited_patents": 306,
+            "total_citations": 199526,
+            "avg_citations": 652.05
+        },
+        {
+            "name": "Jeffrey S. Swayze",
+            "h_index": 246,
+            "cited_patents": 246,
+            "total_citations": 279521,
+            "avg_citations": 1136.26
+        },
+        {
+            "name": "Chester O. Baxter, III",
+            "h_index": 232,
+            "cited_patents": 232,
+            "total_citations": 243643,
+            "avg_citations": 1050.19
+        },
+        {
+            "name": "David C. Yates",
+            "h_index": 232,
+            "cited_patents": 232,
+            "total_citations": 235251,
+            "avg_citations": 1014.01
+        },
+        {
+            "name": "Frank J. Viola",
+            "h_index": 192,
+            "cited_patents": 192,
+            "total_citations": 282345,
+            "avg_citations": 1470.55
+        },
+        {
+            "name": "Harold J. Vinegar",
+            "h_index": 180,
+            "cited_patents": 180,
+            "total_citations": 46796,
+            "avg_citations": 259.98
+        },
+        {
+            "name": "Mohamed K. Diab",
+            "h_index": 178,
+            "cited_patents": 178,
+            "total_citations": 150660,
+            "avg_citations": 846.4
+        }
+    ],
+    "weighted_inventors_raw": [
+        {
+            "name": "Shunpei Yamazaki",
+            "raw_patents": 6749
+        },
+        {
+            "name": "Kia Silverbrook",
+            "raw_patents": 4772
+        },
+        {
+            "name": "Tao Luo",
+            "raw_patents": 4274
+        },
+        {
+            "name": "Kangguo Cheng",
+            "raw_patents": 2944
+        },
+        {
+            "name": "Jonathan P. Ive",
+            "raw_patents": 2871
+        },
+        {
+            "name": "Junyi Li",
+            "raw_patents": 2756
+        },
+        {
+            "name": "Frederick E. Shelton, IV",
+            "raw_patents": 2667
+        },
+        {
+            "name": "Shou-Shan Fan",
+            "raw_patents": 2621
+        },
+        {
+            "name": "Peter Gaal",
+            "raw_patents": 2487
+        },
+        {
+            "name": "Duncan Robert Kerr",
+            "raw_patents": 2462
+        }
+    ],
+    "weighted_companies_citations": [
+        {
+            "name": "International Business Machines Corporation",
+            "patent_count": 113587,
+            "total_citations": 7824169,
+            "avg_citations_per_patent": 20.62,
+            "max_single_patent_citations": 2059
+        },
+        {
+            "name": "Ethicon Endo-Surgery, Inc.",
+            "patent_count": 2096,
+            "total_citations": 6363661,
+            "avg_citations_per_patent": 773.51,
+            "max_single_patent_citations": 3426
+        },
+        {
+            "name": "Ethicon, Inc.",
+            "patent_count": 3221,
+            "total_citations": 4564229,
+            "avg_citations_per_patent": 384.03,
+            "max_single_patent_citations": 3916
+        },
+        {
+            "name": "Microsoft Corporation",
+            "patent_count": 27953,
+            "total_citations": 3382362,
+            "avg_citations_per_patent": 35.97,
+            "max_single_patent_citations": 1479
+        },
+        {
+            "name": "Apple Inc.",
+            "patent_count": 24042,
+            "total_citations": 3171176,
+            "avg_citations_per_patent": 25.4,
+            "max_single_patent_citations": 3274
+        },
+        {
+            "name": "HITACHI, LTD.",
+            "patent_count": 39138,
+            "total_citations": 3079710,
+            "avg_citations_per_patent": 20.34,
+            "max_single_patent_citations": 1308
+        },
+        {
+            "name": "SAMSUNG ELECTRONICS CO., LTD.",
+            "patent_count": 100747,
+            "total_citations": 3075618,
+            "avg_citations_per_patent": 9.46,
+            "max_single_patent_citations": 4038
+        },
+        {
+            "name": "Canon Kabushiki Kaisha",
+            "patent_count": 62552,
+            "total_citations": 2649214,
+            "avg_citations_per_patent": 16.4,
+            "max_single_patent_citations": 3946
+        },
+        {
+            "name": "Covidien LP",
+            "patent_count": 5429,
+            "total_citations": 2295515,
+            "avg_citations_per_patent": 150.33,
+            "max_single_patent_citations": 2164
+        },
+        {
+            "name": "United States Surgical Corporation",
+            "patent_count": 1187,
+            "total_citations": 2212174,
+            "avg_citations_per_patent": 698.51,
+            "max_single_patent_citations": 3347
+        }
+    ],
+    "weighted_companies_normalized": [
+        {
+            "company_name": "International Business Machines Corporation",
+            "cpc_section": "G",
+            "company_patents_in_section": 78375,
+            "company_citations_in_section": 6204746,
+            "field_avg_citations": 21.2,
+            "normalized_score": 292692.88
+        },
+        {
+            "company_name": "International Business Machines Corporation",
+            "cpc_section": "H",
+            "company_patents_in_section": 46222,
+            "company_citations_in_section": 4152637,
+            "field_avg_citations": 18.52,
+            "normalized_score": 224263.13
+        },
+        {
+            "company_name": "Ethicon Endo-Surgery, Inc.",
+            "cpc_section": "A",
+            "company_patents_in_section": 1985,
+            "company_citations_in_section": 6749450,
+            "field_avg_citations": 35.23,
+            "normalized_score": 191590.78
+        },
+        {
+            "company_name": "General Electric Company",
+            "cpc_section": "F",
+            "company_patents_in_section": 12938,
+            "company_citations_in_section": 875315,
+            "field_avg_citations": 14.46,
+            "normalized_score": 60539.29
+        },
+        {
+            "company_name": "Donnelly Corporation",
+            "cpc_section": "B",
+            "company_patents_in_section": 813,
+            "company_citations_in_section": 966201,
+            "field_avg_citations": 16.49,
+            "normalized_score": 58591.31
+        },
+        {
+            "company_name": "Applied Materials, Inc.",
+            "cpc_section": "C",
+            "company_patents_in_section": 3310,
+            "company_citations_in_section": 844654,
+            "field_avg_citations": 15.97,
+            "normalized_score": 52894.4
+        },
+        {
+            "company_name": "SHELL OIL COMPNY",
+            "cpc_section": "E",
+            "company_patents_in_section": 1186,
+            "company_citations_in_section": 390199,
+            "field_avg_citations": 16.99,
+            "normalized_score": 22967.16
+        },
+        {
+            "company_name": "The Procter & Gamble Company",
+            "cpc_section": "D",
+            "company_patents_in_section": 1450,
+            "company_citations_in_section": 226776,
+            "field_avg_citations": 15.62,
+            "normalized_score": 14517.51
+        },
+        {
+            "company_name": "SAMSUNG ELECTRONICS CO., LTD.",
+            "cpc_section": "Y",
+            "company_patents_in_section": 1,
+            "company_citations_in_section": 4,
+            "field_avg_citations": 1.0,
+            "normalized_score": 4.0
+        }
+    ]
+}

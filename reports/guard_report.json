@@ -1,0 +1,624 @@
+{
+    "fintech_vs_banking": [
+        {
+            "year": 1995,
+            "traditional_banking_patents": 973,
+            "digital_finance_patents": 2906,
+            "banking_growth": null,
+            "digital_growth": null
+        },
+        {
+            "year": 1996,
+            "traditional_banking_patents": 1298,
+            "digital_finance_patents": 3820,
+            "banking_growth": 33.4,
+            "digital_growth": 31.45
+        },
+        {
+            "year": 1997,
+            "traditional_banking_patents": 1694,
+            "digital_finance_patents": 5250,
+            "banking_growth": 30.51,
+            "digital_growth": 37.43
+        },
+        {
+            "year": 1998,
+            "traditional_banking_patents": 2012,
+            "digital_finance_patents": 6302,
+            "banking_growth": 18.77,
+            "digital_growth": 20.04
+        },
+        {
+            "year": 1999,
+            "traditional_banking_patents": 2828,
+            "digital_finance_patents": 7688,
+            "banking_growth": 40.56,
+            "digital_growth": 21.99
+        },
+        {
+            "year": 2000,
+            "traditional_banking_patents": 4448,
+            "digital_finance_patents": 9499,
+            "banking_growth": 57.28,
+            "digital_growth": 23.56
+        },
+        {
+            "year": 2001,
+            "traditional_banking_patents": 4900,
+            "digital_finance_patents": 10696,
+            "banking_growth": 10.16,
+            "digital_growth": 12.6
+        },
+        {
+            "year": 2002,
+            "traditional_banking_patents": 4393,
+            "digital_finance_patents": 10918,
+            "banking_growth": -10.35,
+            "digital_growth": 2.08
+        },
+        {
+            "year": 2003,
+            "traditional_banking_patents": 4276,
+            "digital_finance_patents": 10900,
+            "banking_growth": -2.66,
+            "digital_growth": -0.16
+        },
+        {
+            "year": 2004,
+            "traditional_banking_patents": 4899,
+            "digital_finance_patents": 11906,
+            "banking_growth": 14.57,
+            "digital_growth": 9.23
+        },
+        {
+            "year": 2005,
+            "traditional_banking_patents": 5468,
+            "digital_finance_patents": 12972,
+            "banking_growth": 11.61,
+            "digital_growth": 8.95
+        },
+        {
+            "year": 2006,
+            "traditional_banking_patents": 6742,
+            "digital_finance_patents": 14218,
+            "banking_growth": 23.3,
+            "digital_growth": 9.61
+        },
+        {
+            "year": 2007,
+            "traditional_banking_patents": 7811,
+            "digital_finance_patents": 15486,
+            "banking_growth": 15.86,
+            "digital_growth": 8.92
+        },
+        {
+            "year": 2008,
+            "traditional_banking_patents": 7517,
+            "digital_finance_patents": 16009,
+            "banking_growth": -3.76,
+            "digital_growth": 3.38
+        },
+        {
+            "year": 2009,
+            "traditional_banking_patents": 6730,
+            "digital_finance_patents": 15114,
+            "banking_growth": -10.47,
+            "digital_growth": -5.59
+        },
+        {
+            "year": 2010,
+            "traditional_banking_patents": 7551,
+            "digital_finance_patents": 16063,
+            "banking_growth": 12.2,
+            "digital_growth": 6.28
+        },
+        {
+            "year": 2011,
+            "traditional_banking_patents": 8734,
+            "digital_finance_patents": 18466,
+            "banking_growth": 15.67,
+            "digital_growth": 14.96
+        },
+        {
+            "year": 2012,
+            "traditional_banking_patents": 10557,
+            "digital_finance_patents": 22804,
+            "banking_growth": 20.87,
+            "digital_growth": 23.49
+        },
+        {
+            "year": 2013,
+            "traditional_banking_patents": 10079,
+            "digital_finance_patents": 26155,
+            "banking_growth": -4.53,
+            "digital_growth": 14.69
+        },
+        {
+            "year": 2014,
+            "traditional_banking_patents": 10929,
+            "digital_finance_patents": 29160,
+            "banking_growth": 8.43,
+            "digital_growth": 11.49
+        },
+        {
+            "year": 2015,
+            "traditional_banking_patents": 11208,
+            "digital_finance_patents": 31712,
+            "banking_growth": 2.55,
+            "digital_growth": 8.75
+        },
+        {
+            "year": 2016,
+            "traditional_banking_patents": 11876,
+            "digital_finance_patents": 33526,
+            "banking_growth": 5.96,
+            "digital_growth": 5.72
+        },
+        {
+            "year": 2017,
+            "traditional_banking_patents": 12654,
+            "digital_finance_patents": 33224,
+            "banking_growth": 6.55,
+            "digital_growth": -0.9
+        },
+        {
+            "year": 2018,
+            "traditional_banking_patents": 13199,
+            "digital_finance_patents": 33765,
+            "banking_growth": 4.31,
+            "digital_growth": 1.63
+        },
+        {
+            "year": 2019,
+            "traditional_banking_patents": 15576,
+            "digital_finance_patents": 37397,
+            "banking_growth": 18.01,
+            "digital_growth": 10.76
+        },
+        {
+            "year": 2020,
+            "traditional_banking_patents": 14780,
+            "digital_finance_patents": 35181,
+            "banking_growth": -5.11,
+            "digital_growth": -5.93
+        },
+        {
+            "year": 2021,
+            "traditional_banking_patents": 12777,
+            "digital_finance_patents": 31391,
+            "banking_growth": -13.55,
+            "digital_growth": -10.77
+        },
+        {
+            "year": 2022,
+            "traditional_banking_patents": 10073,
+            "digital_finance_patents": 23887,
+            "banking_growth": -21.16,
+            "digital_growth": -23.9
+        }
+    ],
+    "fintech_crossover_year": 1995,
+    "fintech_inflection_year": 1997,
+    "banking_multiplier_post_2015": 1.42,
+    "digital_multiplier_post_2015": 1.54,
+    "genomics_vs_pharma": [
+        {
+            "year": 1990,
+            "chemical_pharma_patents": 2237,
+            "genomics_patents": 780,
+            "pharma_growth": null,
+            "genomics_growth": null
+        },
+        {
+            "year": 1991,
+            "chemical_pharma_patents": 2274,
+            "genomics_patents": 889,
+            "pharma_growth": 1.65,
+            "genomics_growth": 13.97
+        },
+        {
+            "year": 1992,
+            "chemical_pharma_patents": 2738,
+            "genomics_patents": 1125,
+            "pharma_growth": 20.4,
+            "genomics_growth": 26.55
+        },
+        {
+            "year": 1993,
+            "chemical_pharma_patents": 3198,
+            "genomics_patents": 1409,
+            "pharma_growth": 16.8,
+            "genomics_growth": 25.24
+        },
+        {
+            "year": 1994,
+            "chemical_pharma_patents": 4186,
+            "genomics_patents": 2288,
+            "pharma_growth": 30.89,
+            "genomics_growth": 62.38
+        },
+        {
+            "year": 1995,
+            "chemical_pharma_patents": 6722,
+            "genomics_patents": 3932,
+            "pharma_growth": 60.58,
+            "genomics_growth": 71.85
+        },
+        {
+            "year": 1996,
+            "chemical_pharma_patents": 4229,
+            "genomics_patents": 2052,
+            "pharma_growth": -37.09,
+            "genomics_growth": -47.81
+        },
+        {
+            "year": 1997,
+            "chemical_pharma_patents": 5464,
+            "genomics_patents": 2823,
+            "pharma_growth": 29.2,
+            "genomics_growth": 37.57
+        },
+        {
+            "year": 1998,
+            "chemical_pharma_patents": 5287,
+            "genomics_patents": 2849,
+            "pharma_growth": -3.24,
+            "genomics_growth": 0.92
+        },
+        {
+            "year": 1999,
+            "chemical_pharma_patents": 6110,
+            "genomics_patents": 3307,
+            "pharma_growth": 15.57,
+            "genomics_growth": 16.08
+        },
+        {
+            "year": 2000,
+            "chemical_pharma_patents": 6809,
+            "genomics_patents": 3390,
+            "pharma_growth": 11.44,
+            "genomics_growth": 2.51
+        },
+        {
+            "year": 2001,
+            "chemical_pharma_patents": 6991,
+            "genomics_patents": 3405,
+            "pharma_growth": 2.67,
+            "genomics_growth": 0.44
+        },
+        {
+            "year": 2002,
+            "chemical_pharma_patents": 6768,
+            "genomics_patents": 3066,
+            "pharma_growth": -3.19,
+            "genomics_growth": -9.96
+        },
+        {
+            "year": 2003,
+            "chemical_pharma_patents": 5635,
+            "genomics_patents": 2528,
+            "pharma_growth": -16.74,
+            "genomics_growth": -17.55
+        },
+        {
+            "year": 2004,
+            "chemical_pharma_patents": 5279,
+            "genomics_patents": 2456,
+            "pharma_growth": -6.32,
+            "genomics_growth": -2.85
+        },
+        {
+            "year": 2005,
+            "chemical_pharma_patents": 5074,
+            "genomics_patents": 2272,
+            "pharma_growth": -3.88,
+            "genomics_growth": -7.49
+        },
+        {
+            "year": 2006,
+            "chemical_pharma_patents": 5601,
+            "genomics_patents": 2539,
+            "pharma_growth": 10.39,
+            "genomics_growth": 11.75
+        },
+        {
+            "year": 2007,
+            "chemical_pharma_patents": 5802,
+            "genomics_patents": 2868,
+            "pharma_growth": 3.59,
+            "genomics_growth": 12.96
+        },
+        {
+            "year": 2008,
+            "chemical_pharma_patents": 5879,
+            "genomics_patents": 2734,
+            "pharma_growth": 1.33,
+            "genomics_growth": -4.67
+        },
+        {
+            "year": 2009,
+            "chemical_pharma_patents": 6548,
+            "genomics_patents": 2940,
+            "pharma_growth": 11.38,
+            "genomics_growth": 7.53
+        },
+        {
+            "year": 2010,
+            "chemical_pharma_patents": 7534,
+            "genomics_patents": 3337,
+            "pharma_growth": 15.06,
+            "genomics_growth": 13.5
+        },
+        {
+            "year": 2011,
+            "chemical_pharma_patents": 8244,
+            "genomics_patents": 3638,
+            "pharma_growth": 9.42,
+            "genomics_growth": 9.02
+        },
+        {
+            "year": 2012,
+            "chemical_pharma_patents": 9705,
+            "genomics_patents": 3883,
+            "pharma_growth": 17.72,
+            "genomics_growth": 6.73
+        },
+        {
+            "year": 2013,
+            "chemical_pharma_patents": 11024,
+            "genomics_patents": 4656,
+            "pharma_growth": 13.59,
+            "genomics_growth": 19.91
+        },
+        {
+            "year": 2014,
+            "chemical_pharma_patents": 11613,
+            "genomics_patents": 5044,
+            "pharma_growth": 5.34,
+            "genomics_growth": 8.33
+        },
+        {
+            "year": 2015,
+            "chemical_pharma_patents": 12385,
+            "genomics_patents": 5288,
+            "pharma_growth": 6.65,
+            "genomics_growth": 4.84
+        },
+        {
+            "year": 2016,
+            "chemical_pharma_patents": 13542,
+            "genomics_patents": 5861,
+            "pharma_growth": 9.34,
+            "genomics_growth": 10.84
+        },
+        {
+            "year": 2017,
+            "chemical_pharma_patents": 13849,
+            "genomics_patents": 6157,
+            "pharma_growth": 2.27,
+            "genomics_growth": 5.05
+        },
+        {
+            "year": 2018,
+            "chemical_pharma_patents": 13997,
+            "genomics_patents": 6293,
+            "pharma_growth": 1.07,
+            "genomics_growth": 2.21
+        },
+        {
+            "year": 2019,
+            "chemical_pharma_patents": 12493,
+            "genomics_patents": 5699,
+            "pharma_growth": -10.75,
+            "genomics_growth": -9.44
+        },
+        {
+            "year": 2020,
+            "chemical_pharma_patents": 10055,
+            "genomics_patents": 4495,
+            "pharma_growth": -19.51,
+            "genomics_growth": -21.13
+        },
+        {
+            "year": 2021,
+            "chemical_pharma_patents": 7610,
+            "genomics_patents": 3434,
+            "pharma_growth": -24.32,
+            "genomics_growth": -23.6
+        },
+        {
+            "year": 2022,
+            "chemical_pharma_patents": 5293,
+            "genomics_patents": 2314,
+            "pharma_growth": -30.45,
+            "genomics_growth": -32.62
+        }
+    ],
+    "genomics_crossover_year": null,
+    "genomics_inflection_year": 1995,
+    "pharma_multiplier_post_crispr": 1.99,
+    "genomics_multiplier_post_crispr": 1.92,
+    "ecommerce_vs_retail": [
+        {
+            "year": 2000,
+            "commerce_patents": 4448,
+            "drone_patents": 9,
+            "commerce_growth": null,
+            "drone_growth": null
+        },
+        {
+            "year": 2001,
+            "commerce_patents": 4900,
+            "drone_patents": 11,
+            "commerce_growth": 10.16,
+            "drone_growth": 22.22
+        },
+        {
+            "year": 2002,
+            "commerce_patents": 4393,
+            "drone_patents": 32,
+            "commerce_growth": -10.35,
+            "drone_growth": 190.91
+        },
+        {
+            "year": 2003,
+            "commerce_patents": 4276,
+            "drone_patents": 31,
+            "commerce_growth": -2.66,
+            "drone_growth": -3.12
+        },
+        {
+            "year": 2004,
+            "commerce_patents": 4899,
+            "drone_patents": 40,
+            "commerce_growth": 14.57,
+            "drone_growth": 29.03
+        },
+        {
+            "year": 2005,
+            "commerce_patents": 5468,
+            "drone_patents": 25,
+            "commerce_growth": 11.61,
+            "drone_growth": -37.5
+        },
+        {
+            "year": 2006,
+            "commerce_patents": 6742,
+            "drone_patents": 31,
+            "commerce_growth": 23.3,
+            "drone_growth": 24.0
+        },
+        {
+            "year": 2007,
+            "commerce_patents": 7811,
+            "drone_patents": 33,
+            "commerce_growth": 15.86,
+            "drone_growth": 6.45
+        },
+        {
+            "year": 2008,
+            "commerce_patents": 7517,
+            "drone_patents": 45,
+            "commerce_growth": -3.76,
+            "drone_growth": 36.36
+        },
+        {
+            "year": 2009,
+            "commerce_patents": 6730,
+            "drone_patents": 62,
+            "commerce_growth": -10.47,
+            "drone_growth": 37.78
+        },
+        {
+            "year": 2010,
+            "commerce_patents": 7551,
+            "drone_patents": 49,
+            "commerce_growth": 12.2,
+            "drone_growth": -20.97
+        },
+        {
+            "year": 2011,
+            "commerce_patents": 8734,
+            "drone_patents": 49,
+            "commerce_growth": 15.67,
+            "drone_growth": 0.0
+        },
+        {
+            "year": 2012,
+            "commerce_patents": 10557,
+            "drone_patents": 101,
+            "commerce_growth": 20.87,
+            "drone_growth": 106.12
+        },
+        {
+            "year": 2013,
+            "commerce_patents": 10079,
+            "drone_patents": 135,
+            "commerce_growth": -4.53,
+            "drone_growth": 33.66
+        },
+        {
+            "year": 2014,
+            "commerce_patents": 10929,
+            "drone_patents": 219,
+            "commerce_growth": 8.43,
+            "drone_growth": 62.22
+        },
+        {
+            "year": 2015,
+            "commerce_patents": 11208,
+            "drone_patents": 410,
+            "commerce_growth": 2.55,
+            "drone_growth": 87.21
+        },
+        {
+            "year": 2016,
+            "commerce_patents": 11876,
+            "drone_patents": 678,
+            "commerce_growth": 5.96,
+            "drone_growth": 65.37
+        },
+        {
+            "year": 2017,
+            "commerce_patents": 12654,
+            "drone_patents": 807,
+            "commerce_growth": 6.55,
+            "drone_growth": 19.03
+        },
+        {
+            "year": 2018,
+            "commerce_patents": 13199,
+            "drone_patents": 797,
+            "commerce_growth": 4.31,
+            "drone_growth": -1.24
+        },
+        {
+            "year": 2019,
+            "commerce_patents": 15576,
+            "drone_patents": 729,
+            "commerce_growth": 18.01,
+            "drone_growth": -8.53
+        },
+        {
+            "year": 2020,
+            "commerce_patents": 14780,
+            "drone_patents": 767,
+            "commerce_growth": -5.11,
+            "drone_growth": 5.21
+        },
+        {
+            "year": 2021,
+            "commerce_patents": 12777,
+            "drone_patents": 598,
+            "commerce_growth": -13.55,
+            "drone_growth": -22.03
+        },
+        {
+            "year": 2022,
+            "commerce_patents": 10073,
+            "drone_patents": 500,
+            "commerce_growth": -21.16,
+            "drone_growth": -16.39
+        }
+    ],
+    "drone_inflection_year": 2002,
+    "commerce_multiplier_post_amazon": 1.53,
+    "drone_multiplier_post_amazon": 9.91,
+    "policy_annotations": {
+        "fintech": {
+            "2009": "Bitcoin whitepaper",
+            "2015": "Blockchain mainstream",
+            "2020": "DeFi explosion"
+        },
+        "genomics": {
+            "2003": "Human Genome Project",
+            "2012": "CRISPR discovered",
+            "2020": "mRNA COVID vaccine"
+        },
+        "ecommerce": {
+            "2012": "Amazon Prime launch",
+            "2013": "Amazon drone announcement",
+            "2020": "COVID accelerates e-commerce"
+        }
+    }
+}

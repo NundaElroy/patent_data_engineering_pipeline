@@ -1,0 +1,736 @@
+{
+    "diag_smartphones_vs_telephony": [
+        {
+            "year": 1990,
+            "wireless_patents": 241,
+            "telephony_patents": 569
+        },
+        {
+            "year": 1991,
+            "wireless_patents": 320,
+            "telephony_patents": 586
+        },
+        {
+            "year": 1992,
+            "wireless_patents": 343,
+            "telephony_patents": 658
+        },
+        {
+            "year": 1993,
+            "wireless_patents": 482,
+            "telephony_patents": 768
+        },
+        {
+            "year": 1994,
+            "wireless_patents": 776,
+            "telephony_patents": 1114
+        },
+        {
+            "year": 1995,
+            "wireless_patents": 1135,
+            "telephony_patents": 1426
+        },
+        {
+            "year": 1996,
+            "wireless_patents": 1512,
+            "telephony_patents": 1867
+        },
+        {
+            "year": 1997,
+            "wireless_patents": 1854,
+            "telephony_patents": 2465
+        },
+        {
+            "year": 1998,
+            "wireless_patents": 1999,
+            "telephony_patents": 2465
+        },
+        {
+            "year": 1999,
+            "wireless_patents": 2453,
+            "telephony_patents": 2553
+        },
+        {
+            "year": 2000,
+            "wireless_patents": 2846,
+            "telephony_patents": 2821
+        },
+        {
+            "year": 2001,
+            "wireless_patents": 3205,
+            "telephony_patents": 2841
+        },
+        {
+            "year": 2002,
+            "wireless_patents": 3468,
+            "telephony_patents": 2704
+        },
+        {
+            "year": 2003,
+            "wireless_patents": 3535,
+            "telephony_patents": 2666
+        },
+        {
+            "year": 2004,
+            "wireless_patents": 4248,
+            "telephony_patents": 2836
+        },
+        {
+            "year": 2005,
+            "wireless_patents": 4677,
+            "telephony_patents": 3099
+        },
+        {
+            "year": 2006,
+            "wireless_patents": 5475,
+            "telephony_patents": 3356
+        },
+        {
+            "year": 2007,
+            "wireless_patents": 6367,
+            "telephony_patents": 3310
+        },
+        {
+            "year": 2008,
+            "wireless_patents": 6986,
+            "telephony_patents": 3248
+        },
+        {
+            "year": 2009,
+            "wireless_patents": 7682,
+            "telephony_patents": 3153
+        },
+        {
+            "year": 2010,
+            "wireless_patents": 8393,
+            "telephony_patents": 3055
+        },
+        {
+            "year": 2011,
+            "wireless_patents": 10597,
+            "telephony_patents": 3240
+        },
+        {
+            "year": 2012,
+            "wireless_patents": 13328,
+            "telephony_patents": 4210
+        },
+        {
+            "year": 2013,
+            "wireless_patents": 15847,
+            "telephony_patents": 4353
+        },
+        {
+            "year": 2014,
+            "wireless_patents": 17391,
+            "telephony_patents": 4468
+        },
+        {
+            "year": 2015,
+            "wireless_patents": 19392,
+            "telephony_patents": 4727
+        },
+        {
+            "year": 2016,
+            "wireless_patents": 20257,
+            "telephony_patents": 4504
+        },
+        {
+            "year": 2017,
+            "wireless_patents": 20728,
+            "telephony_patents": 4507
+        },
+        {
+            "year": 2018,
+            "wireless_patents": 21512,
+            "telephony_patents": 3958
+        },
+        {
+            "year": 2019,
+            "wireless_patents": 24581,
+            "telephony_patents": 4426
+        },
+        {
+            "year": 2020,
+            "wireless_patents": 24228,
+            "telephony_patents": 3925
+        },
+        {
+            "year": 2021,
+            "wireless_patents": 21183,
+            "telephony_patents": 3131
+        },
+        {
+            "year": 2022,
+            "wireless_patents": 14188,
+            "telephony_patents": 2464
+        }
+    ],
+    "diag_ev_vs_combustion": [
+        {
+            "year": 1990,
+            "ev_patents": 78,
+            "combustion_patents": 1089
+        },
+        {
+            "year": 1991,
+            "ev_patents": 108,
+            "combustion_patents": 1062
+        },
+        {
+            "year": 1992,
+            "ev_patents": 159,
+            "combustion_patents": 1038
+        },
+        {
+            "year": 1993,
+            "ev_patents": 184,
+            "combustion_patents": 1099
+        },
+        {
+            "year": 1994,
+            "ev_patents": 276,
+            "combustion_patents": 1139
+        },
+        {
+            "year": 1995,
+            "ev_patents": 249,
+            "combustion_patents": 1253
+        },
+        {
+            "year": 1996,
+            "ev_patents": 280,
+            "combustion_patents": 1434
+        },
+        {
+            "year": 1997,
+            "ev_patents": 272,
+            "combustion_patents": 1633
+        },
+        {
+            "year": 1998,
+            "ev_patents": 255,
+            "combustion_patents": 1591
+        },
+        {
+            "year": 1999,
+            "ev_patents": 271,
+            "combustion_patents": 1773
+        },
+        {
+            "year": 2000,
+            "ev_patents": 408,
+            "combustion_patents": 2308
+        },
+        {
+            "year": 2001,
+            "ev_patents": 353,
+            "combustion_patents": 2485
+        },
+        {
+            "year": 2002,
+            "ev_patents": 454,
+            "combustion_patents": 2644
+        },
+        {
+            "year": 2003,
+            "ev_patents": 445,
+            "combustion_patents": 2176
+        },
+        {
+            "year": 2004,
+            "ev_patents": 380,
+            "combustion_patents": 2361
+        },
+        {
+            "year": 2005,
+            "ev_patents": 448,
+            "combustion_patents": 2428
+        },
+        {
+            "year": 2006,
+            "ev_patents": 621,
+            "combustion_patents": 2279
+        },
+        {
+            "year": 2007,
+            "ev_patents": 800,
+            "combustion_patents": 2356
+        },
+        {
+            "year": 2008,
+            "ev_patents": 789,
+            "combustion_patents": 2290
+        },
+        {
+            "year": 2009,
+            "ev_patents": 885,
+            "combustion_patents": 2021
+        },
+        {
+            "year": 2010,
+            "ev_patents": 1118,
+            "combustion_patents": 1947
+        },
+        {
+            "year": 2011,
+            "ev_patents": 1661,
+            "combustion_patents": 2345
+        },
+        {
+            "year": 2012,
+            "ev_patents": 1843,
+            "combustion_patents": 2364
+        },
+        {
+            "year": 2013,
+            "ev_patents": 1770,
+            "combustion_patents": 2609
+        },
+        {
+            "year": 2014,
+            "ev_patents": 1907,
+            "combustion_patents": 2744
+        },
+        {
+            "year": 2015,
+            "ev_patents": 2010,
+            "combustion_patents": 2872
+        },
+        {
+            "year": 2016,
+            "ev_patents": 2164,
+            "combustion_patents": 3244
+        },
+        {
+            "year": 2017,
+            "ev_patents": 2468,
+            "combustion_patents": 2840
+        },
+        {
+            "year": 2018,
+            "ev_patents": 2544,
+            "combustion_patents": 2524
+        },
+        {
+            "year": 2019,
+            "ev_patents": 3023,
+            "combustion_patents": 2367
+        },
+        {
+            "year": 2020,
+            "ev_patents": 2576,
+            "combustion_patents": 1870
+        },
+        {
+            "year": 2021,
+            "ev_patents": 2625,
+            "combustion_patents": 1573
+        },
+        {
+            "year": 2022,
+            "ev_patents": 2214,
+            "combustion_patents": 1127
+        }
+    ],
+    "diag_ai_vs_software": [
+        {
+            "year": 1990,
+            "ai_patents": 179,
+            "software_patents": 2568,
+            "total_computing": 2747,
+            "ai_share_pct": 6.52
+        },
+        {
+            "year": 1991,
+            "ai_patents": 200,
+            "software_patents": 2846,
+            "total_computing": 3046,
+            "ai_share_pct": 6.57
+        },
+        {
+            "year": 1992,
+            "ai_patents": 219,
+            "software_patents": 3521,
+            "total_computing": 3740,
+            "ai_share_pct": 5.86
+        },
+        {
+            "year": 1993,
+            "ai_patents": 203,
+            "software_patents": 4122,
+            "total_computing": 4325,
+            "ai_share_pct": 4.69
+        },
+        {
+            "year": 1994,
+            "ai_patents": 216,
+            "software_patents": 5531,
+            "total_computing": 5747,
+            "ai_share_pct": 3.76
+        },
+        {
+            "year": 1995,
+            "ai_patents": 261,
+            "software_patents": 7905,
+            "total_computing": 8166,
+            "ai_share_pct": 3.2
+        },
+        {
+            "year": 1996,
+            "ai_patents": 156,
+            "software_patents": 9120,
+            "total_computing": 9276,
+            "ai_share_pct": 1.68
+        },
+        {
+            "year": 1997,
+            "ai_patents": 203,
+            "software_patents": 11339,
+            "total_computing": 11542,
+            "ai_share_pct": 1.76
+        },
+        {
+            "year": 1998,
+            "ai_patents": 146,
+            "software_patents": 11711,
+            "total_computing": 11857,
+            "ai_share_pct": 1.23
+        },
+        {
+            "year": 1999,
+            "ai_patents": 215,
+            "software_patents": 12662,
+            "total_computing": 12877,
+            "ai_share_pct": 1.67
+        },
+        {
+            "year": 2000,
+            "ai_patents": 226,
+            "software_patents": 14231,
+            "total_computing": 14457,
+            "ai_share_pct": 1.56
+        },
+        {
+            "year": 2001,
+            "ai_patents": 249,
+            "software_patents": 15173,
+            "total_computing": 15422,
+            "ai_share_pct": 1.61
+        },
+        {
+            "year": 2002,
+            "ai_patents": 246,
+            "software_patents": 15153,
+            "total_computing": 15399,
+            "ai_share_pct": 1.6
+        },
+        {
+            "year": 2003,
+            "ai_patents": 229,
+            "software_patents": 16215,
+            "total_computing": 16444,
+            "ai_share_pct": 1.39
+        },
+        {
+            "year": 2004,
+            "ai_patents": 241,
+            "software_patents": 18458,
+            "total_computing": 18699,
+            "ai_share_pct": 1.29
+        },
+        {
+            "year": 2005,
+            "ai_patents": 344,
+            "software_patents": 19407,
+            "total_computing": 19751,
+            "ai_share_pct": 1.74
+        },
+        {
+            "year": 2006,
+            "ai_patents": 377,
+            "software_patents": 20772,
+            "total_computing": 21149,
+            "ai_share_pct": 1.78
+        },
+        {
+            "year": 2007,
+            "ai_patents": 485,
+            "software_patents": 22912,
+            "total_computing": 23397,
+            "ai_share_pct": 2.07
+        },
+        {
+            "year": 2008,
+            "ai_patents": 608,
+            "software_patents": 25293,
+            "total_computing": 25901,
+            "ai_share_pct": 2.35
+        },
+        {
+            "year": 2009,
+            "ai_patents": 589,
+            "software_patents": 22494,
+            "total_computing": 23083,
+            "ai_share_pct": 2.55
+        },
+        {
+            "year": 2010,
+            "ai_patents": 642,
+            "software_patents": 25784,
+            "total_computing": 26426,
+            "ai_share_pct": 2.43
+        },
+        {
+            "year": 2011,
+            "ai_patents": 867,
+            "software_patents": 30052,
+            "total_computing": 30919,
+            "ai_share_pct": 2.8
+        },
+        {
+            "year": 2012,
+            "ai_patents": 1137,
+            "software_patents": 37611,
+            "total_computing": 38748,
+            "ai_share_pct": 2.93
+        },
+        {
+            "year": 2013,
+            "ai_patents": 1455,
+            "software_patents": 41939,
+            "total_computing": 43394,
+            "ai_share_pct": 3.35
+        },
+        {
+            "year": 2014,
+            "ai_patents": 1677,
+            "software_patents": 42998,
+            "total_computing": 44675,
+            "ai_share_pct": 3.75
+        },
+        {
+            "year": 2015,
+            "ai_patents": 2408,
+            "software_patents": 46674,
+            "total_computing": 49082,
+            "ai_share_pct": 4.91
+        },
+        {
+            "year": 2016,
+            "ai_patents": 3701,
+            "software_patents": 48426,
+            "total_computing": 52127,
+            "ai_share_pct": 7.1
+        },
+        {
+            "year": 2017,
+            "ai_patents": 6136,
+            "software_patents": 51118,
+            "total_computing": 57254,
+            "ai_share_pct": 10.72
+        },
+        {
+            "year": 2018,
+            "ai_patents": 9926,
+            "software_patents": 53981,
+            "total_computing": 63907,
+            "ai_share_pct": 15.53
+        },
+        {
+            "year": 2019,
+            "ai_patents": 14598,
+            "software_patents": 61136,
+            "total_computing": 75734,
+            "ai_share_pct": 19.28
+        },
+        {
+            "year": 2020,
+            "ai_patents": 15571,
+            "software_patents": 56114,
+            "total_computing": 71685,
+            "ai_share_pct": 21.72
+        },
+        {
+            "year": 2021,
+            "ai_patents": 13093,
+            "software_patents": 50166,
+            "total_computing": 63259,
+            "ai_share_pct": 20.7
+        },
+        {
+            "year": 2022,
+            "ai_patents": 7734,
+            "software_patents": 39127,
+            "total_computing": 46861,
+            "ai_share_pct": 16.5
+        }
+    ],
+    "diag_clean_vs_fossil": [
+        {
+            "year": 1990,
+            "clean_energy_patents": 0,
+            "fossil_fuel_patents": 3517
+        },
+        {
+            "year": 1991,
+            "clean_energy_patents": 0,
+            "fossil_fuel_patents": 3312
+        },
+        {
+            "year": 1992,
+            "clean_energy_patents": 0,
+            "fossil_fuel_patents": 3194
+        },
+        {
+            "year": 1993,
+            "clean_energy_patents": 0,
+            "fossil_fuel_patents": 3228
+        },
+        {
+            "year": 1994,
+            "clean_energy_patents": 0,
+            "fossil_fuel_patents": 3314
+        },
+        {
+            "year": 1995,
+            "clean_energy_patents": 0,
+            "fossil_fuel_patents": 3490
+        },
+        {
+            "year": 1996,
+            "clean_energy_patents": 0,
+            "fossil_fuel_patents": 3666
+        },
+        {
+            "year": 1997,
+            "clean_energy_patents": 0,
+            "fossil_fuel_patents": 4164
+        },
+        {
+            "year": 1998,
+            "clean_energy_patents": 0,
+            "fossil_fuel_patents": 4053
+        },
+        {
+            "year": 1999,
+            "clean_energy_patents": 0,
+            "fossil_fuel_patents": 4229
+        },
+        {
+            "year": 2000,
+            "clean_energy_patents": 0,
+            "fossil_fuel_patents": 4957
+        },
+        {
+            "year": 2001,
+            "clean_energy_patents": 0,
+            "fossil_fuel_patents": 5616
+        },
+        {
+            "year": 2002,
+            "clean_energy_patents": 0,
+            "fossil_fuel_patents": 5889
+        },
+        {
+            "year": 2003,
+            "clean_energy_patents": 0,
+            "fossil_fuel_patents": 4888
+        },
+        {
+            "year": 2004,
+            "clean_energy_patents": 0,
+            "fossil_fuel_patents": 5029
+        },
+        {
+            "year": 2005,
+            "clean_energy_patents": 0,
+            "fossil_fuel_patents": 4969
+        },
+        {
+            "year": 2006,
+            "clean_energy_patents": 0,
+            "fossil_fuel_patents": 5171
+        },
+        {
+            "year": 2007,
+            "clean_energy_patents": 0,
+            "fossil_fuel_patents": 5343
+        },
+        {
+            "year": 2008,
+            "clean_energy_patents": 0,
+            "fossil_fuel_patents": 5458
+        },
+        {
+            "year": 2009,
+            "clean_energy_patents": 0,
+            "fossil_fuel_patents": 5367
+        },
+        {
+            "year": 2010,
+            "clean_energy_patents": 0,
+            "fossil_fuel_patents": 5655
+        },
+        {
+            "year": 2011,
+            "clean_energy_patents": 0,
+            "fossil_fuel_patents": 6660
+        },
+        {
+            "year": 2012,
+            "clean_energy_patents": 0,
+            "fossil_fuel_patents": 7375
+        },
+        {
+            "year": 2013,
+            "clean_energy_patents": 0,
+            "fossil_fuel_patents": 7675
+        },
+        {
+            "year": 2014,
+            "clean_energy_patents": 0,
+            "fossil_fuel_patents": 8263
+        },
+        {
+            "year": 2015,
+            "clean_energy_patents": 0,
+            "fossil_fuel_patents": 8744
+        },
+        {
+            "year": 2016,
+            "clean_energy_patents": 0,
+            "fossil_fuel_patents": 9276
+        },
+        {
+            "year": 2017,
+            "clean_energy_patents": 0,
+            "fossil_fuel_patents": 8589
+        },
+        {
+            "year": 2018,
+            "clean_energy_patents": 0,
+            "fossil_fuel_patents": 7961
+        },
+        {
+            "year": 2019,
+            "clean_energy_patents": 0,
+            "fossil_fuel_patents": 7724
+        },
+        {
+            "year": 2020,
+            "clean_energy_patents": 0,
+            "fossil_fuel_patents": 6564
+        },
+        {
+            "year": 2021,
+            "clean_energy_patents": 0,
+            "fossil_fuel_patents": 5679
+        },
+        {
+            "year": 2022,
+            "clean_energy_patents": 0,
+            "fossil_fuel_patents": 4365
+        }
+    ]
+}
